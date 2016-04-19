@@ -1,0 +1,65 @@
+符号                         意义
+${\rm Gr(n,k)}$    $\mathbb{R}^{n}$维$k$维子空间构成的流形：格拉斯曼流形（Grassmann Manifold）
+${\rm St(n,k)}$    $n times k$的列满秩矩阵构成的流形：施蒂费尔流形（Stiefel Manifold）
+RKHS Reproducing Kernel Hilbert Space
+Fr\'echet Mean
+Karcher mean
+PSD 引用：\label{sec:RPLS_exp}（任务）\label{Database_feature}（原始特征）
+未添加：{\rm GL}(n) 广义线性群
+
+rela 在UCASThesis中未定义，需要手动添加
+repr 在UCASThesis中未定义，需要手动添加
+ucasthesis.cfg :
+	\newtheorem{rela}{关系}[chapter]
+	\newtheorem{repr}{表示}[chapter]
+
+学习过程中必然遇到优化的问题，这就需要目标函数导数的计算为了叙述的方便，公式\ref{devi_rules}引入两条在计算矩阵导数的时候的$rule$
+\begin{equation}
+\label{devi_rules}
+\left\{
+\begin{split}
+&rule~1:D(f\circ g)(X)[H]=Df(g(X))[Dg(X)[H]]\\
+&rule~2:D\left<f(X),g(X)\right>(X)[H]=\left<Df(X)[H],g(X)\right>+\left<f(X),Dg(X)[H]\right>
+\end{split}
+\right.
+\end{equation}
+公式的\ref{devi_rules}中的$Df(\cdot)(Z)[H]$表示的是矩阵函数$f(\cdot)$关于变量$Z$在$H$方向上的方向导数，关于矩阵函数的方向导数的内容，读者可以参看文献\cite{Maniopt_DiscreteCurveFitting}中的内容，此外关于$rule~1,rule~2$的内容读者也可以在\cite{Maniopt_DiscreteCurveFitting}中找到。
+
+正则的 trick,实验介绍：\label{FRPSD_discriminant}，\gamma\|Z\|_{F}^{2},where~F_{ij}=\rho_{ij}^{2}
+===========================================================================================================
+0.符号说明放到1.3.1
+1.polar metric称呼不太合适
+2.流行---》 流形
+3.欧式---》 欧氏
+4.svd----》奇异值
+5."这里假设svd 分解的结果按特征值由大到小排序" 这句话别忘了加
+6.BeyondGauss 使用的是Hillinger度量，需要说明一下
+7.Fréchet Variance
+8.流形空间---》流形
+9.图片--》图像
+10.Power Metric  ---> Power Euclidean距离
+11.diffision ---> diffusion
+
+Stiefel(施蒂费尔)
+Grassmann(格拉斯曼)
+
+
+
+[08] P Thomas Fletcher, Conglin Lu, Stephen M Pizer, and Sarang Joshi. Principal geodesic analysis for the study of nonlinear statistics of shape. IEEE Transactions on Medical Imaging, 23(8):995–1005, 2004.
+[29] Hyunwoo J. Kim, Nagesh Adluru, Barbara B. Bendlin, Sterling C. Johnson, Baba C. Vemuri, and Vikas Singh.Canonical Correlation Analysis on Riemannian Manifolds and Its Applications. ECCV’14
+[30] SILV`ERE BONNABEL, RODOLPHE SEPULCHRE. RIEMANNIAN METRIC AND GEOMETRIC MEAN FOR POSITIVE SEMIDEFINITE MATRICES OF FIXED RANK. Society for Industrial and Applied Mathematics’09
+[09] Jihun Hamm and Daniel D Lee. Grassmann discriminant analysis: a unifying view on subspace-based learning. ICML, pages 376–383. ACM, 2008.
+[23] Ruiping Wang, Huimin Guo, Larry S Davis, and Qionghai Dai. Covariance discriminative learning: A natural and efficient approach to image set classificationCVPR, pages 2496–2503. IEEE, 2012.
+[1] M. Harandi M. Faraki and F. Porikli. Image set classification by symmetric positive semi-definite matrices. IEEE Winter Conference on Applications of Computer Vision (WACV), 2016.
+[2] Yadong Mu. Fixed-rank supervised metric learning on riemannian manifold. In Proceedings of the
+30th AAAI Conference on Artificial Intelligence, 2016.
+
+(Partial Least Square Regression, PLS)
+(Symmetric Positive Definite,SPD)
+(Low-Rank symmetric Positive Semi-Definite, PSD)
+(Power Euclidean距离)
+(Principle Component Analysis,PCA)
+(Canonical Correlation Analysis,CCA)
+(Partial Least Square ,PLS)
+(Partial Least Square Regression,PLSR)
+(Kernel Discriminant Analysis,KDA)

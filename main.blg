@@ -1,0 +1,20 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+A level-1 auxiliary file: data/intro.aux
+A level-1 auxiliary file: data/opt.aux
+A level-1 auxiliary file: data/rpls.aux
+A level-1 auxiliary file: data/psd.aux
+A level-1 auxiliary file: data/fin.aux
+The style file: plain.bst
+A level-1 auxiliary file: data/ack.aux
+A level-1 auxiliary file: data/resume.aux
+Database file #1: ref/refs.bib
+Warning--I didn't find a database entry for "Statistics_BeyoundGauss"
+Warning--I didn't find a database entry for "Database_ETH"
+Name 1 in "M. Faraki, M. Harandi, and F. Porikli" has a comma at the end for entry PSD_WACV
+while executing---line 1049 of file plain.bst
+Warning--empty institution in Database_MoBo
+Warning--there's a number but no volume in pls_PLSR
+Warning--empty journal in Grassmann
+Name 1 in "M. Faraki, M. Harandi, and F. Porikli" has a comma at the end for entry PSD_WACV
+while executing---line 1090 of file plain.bst
+(There were 2 error messages)
