@@ -1,434 +1,433 @@
 \begin{thebibliography}{10}
 
-\bibitem{PHDThesis}
-黄智武.
-\newblock 黎曼度量学习极其在视频人脸识别中的应用研究.
-\newblock {\em 博士学位论文}, 北京：中国科学院研究生院, 2015.
+\bibitem{Database_YTC}
+M.~Kim, S.~Kumar, V.~Pavlovic, and H.~Rowley,
+\newblock ``Face tracking and recognition with visual constraints in real-world
+  videos,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 1--8. 2008.
 
-\bibitem{Manifold}
-梅加强.
-\newblock {\em 流形与几何初步}.
-\newblock 科学出版社, 2013.
-
-\bibitem{Maniopt_book}
-P.~A. Absil, R.~Mahony, and R.~Sepulchre.
-\newblock {\em Optimization algorithms on matrix manifolds}.
-\newblock Princeton University Press, 2008.
-
-\bibitem{Information_geometry}
-Shun-ichi Amari and Hiroshi Nagaoka.
-\newblock {\em Methods of information geometry}, volume 191.
-\newblock American Mathematical Soc., 2007.
-
-\bibitem{LEM_metric}
-Vincent Arsigny, Pierre Fillard, Xavier Pennec, and Nicholas Ayache.
-\newblock Geometric means in a novel vector space structure on symmetric
-  positive-definite matrices.
-\newblock {\em SIAM journal on matrix analysis and applications},
-  29(1):328--347, 2007.
-
-\bibitem{pls_PLS}
-Matthew Barker and William Rayens.
-\newblock Partial least squares for discrimination.
-\newblock {\em Journal of chemometrics}, 17(3):166--173, 2003.
-
-\bibitem{Kernel_KDA}
-Gaston Baudat and Fatiha Anouar.
-\newblock Generalized discriminant analysis using a kernel approach.
-\newblock {\em Neural computation}, 12(10):2385--2404, 2000.
-
-\bibitem{PSD_Riemannian}
-Silvere Bonnabel and Rodolphe Sepulchre.
-\newblock Riemannian metric and geometric mean for positive semidefinite
-  matrices of fixed rank.
-\newblock {\em SIAM Journal on Matrix Analysis and Applications},
-  31(3):1055--1070, 2009.
-
-\bibitem{Maniopt_DiscreteCurveFitting}
-Nicolas Boumal, Pierre-Antoine Absil, et~al.
-\newblock Discrete curve fitting on manifolds.
-\newblock In {\em 30th Benelux Meeting on Systems and Control}, 2011.
-
-\bibitem{Maniopt_tool}
-Nicolas Boumal, Bamdev Mishra, P-A Absil, and Rodolphe Sepulchre.
-\newblock Manopt, a matlab toolbox for optimization on manifolds.
-\newblock {\em The Journal of Machine Learning Research}, 15(1):1455--1459,
-  2014.
-
-\bibitem{KDA_DengCai2}
-Deng Cai.
-\newblock {\em Spectral regression: A regression framework for efficient
-  regularized subspace learning}.
-\newblock ProQuest, 2009.
-
-\bibitem{KDA_DengCai1}
-Deng Cai, Xiaofei He, and Jiawei Han.
-\newblock Speed up kernel discriminant analysis.
-\newblock {\em The VLDB Journal—The International Journal on Very Large Data
-  Bases}, 20(1):21--33, 2011.
-
-\bibitem{Affinehull_AF}
-Hakan Cevikalp and Bill Triggs.
-\newblock Face recognition based on image sets.
-\newblock In {\em Computer Vision and Pattern Recognition}, pages 2567--2573.
-  IEEE, 2010.
-
-\bibitem{Dictionary_DBFR}
-Yi-Chen Chen, Vishal~M Patel, P~Jonathon Phillips, and Rama Chellappa.
-\newblock Dictionary-based face recognition from video.
-\newblock In {\em European Conference On Computer Vision}, pages 766--779.
-  Springer, 2012.
-
-\bibitem{Cholesky_distance}
-Ian~L Dryden, Alexey Koloydenko, and Diwei Zhou.
-\newblock Non-euclidean statistics for covariance matrices, with applications
-  to diffusion tensor imaging.
-\newblock {\em The Annals of Applied Statistics}, pages 1102--1123, 2009.
-
-\bibitem{PGA}
-P~Thomas Fletcher, Conglin Lu, Stephen~M Pizer, and Sarang Joshi.
-\newblock Principal geodesic analysis for the study of nonlinear statistics of
-  shape.
-\newblock {\em IEEE Transactions on Medical Imaging}, 23(8):995--1005, 2004.
-
-\bibitem{Conjugate_Gradient_FR}
-Reeves Fletcher and Colin~M Reeves.
-\newblock Function minimization by conjugate gradients.
-\newblock {\em The computer journal}, 7(2):149--154, 1964.
+\bibitem{Database_ETH80}
+B.~Leibe and B.~Schiele,
+\newblock ``Analyzing appearance and contour based methods for object
+  categorization,''
+\newblock in {\em Computer Vision and Pattern Recognition}, vol.~2, pp.
+  II--409. 2003.
 
 \bibitem{Database_MoBo}
-Ralph Gross and Shi Jianbo.
-\newblock The cmu motion of body (mobo) database.
-\newblock Technical report, 2001.
+R.~Gross and J.~Shi,
+\newblock ``The cmu motion of body (mobo) database,''
+\newblock Tech. {R}ep., Robotics Institute, Carnegie Mellon University, 2001.
 
-\bibitem{Conjugate_Gradient_Survery}
-William~W. Hager and Hongchao Zhang.
-\newblock A survey of nonlinear conjugate gradient methods.
-\newblock {\em Pacific Journal of Optimization}, 2(1):35--58, 2006.
+\bibitem{Statistics_LERM}
+Z.~Huang, R.~Wang, S.~Shan, and X.~Chen,
+\newblock ``Learning euclidean-to-riemannian metric for point-to-set
+  classification,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 1677--1684.
+  2014.
+
+\bibitem{Statistics_HER}
+Y.~Li, R.~Wang, Z.~Huang, S.~Shan, and X.~Chen,
+\newblock ``Face video retrieval with image query via hashing across euclidean
+  space and riemannian manifold,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 4758--4767.
+  2015.
+
+\bibitem{Affinehull_P2SML}
+P.~Zhu, L.~Zhang, W.~Zuo, and D.~Zhang,
+\newblock ``From point to set: Extend the learning of distance metrics,''
+\newblock in {\em International Conference on Computer Vision}, pp. 2664--2671.
+  2013.
+
+\bibitem{Subspace_MSM}
+O.~Yamaguchi, K.~Fukui, and K.~Maeda,
+\newblock ``Face recognition using temporal image sequence,''
+\newblock in {\em Automatic Face and Gesture Recognition}, pp. 318--323. 1998.
 
 \bibitem{Subspace_GDA}
-Jihun Hamm and Daniel~D Lee.
-\newblock Grassmann discriminant analysis: a unifying view on subspace-based
-  learning.
-\newblock In {\em Proceedings of the 25th international conference on Machine
-  learning}, pages 376--383. ACM, 2008.
+J.~Hamm and D.D. Lee,
+\newblock ``Grassmann discriminant analysis: a unifying view on subspace-based
+  learning,''
+\newblock in {\em International Conference on Machine learning}, pp. 376--383.
+  2008.
 
-\bibitem{Dictionary_Extrinsic_method}
-Mehrtash Harandi, Richard Hartley, Chunhua Shen, Brian Lovell, and Conrad
-  Sanderson.
-\newblock Extrinsic methods for coding and dictionary learning on grassmann
-  manifolds.
-\newblock {\em International Journal of Computer Vision}, 114(2-3):113--136,
+\bibitem{Manifold_MMD}
+R.~Wang, S.~Shan, X.~Chen, and W.~Gao,
+\newblock ``Manifold-manifold distance with application to face recognition
+  based on image set,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 1--8. 2008.
+
+\bibitem{Manifold_MDA}
+R.~Wang and X.~Chen,
+\newblock ``Manifold discriminant analysis,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 429--436. 2009.
+
+\bibitem{Affinehull_AF}
+H.~Cevikalp and B.~Triggs,
+\newblock ``Face recognition based on image sets,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 2567--2573.
+  2010.
+
+\bibitem{Affinehull_SANP}
+Y.~Hu, A.S. Mian, and R.~Owens,
+\newblock ``Sparse approximated nearest points for image set classification,''
+\newblock in {\em Computer vision and pattern recognition}, pp. 121--128. 2011.
+
+\bibitem{Affinehull_RNP}
+M.~Yang, P.~Zhu, L.~Van~Gool, and L.~Zhang,
+\newblock ``Face recognition based on regularized nearest points between image
+  sets,''
+\newblock in {\em Automatic Face and Gesture Recognition}, pp. 1--7. 2013.
+
+\bibitem{Affinehull_ProNN}
+W.~Wang, R.~Wang, S.~Shan, and X.~Chen,
+\newblock ``Probabilistic nearest neighbor search for robust classification of
+  face image sets,''
+\newblock in {\em Automatic Face and Gesture Recognition}, pp. 1--7. 2015.
+
+\bibitem{Statistics_CDL}
+R.~Wang, H.~Guo, L.S. Davis, and Q.~Dai,
+\newblock ``Covariance discriminative learning: A natural and efficient
+  approach to image set classification,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 2496--2503.
+  2012.
+
+\bibitem{Statistics_Vemu}
+R.~Vemulapalli, J.~Pillai, and R.~Chellappa,
+\newblock ``Kernel learning for extrinsic classification of manifold
+  features,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 1782--1789.
+  2013.
+
+\bibitem{Statistics_SPDML}
+M.T. Harandi, M.~Salzmann, and R.~Hartley,
+\newblock ``From manifold to manifold: Geometry-aware dimensionality reduction
+  for spd matrices,''
+\newblock in {\em European Conference On Computer Vision}, pp. 17--32.
+  Springer, 2014.
+
+\bibitem{Statistics_LMKML}
+J.~Lu, G.~Wang, and P.~Moulin,
+\newblock ``Image set classification using holistic multiple order statistics
+  features and localized multi-kernel metric learning,''
+\newblock in {\em International Conference on Computer Vision}, pp. 329--336.
+  2013.
+
+\bibitem{Statistics_HERML}
+Z.~Huang, R.~Wang, S.~Shan, and X.~Chen,
+\newblock ``Hybrid euclidean-and-riemannian metric learning for image set
+  classification,''
+\newblock in {\em Asian Conference On Computer Vision}, pp. 562--577. Springer,
+  2015.
+
+\bibitem{Statistics_DARG}
+W.~Wang, R.~Wang, Z.~Huang, S.~Shan, and X.~Chen,
+\newblock ``Discriminant analysis on riemannian manifold of gaussian
+  distributions for face recognition with image sets,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 2048--2057.
   2015.
 
 \bibitem{Statistics_BeyondGauss}
-Mehrtash Harandi, Mathieu Salzmann, and Mahsa Baktashmotlagh.
-\newblock Beyond gauss: Image-set matching on the riemannian manifold of pdfs.
-\newblock {\em International Conference on Computer Vision}, 2015.
-
-\bibitem{Jeffreys_divergence}
-Mehrtash Harandi, Mathieu Salzmann, and Fatih Porikli.
-\newblock Bregman divergences for infinite dimensional covariance matrices.
-\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
-  Pattern Recognition}, pages 1003--1010, 2014.
-
-\bibitem{Statistics_SPDML}
-Mehrtash~T Harandi, Mathieu Salzmann, and Richard Hartley.
-\newblock From manifold to manifold: Geometry-aware dimensionality reduction
-  for spd matrices.
-\newblock In {\em European Conference On Computer Vision}, pages 17--32.
-  Springer, 2014.
-
-\bibitem{Dictionary_RSR}
-Mehrtash~T Harandi, Conrad Sanderson, Richard Hartley, and Brian~C Lovell.
-\newblock Sparse coding and dictionary learning for symmetric positive definite
-  matrices: A kernel approach.
-\newblock In {\em Computer Vision--ECCV 2012}, pages 216--229. Springer, 2012.
-
-\bibitem{Deeplearning_DRM}
-Munawar Hayat, Mohammed Bennamoun, and Senjian An.
-\newblock Deep reconstruction models for image set classification.
-\newblock {\em Pattern Analysis and Machine Intelligence}, 37(4):713--727,
-  2015.
-
-\bibitem{pls_PLSR}
-Agnar H{\"o}skuldsson.
-\newblock Pls regression methods.
-\newblock {\em Journal of chemometrics}, (2):211--228, 1988.
-
-\bibitem{Affinehull_SANP}
-Yiqun Hu, Ajmal~S Mian, and Robyn Owens.
-\newblock Sparse approximated nearest points for image set classification.
-\newblock In {\em Computer vision and pattern recognition}, pages 121--128.
-  IEEE, 2011.
-
-\bibitem{Database_LFW}
-Gary~B. Huang, Manu Ramesh, Tamara Berg, and Erik Learned-Miller.
-\newblock Labeled faces in the wild: A database for studying face recognition
-  in unconstrained environments.
-\newblock Technical Report 07-49, University of Massachusetts, Amherst, October
-  2007.
-
-\bibitem{Statistics_LERM}
-Zhiwu Huang, Ruiping Wang, Shiguang Shan, and Xilin Chen.
-\newblock Learning euclidean-to-riemannian metric for point-to-set
-  classification.
-\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
-  Pattern Recognition}, pages 1677--1684, 2014.
-
-\bibitem{Statistics_HERML}
-Zhiwu Huang, Ruiping Wang, Shiguang Shan, and Xilin Chen.
-\newblock Hybrid euclidean-and-riemannian metric learning for image set
-  classification.
-\newblock In {\em Asian Conference On Computer Vision}, pages 562--577.
-  Springer, 2015.
-
-\bibitem{Statistics_LEML}
-Zhiwu Huang, Ruiping Wang, Shiguang Shan, Xianqiu Li, and Xilin Chen.
-\newblock Log-euclidean metric learning on symmetric positive definite manifold
-  with application to image set classification.
-\newblock In {\em Proceedings of the 32nd International Conference on Machine
-  Learning (ICML-15)}, pages 720--729, 2015.
-
-\bibitem{pls_NIPALS}
-H.Wold.
-\newblock Path models with latent variables: The nipals approach.
-\newblock In {\em International perspectives on mathematical and statistical
-  model building}, pages 307–--357. Academic Press, 1975.
-
-\bibitem{Kernel_Riemannian}
-Sadeep Jayasumana, Richard Hartley, Mathieu Salzmann, Hongdong Li, and Mehrtash
-  Harandi.
-\newblock Kernel methods on riemannian manifolds with gaussian rbf kernels.
-\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
-  on}, 37(12):2464--2477, 2015.
-
-\bibitem{PSD_Opt1}
-Michel Journ{\'e}e, Francis Bach, P-A Absil, and Rodolphe Sepulchre.
-\newblock Low-rank optimization on the cone of positive semidefinite matrices.
-\newblock {\em SIAM Journal on Optimization}, 20(5):2327--2351, 2010.
-
-\bibitem{Grassmann}
-Daniel Karrasch.
-\newblock An introduction to grassmann manifolds and their matrix
-  representation.
-\newblock 2014.
-
-\bibitem{RCCA}
-Hyunwoo~J Kim, Nagesh Adluru, Barbara~B Bendlin, Sterling~C Johnson, Baba~C
-  Vemuri, and Vikas Singh.
-\newblock Canonical correlation analysis on riemannian manifolds and its
-  applications.
-\newblock In {\em European Conference On Computer Vision}, pages 251--267.
-  Springer, 2014.
-
-\bibitem{Database_YTC}
-Minyoung Kim, Sanjiv Kumar, Vladimir Pavlovic, and Henry Rowley.
-\newblock Face tracking and recognition with visual constraints in real-world
-  videos.
-\newblock In {\em Computer Vision and Pattern Recognition, 2008. CVPR 2008.
-  IEEE Conference on}, pages 1--8. IEEE, 2008.
-
-\bibitem{Database_ETH80}
-Bastian Leibe and Bernt Schiele.
-\newblock Analyzing appearance and contour based methods for object
-  categorization.
-\newblock In {\em Computer Vision and Pattern Recognition, 2003. Proceedings.
-  2003 IEEE Computer Society Conference on}, volume~2, pages II--409. IEEE,
-  2003.
-
-\bibitem{Statistics_HER}
-Yan Li, Ruiping Wang, Zhiwu Huang, Shiguang Shan, and Xilin Chen.
-\newblock Face video retrieval with image query via hashing across euclidean
-  space and riemannian manifold.
-\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
-  Pattern Recognition}, pages 4758--4767, 2015.
-
-\bibitem{Database_UIUC}
-Zicheng Liao, Jason Rock, Yang Wang, and David Forsyth.
-\newblock Non-parametric filtering for geometric detail extraction and material
-  representation.
-\newblock In {\em CVPR}, 2013.
-
-\bibitem{SIFT}
-David~G Lowe.
-\newblock Distinctive image features from scale-invariant keypoints.
-\newblock {\em International journal of computer vision}, 60(2):91--110, 2004.
+M.~Harandi, M.~Salzmann, and M.~Baktashmotlagh,
+\newblock ``Beyond gauss: Image-set matching on the riemannian manifold of
+  pdfs,''
+\newblock in {\em International Conference on Computer Vision}. 2015.
 
 \bibitem{Deeplearning_MMDML}
-Jiwen Lu, Gang Wang, Weihong Deng, Pierre Moulin, and Jie Zhou.
-\newblock Multi-manifold deep metric learning for image set classification.
-\newblock In {\em Conference on Computer Vision and Pattern Recognition}, pages
-  1137--1145, 2015.
+J.~Lu, G.~Wang, W.~Deng, P.~Moulin, and J.~Zhou,
+\newblock ``Multi-manifold deep metric learning for image set classification,''
+\newblock in {\em Conference on Computer Vision and Pattern Recognition}, pp.
+  1137--1145. 2015.
 
-\bibitem{Statistics_LMKML}
-Jiwen Lu, Gang Wang, and Pierre Moulin.
-\newblock Image set classification using holistic multiple order statistics
-  features and localized multi-kernel metric learning.
-\newblock In {\em International Conference on Computer Vision}, pages 329--336.
-  IEEE, 2013.
-
-\bibitem{PSD_WACV}
-M.~Harandi M.~Faraki and F.~Porikli.
-\newblock Image set classification by symmetric positive semi-definite
-  matrices.
-\newblock {\em IEEE Winter Conference on Applications of Computer Vision
-  (WACV)}, 2016.
-
-\bibitem{PSD_Regression}
-Gilles Meyer, Silv{\`e}re Bonnabel, and Rodolphe Sepulchre.
-\newblock Regression on fixed-rank positive semidefinite matrices: a riemannian
-  approach.
-\newblock {\em The Journal of Machine Learning Research}, 12:593--625, 2011.
-
-\bibitem{PSD_AAAI}
-Yadong Mu.
-\newblock Fixed-rank supervised metric learning on riemannian manifold.
-\newblock In {\em Proceedings of the 30th AAAI Conference on Artificial
-  Intelligence}, 2016.
-
-\bibitem{AIM_metric}
-Xavier Pennec, Pierre Fillard, and Nicholas Ayache.
-\newblock A riemannian framework for tensor computing.
-\newblock {\em International Journal of Computer Vision}, 66(1):41--66, 2006.
-
-\bibitem{Matrix_CookBook}
-Kaare~Brandt Petersen, Michael~Syskind Pedersen, et~al.
-\newblock The matrix cookbook.
-\newblock {\em Technical University of Denmark}, 7:15, 2008.
-
-\bibitem{pls_PLSALL}
-Roman Rosipal and Nicole Kr{\"a}mer.
-\newblock Overview and recent advances in partial least squares.
-\newblock In {\em Subspace, latent structure and feature selection}, pages
-  34--51. Springer, 2006.
-
-\bibitem{Kernel_KPLS}
-Roman Rosipal and Leonard~J Trejo.
-\newblock Kernel partial least squares regression in reproducing kernel hilbert
-  space.
-\newblock {\em The Journal of Machine Learning Research}, 2:97--123, 2002.
-
-\bibitem{KPLS}
-Roman Rosipal and Leonard~J Trejo.
-\newblock Kernel partial least squares regression in reproducing kernel hilbert
-  space.
-\newblock {\em The Journal of Machine Learning Research}, 2:97--123, 2002.
-
-\bibitem{Stein_divergence}
-Suvrit Sra.
-\newblock A new metric on the manifold of kernel matrices with application to
-  matrix geometric means.
-\newblock In {\em Advances in Neural Information Processing Systems}, pages
-  144--152, 2012.
-
-\bibitem{RegionCov}
-Oncel Tuzel, Fatih Porikli, and Peter Meer.
-\newblock Region covariance: A fast descriptor for detection and
-  classification.
-\newblock In {\em European Conference On Computer Vision}, pages 589--600.
-  Springer, 2006.
-
-\bibitem{RegionCov_pedestrain}
-Oncel Tuzel, Fatih Porikli, and Peter Meer.
-\newblock Pedestrian detection via classification on riemannian manifolds.
-\newblock {\em Pattern Analysis and Machine Intelligence}, 30(10):1713--1727,
-  2008.
-
-\bibitem{Statistics_Vemu}
-Raviteja Vemulapalli, Jaishanker Pillai, and Rama Chellappa.
-\newblock Kernel learning for extrinsic classification of manifold features.
-\newblock In {\em Computer Vision and Pattern Recognition}, pages 1782--1789,
-  2013.
-
-\bibitem{pls_Canonical_ridge}
-Hrishikesh~D Vinod.
-\newblock Canonical ridge and econometrics of joint production.
-\newblock {\em Journal of econometrics}, 4(2):147--166, 1976.
-
-\bibitem{Manifold_MDA}
-Ruiping Wang and Xilin Chen.
-\newblock Manifold discriminant analysis.
-\newblock In {\em Computer Vision and Pattern Recognition}, pages 429--436.
-  IEEE, 2009.
-
-\bibitem{Statistics_CDL}
-Ruiping Wang, Huimin Guo, Larry~S Davis, and Qionghai Dai.
-\newblock Covariance discriminative learning: A natural and efficient approach
-  to image set classification.
-\newblock In {\em Computer Vision and Pattern Recognition}, pages 2496--2503.
-  IEEE, 2012.
-
-\bibitem{Manifold_MMD}
-Ruiping Wang, Shiguang Shan, Xilin Chen, and Wen Gao.
-\newblock Manifold-manifold distance with application to face recognition based
-  on image set.
-\newblock In {\em Computer Vision and Pattern Recognition}, pages 1--8. IEEE,
-  2008.
-
-\bibitem{Statistics_DARG}
-Wen Wang, Ruiping Wang, Zhiwu Huang, Shiguang Shan, and Xilin Chen.
-\newblock Discriminant analysis on riemannian manifold of gaussian
-  distributions for face recognition with image sets.
-\newblock In {\em Computer Vision and Pattern Recognition}, pages 2048--2057,
-  2015.
-
-\bibitem{Affinehull_ProNN}
-Wen Wang, Ruiping Wang, Shiguang Shan, and Xilin Chen.
-\newblock Probabilistic nearest neighbor search for robust classification of
-  face image sets.
-\newblock In {\em Automatic Face and Gesture Recognition}, pages 1--7. IEEE,
-  2015.
-
-\bibitem{pls_PLSR2}
-Svante Wold, Michael Sj{\"o}str{\"o}m, and Lennart Eriksson.
-\newblock Pls-regression: a basic tool of chemometrics.
-\newblock {\em Chemometrics and intelligent laboratory systems},
-  58(2):109--130, 2001.
-
-\bibitem{Database_YTF}
-Lior Wolf, Tal Hassner, and Itay Maoz.
-\newblock Face recognition in unconstrained videos with matched background
-  similarity.
-\newblock In {\em in Proc. IEEE Conference. Computer Vision and Pattern
-  Recognition}, 2011.
-
-\bibitem{Subspace_MSM}
-Osamu Yamaguchi, Kazuhiro Fukui, and Ken-ichi Maeda.
-\newblock Face recognition using temporal image sequence.
-\newblock In {\em Automatic Face and Gesture Recognition}, pages 318--323.
-  IEEE, 1998.
-
-\bibitem{Graph_Embeding}
-Shuicheng Yan, Dong Xu, Benyu Zhang, Hong-Jiang Zhang, Qiang Yang, and Stephen
-  Lin.
-\newblock Graph embedding and extensions: a general framework for
-  dimensionality reduction.
-\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
-  on}, 29(1):40--51, 2007.
-
-\bibitem{Affinehull_RNP}
-Meng Yang, Pengfei Zhu, Luc Van~Gool, and Lei Zhang.
-\newblock Face recognition based on regularized nearest points between image
-  sets.
-\newblock In {\em Automatic Face and Gesture Recognition}, pages 1--7. IEEE,
-  2013.
-
-\bibitem{Statistics_SLEDML}
-Florian Yger and Masashi Sugiyama.
-\newblock Supervised logeuclidean metric learning for symmetric positive
-  definite matrices.
-\newblock {\em arXiv preprint arXiv:1502.03505}, 2015.
-
-\bibitem{Affinehull_P2SML}
-Pengfei Zhu, Lei Zhang, Wangmeng Zuo, and David Zhang.
-\newblock From point to set: Extend the learning of distance metrics.
-\newblock In {\em International Conference on Computer Vision}, pages
-  2664--2671. IEEE, 2013.
+\bibitem{Deeplearning_DRM}
+M.~Hayat, M.~Bennamoun, and S.~An,
+\newblock ``Deep reconstruction models for image set classification,''
+\newblock {\em Pattern Analysis and Machine Intelligence}, vol. 37, no. 4, pp.
+  713--727, 2015.
 
 \bibitem{Collaborative_ISBCOLREP}
-Pengfei Zhu, Wangmeng Zuo, Lei Zhang, Simon Chi-Keung Shiu, and Dejing Zhang.
-\newblock Image set-based collaborative representation for face recognition.
-\newblock {\em Information Forensics and Security}, 9(7):1120--1132, 2014.
+P.~Zhu, W.~Zuo, L.~Zhang, S.C.-K. Shiu, and D.~Zhang,
+\newblock ``Image set-based collaborative representation for face
+  recognition,''
+\newblock {\em Information Forensics and Security}, vol. 9, no. 7, pp.
+  1120--1132, 2014.
+
+\bibitem{Dictionary_DBFR}
+Y.-C. Chen, V.M. Patel, P.J. Phillips, and R.~Chellappa,
+\newblock ``Dictionary-based face recognition from video,''
+\newblock in {\em European Conference On Computer Vision}, pp. 766--779.
+  Springer, 2012.
+
+\bibitem{Kernel_KPLS}
+R.~Rosipal and L.J. Trejo,
+\newblock ``Kernel partial least squares regression in reproducing kernel
+  hilbert space,''
+\newblock {\em The Journal of Machine Learning Research}, vol. 2, pp. 97--123,
+  2002.
+
+\bibitem{Kernel_KDA}
+G.~Baudat and F.~Anouar,
+\newblock ``Generalized discriminant analysis using a kernel approach,''
+\newblock {\em Neural computation}, vol. 12, no. 10, pp. 2385--2404, 2000.
+
+\bibitem{Database_YTF}
+L.~Wolf, T.~Hassner, and I.~Maoz,
+\newblock ``Face recognition in unconstrained videos with matched background
+  similarity,''
+\newblock in {\em Computer Vision and Pattern Recognition}. 2011.
+
+\bibitem{Database_UIUC}
+Z.~Liao, J.~Rock, Y.~Wang, and D.~Forsyth,
+\newblock ``Non-parametric filtering for geometric detail extraction and
+  material representation,''
+\newblock in {\em Computer Vision and Pattern Recognition}. 2013.
+
+\bibitem{Database_LFW}
+G.B. Huang, M.~Ramesh, T.~Berg, and E.~Learned-Miller,
+\newblock ``Labeled faces in the wild: A database for studying face recognition
+  in unconstrained environments,''
+\newblock Tech. {R}ep. 07-49, University of Massachusetts, Amherst, October
+  2007.
+
+\bibitem{PSD_WACV}
+M.~Faraki, M.~Harandi, and F.~Porikli,
+\newblock ``Image set classification by symmetric positive semi-definite
+  matrices,''
+\newblock in {\em Winter Conference on Applications of Computer Vision}. 2016.
+
+\bibitem{Maniopt_DiscreteCurveFitting}
+N.~Boumal, P.-A. Absil, et~al.,
+\newblock ``Discrete curve fitting on manifolds,''
+\newblock in {\em 30th Benelux Meeting on Systems and Control}. 2011.
+
+\bibitem{Maniopt_book}
+P.A. Absil, R.~Mahony, and R.~Sepulchre,
+\newblock {\em Optimization algorithms on matrix manifolds},
+\newblock Princeton University Press, 2008.
+
+\bibitem{Manifold}
+梅加强,
+\newblock {\em 流形与几何初步},
+\newblock 科学出版社, 2013.
+
+\bibitem{PHDThesis}
+黄智武,
+\newblock ``黎曼度量学习极其在视频人脸识别中的应用研究,''
+\newblock {\em 博士学位论文}, 北京：中国科学院研究生院, 2015.
+
+\bibitem{AIM_metric}
+X.~Pennec, P.~Fillard, and N.~Ayache,
+\newblock ``A riemannian framework for tensor computing,''
+\newblock {\em International Journal of Computer Vision}, vol. 66, no. 1, pp.
+  41--66, 2006.
+
+\bibitem{LEM_metric}
+V.~Arsigny, P.~Fillard, X.~Pennec, and N.~Ayache,
+\newblock ``Geometric means in a novel vector space structure on symmetric
+  positive-definite matrices,''
+\newblock {\em SIAM journal on matrix analysis and applications}, vol. 29, no.
+  1, pp. 328--347, 2007.
+
+\bibitem{Conjugate_Gradient_FR}
+R.~Fletcher and C.M. Reeves,
+\newblock ``Function minimization by conjugate gradients,''
+\newblock {\em The computer journal}, vol. 7, no. 2, pp. 149--154, 1964.
+
+\bibitem{Matrix_CookBook}
+K.B. Petersen, M.S. Pedersen, et~al.,
+\newblock ``The matrix cookbook,''
+\newblock vol. 7, pp. 15, 2008.
+
+\bibitem{RCCA}
+H.J. Kim, N.~Adluru, B.B. Bendlin, S.C. Johnson, B.C. Vemuri, and V.~Singh,
+\newblock ``Canonical correlation analysis on riemannian manifolds and its
+  applications,''
+\newblock in {\em European Conference On Computer Vision}, pp. 251--267.
+  Springer, 2014.
+
+\bibitem{Maniopt_tool}
+N.~Boumal, B.~Mishra, P.-A. Absil, and R.~Sepulchre,
+\newblock ``Manopt, a matlab toolbox for optimization on manifolds,''
+\newblock {\em The Journal of Machine Learning Research}, vol. 15, no. 1, pp.
+  1455--1459, 2014.
+
+\bibitem{Information_geometry}
+S.~Amari and H.~Nagaoka,
+\newblock {\em Methods of information geometry}, vol. 191,
+\newblock American Mathematical Soc., 2007.
+
+\bibitem{PGA}
+P.T. Fletcher, C.~Lu, S.M. Pizer, and S.~Joshi,
+\newblock ``Principal geodesic analysis for the study of nonlinear statistics
+  of shape,''
+\newblock {\em IEEE Transactions on Medical Imaging}, vol. 23, no. 8, pp.
+  995--1005, 2004.
+
+\bibitem{pls_NIPALS}
+H.Wold,
+\newblock ``Path models with latent variables: The nipals approach,''
+\newblock in {\em International perspectives on mathematical and statistical
+  model building}, pp. 307–--357. Academic Press, 1975.
+
+\bibitem{KPLS}
+R.~Rosipal and L.J. Trejo,
+\newblock ``Kernel partial least squares regression in reproducing kernel
+  hilbert space,''
+\newblock {\em The Journal of Machine Learning Research}, vol. 2, pp. 97--123,
+  2002.
+
+\bibitem{pls_PLS}
+M.~Barker and W.~Rayens,
+\newblock ``Partial least squares for discrimination,''
+\newblock {\em Journal of chemometrics}, vol. 17, no. 3, pp. 166--173, 2003.
+
+\bibitem{pls_PLSR}
+A.~H{\"o}skuldsson,
+\newblock ``Pls regression methods,''
+\newblock {\em Journal of chemometrics}, , no. 2, pp. 211--228, 1988.
+
+\bibitem{pls_PLSR2}
+S.~Wold, M.~Sj{\"o}str{\"o}m, and L.~Eriksson,
+\newblock ``Pls-regression: a basic tool of chemometrics,''
+\newblock {\em Chemometrics and intelligent laboratory systems}, vol. 58, no.
+  2, pp. 109--130, 2001.
+
+\bibitem{pls_PLSALL}
+R.~Rosipal and N.~Kr{\"a}mer,
+\newblock ``Overview and recent advances in partial least squares,''
+\newblock in {\em Subspace, latent structure and feature selection}, pp.
+  34--51. Springer, 2006.
+
+\bibitem{pls_Canonical_ridge}
+H.D. Vinod,
+\newblock ``Canonical ridge and econometrics of joint production,''
+\newblock {\em Journal of econometrics}, vol. 4, no. 2, pp. 147--166, 1976.
+
+\bibitem{RegionCov_pedestrain}
+O.~Tuzel, F.~Porikli, and P.~Meer,
+\newblock ``Pedestrian detection via classification on riemannian manifolds,''
+\newblock {\em Pattern Analysis and Machine Intelligence}, vol. 30, no. 10, pp.
+  1713--1727, 2008.
+
+\bibitem{Conjugate_Gradient_Survery}
+W.W. Hager and H.~Zhang,
+\newblock ``A survey of nonlinear conjugate gradient methods,''
+\newblock {\em Pacific Journal of Optimization}, vol. 2, no. 1, pp. 35--58,
+  2006.
+
+\bibitem{Statistics_SLEDML}
+F.~Yger and M.~Sugiyama,
+\newblock ``Supervised logeuclidean metric learning for symmetric positive
+  definite matrices,''
+\newblock {\em arXiv preprint arXiv:1502.03505}, 2015.
+
+\bibitem{RegionCov}
+O.~Tuzel, F.~Porikli, and P.~Meer,
+\newblock ``Region covariance: A fast descriptor for detection and
+  classification,''
+\newblock in {\em European Conference On Computer Vision}, pp. 589--600.
+  Springer, 2006.
+
+\bibitem{SIFT}
+D.G. Lowe,
+\newblock ``Distinctive image features from scale-invariant keypoints,''
+\newblock {\em International journal of computer vision}, vol. 60, no. 2, pp.
+  91--110, 2004.
+
+\bibitem{Statistics_LEML}
+Z.~Huang, R.~Wang, S.~Shan, X.~Li, and X.~Chen,
+\newblock ``Log-euclidean metric learning on symmetric positive definite
+  manifold with application to image set classification,''
+\newblock in {\em International Conference on Machine Learning}, pp. 720--729.
+  2015.
+
+\bibitem{Dictionary_RSR}
+M.T. Harandi, C.~Sanderson, R.~Hartley, and B.C. Lovell,
+\newblock ``Sparse coding and dictionary learning for symmetric positive
+  definite matrices: A kernel approach,''
+\newblock in {\em European Conference On Computer Vision}, pp. 216--229.
+  Springer, 2012.
+
+\bibitem{Stein_divergence}
+S.~Sra,
+\newblock ``A new metric on the manifold of kernel matrices with application to
+  matrix geometric means,''
+\newblock in {\em Advances in Neural Information Processing Systems}, pp.
+  144--152. 2012.
+
+\bibitem{Grassmann}
+D.~Karrasch,
+\newblock ``An introduction to grassmann manifolds and their matrix
+  representation,''
+\newblock 2014.
+
+\bibitem{PSD_Riemannian}
+S.~Bonnabel and R.~Sepulchre,
+\newblock ``Riemannian metric and geometric mean for positive semidefinite
+  matrices of fixed rank,''
+\newblock {\em SIAM Journal on Matrix Analysis and Applications}, vol. 31, no.
+  3, pp. 1055--1070, 2009.
+
+\bibitem{PSD_Regression}
+G.~Meyer, S.~Bonnabel, and R.~Sepulchre,
+\newblock ``Regression on fixed-rank positive semidefinite matrices: a
+  riemannian approach,''
+\newblock {\em The Journal of Machine Learning Research}, vol. 12, pp.
+  593--625, 2011.
+
+\bibitem{PSD_Opt1}
+M.~Journ{\'e}e, F.~Bach, P.-A. Absil, and R.~Sepulchre,
+\newblock ``Low-rank optimization on the cone of positive semidefinite
+  matrices,''
+\newblock {\em SIAM Journal on Optimization}, vol. 20, no. 5, pp. 2327--2351,
+  2010.
+
+\bibitem{PSD_AAAI}
+Y.~Mu,
+\newblock ``Fixed-rank supervised metric learning on riemannian manifold,''
+\newblock in {\em AAAI Conference on Artificial Intelligence}. 2016.
+
+\bibitem{Kernel_Riemannian}
+S.~Jayasumana, R.~Hartley, M.~Salzmann, H.~Li, and M.~Harandi,
+\newblock ``Kernel methods on riemannian manifolds with gaussian rbf kernels,''
+\newblock {\em Pattern Analysis and Machine Intelligence}, vol. 37, no. 12, pp.
+  2464--2477, 2015.
+
+\bibitem{Dictionary_Extrinsic_method}
+M.~Harandi, R.~Hartley, C.~Shen, B.~Lovell, and C.~Sanderson,
+\newblock ``Extrinsic methods for coding and dictionary learning on grassmann
+  manifolds,''
+\newblock {\em International Journal of Computer Vision}, vol. 114, no. 2-3,
+  pp. 113--136, 2015.
+
+\bibitem{Jeffreys_divergence}
+M.~Harandi, M.~Salzmann, and F.~Porikli,
+\newblock ``Bregman divergences for infinite dimensional covariance matrices,''
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 1003--1010.
+  2014.
+
+\bibitem{Cholesky_distance}
+I.L. Dryden, A.~Koloydenko, and D.~Zhou,
+\newblock ``Non-euclidean statistics for covariance matrices, with applications
+  to diffusion tensor imaging,''
+\newblock {\em The Annals of Applied Statistics}, pp. 1102--1123, 2009.
+
+\bibitem{Graph_Embeding}
+S.~Yan, D.~Xu, B.~Zhang, H.-J. Zhang, Q.~Yang, and S.~Lin,
+\newblock ``Graph embedding and extensions: a general framework for
+  dimensionality reduction,''
+\newblock {\em Pattern Analysis and Machine Intelligence}, vol. 29, no. 1, pp.
+  40--51, 2007.
+
+\bibitem{KDA_DengCai1}
+D.~Cai, X.~He, and J.~Han,
+\newblock ``Speed up kernel discriminant analysis,''
+\newblock {\em The International Journal on Very Large Data Bases}, vol. 20,
+  no. 1, pp. 21--33, 2011.
+
+\bibitem{KDA_DengCai2}
+D.~Cai,
+\newblock {\em Spectral regression: A regression framework for efficient
+  regularized subspace learning},
+\newblock ProQuest, 2009.
 
 \end{thebibliography}

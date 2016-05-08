@@ -4,17 +4,37 @@ A level-1 auxiliary file: data/opt.aux
 A level-1 auxiliary file: data/rpls.aux
 A level-1 auxiliary file: data/psd.aux
 A level-1 auxiliary file: data/fin.aux
-The style file: plain.bst
+The style file: IEEEbib.bst
 A level-1 auxiliary file: data/ack.aux
 A level-1 auxiliary file: data/resume.aux
 Database file #1: ref/refs.bib
-Warning--I didn't find a database entry for "Statistics_BeyoundGauss"
-Warning--I didn't find a database entry for "Database_ETH"
-Name 1 in "M. Faraki, M. Harandi, and F. Porikli" has a comma at the end for entry PSD_WACV
-while executing---line 1049 of file plain.bst
-Warning--empty institution in Database_MoBo
-Warning--there's a number but no volume in pls_PLSR
+Warning--empty publisher in Database_YTC
+Warning--empty publisher in Database_ETH80
+Warning--empty publisher in Statistics_LERM
+Warning--empty publisher in Statistics_HER
+Warning--empty publisher in Affinehull_P2SML
+Warning--empty publisher in Subspace_MSM
+Warning--empty publisher in Subspace_GDA
+Warning--empty publisher in Manifold_MMD
+Warning--empty publisher in Manifold_MDA
+Warning--empty publisher in Affinehull_AF
+Warning--empty publisher in Affinehull_SANP
+Warning--empty publisher in Affinehull_RNP
+Warning--empty publisher in Affinehull_ProNN
+Warning--empty publisher in Statistics_CDL
+Warning--empty publisher in Statistics_Vemu
+Warning--empty publisher in Statistics_LMKML
+Warning--empty publisher in Statistics_DARG
+Warning--empty publisher in Statistics_BeyondGauss
+Warning--empty publisher in Deeplearning_MMDML
+Warning--empty publisher in Database_YTF
+Warning--empty publisher in Database_UIUC
+Warning--empty publisher in PSD_WACV
+Warning--empty publisher in Maniopt_DiscreteCurveFitting
+Warning--empty journal in Matrix_CookBook
+Warning--empty publisher in Statistics_LEML
+Warning--empty publisher in Stein_divergence
 Warning--empty journal in Grassmann
-Name 1 in "M. Faraki, M. Harandi, and F. Porikli" has a comma at the end for entry PSD_WACV
-while executing---line 1090 of file plain.bst
-(There were 2 error messages)
+Warning--empty publisher in PSD_AAAI
+Warning--empty publisher in Jeffreys_divergence
+(There were 29 warnings)

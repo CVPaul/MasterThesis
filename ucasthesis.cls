@@ -531,6 +531,7 @@
     \vspace*{0cm}
     \parbox[t][1cm][t]{\textwidth}{%
       \ifucas@secret\hspace{25em}{\sihao[1]\songti 密级：\underline{\makebox[6em]{\ucas@secretcontent}}}\fi}
+%	  \ifucas@secret\hspace{25em}{\sihao[1]\heiti 密级：\underline{\makebox[6em]{\ucas@secretcontent}}}\fi}
       \begin{figure}[H]
         \centering
         \includegraphics[width=128mm,height=21.7mm]{ucaslogo}
@@ -590,8 +591,8 @@
         \rmfamily A \ifucas@master Thesis \else Dissertation \fi
         Submitted to\\
         \rmfamily \textbf{The University of Chinese Academy of Sciences}\\
-        \rmfamily in Partial Fulfillment of the Requirement\\
-        \rmfamily for the Degree of\\
+        \rmfamily in partial fulfillment of the requirement\\
+        \rmfamily for the degree of\\
         \rmfamily \textbf{\ucas@edegree}\\
         \rmfamily in \\
         \rmfamily \textbf{\ucas@emajor}
@@ -668,12 +669,14 @@
   \noindent\hangindent\wd0\hangafter1
     \box0\ucas@ckeywords
   \cleardoublepage
-  \ucas@chapter*[]{\ucas@etitle}[\eabstractname] % no tocline
-  \begin{center}
-  \ucas@eauthor\hspace{1ex}(\ucas@emajor)\\
-  Directed by \ucas@esupervisor\\
-  \end{center}
-  \hspace{2em}\ucas@eabstract
+%  \ucas@chapter*[]{\ucas@etitle}[\eabstractname] % no tocline
+  \ucas@chapter*[]{\eabstractname}[\eabstractname] % no tocline
+%  \begin{center}
+%  \ucas@eauthor\hspace{1ex}(\ucas@emajor)\\
+%  Directed by \ucas@esupervisor\\
+%  \end{center}
+%  \hspace{2em}\ucas@eabstract
+  \ucas@eabstract
   \vskip12bp
   \setbox0=\hbox{\textbf{Keywords:\enskip}}
   \noindent

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.6)  18 APR 2016 11:31
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.6)  24 APR 2016 21:16
 entering extended mode
 **./opt.tex
 (opt.tex
@@ -315,7 +315,7 @@ Missing character: There is no 进 in font nullfont!
 Missing character: There is no 行 in font nullfont!
 Missing character: There is no 介 in font nullfont!
 Missing character: There is no 绍 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 目 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 一 in font nullfont!
@@ -338,6 +338,8 @@ Missing character: There is no 究 in font nullfont!
 Missing character: There is no 课 in font nullfont!
 Missing character: There is no 题 in font nullfont!
 Missing character: There is no ， in font nullfont!
+Missing character: There is no 目 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 二 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 为 in font nullfont!
@@ -586,6 +588,7 @@ Missing character: There is no 括 in font nullfont!
 Missing character: There is no 两 in font nullfont!
 Missing character: There is no 部 in font nullfont!
 Missing character: There is no 分 in font nullfont!
+Missing character: There is no ： in font nullfont!
 Missing character: There is no 第 in font nullfont!
 Missing character: There is no 一 in font nullfont!
 Missing character: There is no 部 in font nullfont!
@@ -738,7 +741,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no M in font nullfont!
@@ -826,16 +829,11 @@ Missing character: There is no 是 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no 学 in font nullfont!
 Missing character: There is no 上 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 个 in font nullfont!
 Missing character: There is no 抽 in font nullfont!
 Missing character: There is no 象 in font nullfont!
-Missing character: There is no 的 in font nullfont!
 Missing character: There is no 概 in font nullfont!
 Missing character: There is no 念 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 而 in font nullfont!
 Missing character: There is no 它 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 定 in font nullfont!
@@ -843,7 +841,6 @@ Missing character: There is no 义 in font nullfont!
 Missing character: There is no 则 in font nullfont!
 Missing character: There is no 依 in font nullfont!
 Missing character: There is no 赖 in font nullfont!
-Missing character: There is no 于 in font nullfont!
 Missing character: There is no 另 in font nullfont!
 Missing character: There is no 一 in font nullfont!
 Missing character: There is no 个 in font nullfont!
@@ -1008,6 +1005,7 @@ Missing character: There is no 在 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no 学 in font nullfont!
 Missing character: There is no 上 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 这 in font nullfont!
 Missing character: There is no 样 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -1062,6 +1060,10 @@ Missing character: There is no 两 in font nullfont!
 Missing character: There is no 个 in font nullfont!
 Missing character: There is no 概 in font nullfont!
 Missing character: There is no 念 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 解 in font nullfont!
 Missing character: There is no （ in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 统 in font nullfont!
@@ -1078,7 +1080,7 @@ Missing character: There is no [ in font nullfont!
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .^^J
 l.23 ...系统的内容可以参看\cite{Manifold}
-                                                  ）需要理解，第一�...
+                                                  ），第一个概念（�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1090,10 +1092,6 @@ LaTeX Warning: Citation `Manifold' on page  undefined on input line 23.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ） in font nullfont!
-Missing character: There is no 需 in font nullfont!
-Missing character: There is no 要 in font nullfont!
-Missing character: There is no 理 in font nullfont!
-Missing character: There is no 解 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 第 in font nullfont!
 Missing character: There is no 一 in font nullfont!
@@ -1560,6 +1558,8 @@ Missing character: There is no 属 in font nullfont!
 Missing character: There is no 于 in font nullfont!
 Missing character: There is no 函 in font nullfont!
 Missing character: There is no 数 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no ） in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no 而 in font nullfont!
 Missing character: There is no 任 in font nullfont!
@@ -1704,7 +1704,6 @@ Missing character: There is no 和 in font nullfont!
 Missing character: There is no 满 in font nullfont!
 Missing character: There is no 射 in font nullfont!
 Missing character: There is no ） in font nullfont!
-Missing character: There is no ； in font nullfont!
 
 Overfull \hbox (5.97226pt too wide) in paragraph at lines 32--33
 \OML/cmm/m/it/10 f$ 
@@ -1714,7 +1713,6 @@ Missing character: There is no 是 in font nullfont!
 Missing character: There is no 连 in font nullfont!
 Missing character: There is no 续 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no ； in font nullfont!
 
 Overfull \hbox (5.97226pt too wide) in paragraph at lines 33--34
 \OML/cmm/m/it/10 f$ 
@@ -1734,7 +1732,6 @@ Missing character: There is no 开 in font nullfont!
 Missing character: There is no 映 in font nullfont!
 Missing character: There is no 射 in font nullfont!
 Missing character: There is no ） in font nullfont!
-Missing character: There is no 。 in font nullfont!
 
 Overfull \hbox (22.68066pt too wide) in paragraph at lines 34--35
 \OML/cmm/m/it/10 f[]$$f$ 
@@ -1946,7 +1943,7 @@ Missing character: There is no 胚 in font nullfont!
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
 l.42 ...�形$M$的维度，记为${\rm dim}(M)=n$}
-                                                  ；
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1957,7 +1954,7 @@ and I'll forget about whatever was undefined.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
 l.42 ...�形$M$的维度，记为${\rm dim}(M)=n$}
-                                                  ；
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1981,7 +1978,7 @@ Missing character: There is no 为 in font cmr10!
 <argument> ...为流形$M$的维度，记为${\rm 
                                                   dim}(M)=n$
 l.42 ...�形$M$的维度，记为${\rm dim}(M)=n$}
-                                                  ；
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1999,7 +1996,6 @@ Overfull \hbox (6.00235pt too wide) in paragraph at lines 42--42
 \OML/cmm/m/it/10 n$| 
  []
 
-Missing character: There is no ； in font nullfont!
 
 Overfull \hbox (17.79593pt too wide) in paragraph at lines 42--43
 \OML/cmm/m/it/10 '[] \OT1/cmr/m/n/10 :
@@ -2863,14 +2859,13 @@ Missing character: There is no 当 in font nullfont!
 <recently read> \bm 
                     
 l.73 ...{x}_p)\geq 0$,等号成立当且仅当$\bm
-                                                  {x}_p=0$;
+                                                  {x}_p=0$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no ; in font nullfont!
 
 Overfull \hbox (25.33759pt too wide) in paragraph at lines 73--74
 \OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 2
@@ -2933,7 +2928,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.74 ...M$，均有$g_p(\bm{x}_p,\bm{y}_p)=g_p(\bm
-                                                  {y}_p,\bm{x}_p)$。
+                                                  {y}_p,\bm{x}_p)$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2942,14 +2937,13 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.74 ...��$g_p(\bm{x}_p,\bm{y}_p)=g_p(\bm{y}_p,\bm
-                                                  {x}_p)$。
+                                                  {x}_p)$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no 。 in font nullfont!
 
 Overfull \hbox (39.30716pt too wide) in paragraph at lines 74--75
 \OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x[]; y[] \OMS/cmsy/m/n/10 2
@@ -3102,6 +3096,19 @@ Overfull \hbox (85.95064pt too wide) detected at line 83
 [] []\OML/cmm/m/it/10 dt
  []
 
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \end{definition}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 Missing character: There is no 其 in font nullfont!
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 与 in font nullfont!
@@ -3110,7 +3117,7 @@ Missing character: There is no 义 in font nullfont!
 ! Undefined control sequence.
 <write> ...ce `Tangent_Vector_b' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.84 ...\sigma}(t)$与定义\ref{Tangent_Vector_b}
+l.85 ...\sigma}(t)$与定义\ref{Tangent_Vector_b}
                                                   中的意义相同且$\|\d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3119,7 +3126,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Tangent_Vector_b' on page  undefined on input line 84
+LaTeX Warning: Reference `Tangent_Vector_b' on page  undefined on input line 85
 .
 
 Missing character: There is no 中 in font nullfont!
@@ -3139,7 +3146,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...g: Reference `Length' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.84 ...(t))^{1/2}$;最后利用公式\ref{Length}
+l.85 ...(t))^{1/2}$;最后利用公式\ref{Length}
                                                   定义距离如公式\ref{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3148,7 +3155,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Length' on page  undefined on input line 84.
+LaTeX Warning: Reference `Length' on page  undefined on input line 85.
 
 Missing character: There is no 定 in font nullfont!
 Missing character: There is no 义 in font nullfont!
@@ -3160,7 +3167,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ... Reference `Distance' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.84 ...Length}定义距离如公式\ref{Distance}
+l.85 ...Length}定义距离如公式\ref{Distance}
                                                   所示。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3169,42 +3176,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Distance' on page  undefined on input line 84.
+LaTeX Warning: Reference `Distance' on page  undefined on input line 85.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (66.34024pt too wide) in paragraph at lines 83--85
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$[]$\OMS/cmsy/m/n/10 k[]
-\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 k \OT1/cmr
-/m/n/10 =
+Overfull \hbox (66.34024pt too wide) in paragraph at lines 83--86
+ $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$[]$\OMS/cmsy/m/n/10 k[
+]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 k \OT1/cm
+r/m/n/10 =
  []
 
 
-Overfull \hbox (86.56592pt too wide) in paragraph at lines 83--85
+Overfull \hbox (86.56592pt too wide) in paragraph at lines 83--86
 \OML/cmm/m/it/10 g\OT1/cmr/m/n/10 ([](\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )\OML/c
 mm/m/it/10 ; []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ))[]$[][] 
  []
 
 
-Overfull \hbox (75.10408pt too wide) detected at line 88
+Overfull \hbox (75.10408pt too wide) detected at line 89
 []\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p; q\OT1/cmr/m/n/10 ) = [
 ] \OML/cmm/m/it/10 L\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^[\OT1/cmr/m/n/10 )
  []
-
-
-! LaTeX Error: \begin{document} ended by \end{definition}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \end{definition}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 Missing character: There is no 最 in font nullfont!
 Missing character: There is no 后 in font nullfont!
@@ -3242,9 +3236,6 @@ Missing character: There is no 新 in font nullfont!
 Missing character: There is no 空 in font nullfont!
 Missing character: There is no 间 in font nullfont!
 Missing character: There is no 中 in font nullfont!
-Missing character: There is no 最 in font nullfont!
-Missing character: There is no 短 in font nullfont!
-Missing character: There is no 的 in font nullfont!
 Missing character: There is no 测 in font nullfont!
 Missing character: There is no 地 in font nullfont!
 Missing character: There is no 线 in font nullfont!
@@ -3257,9 +3248,6 @@ Missing character: There is no 空 in font nullfont!
 Missing character: There is no 间 in font nullfont!
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 最 in font nullfont!
-Missing character: There is no 短 in font nullfont!
-Missing character: There is no 的 in font nullfont!
 Missing character: There is no 测 in font nullfont!
 Missing character: There is no 地 in font nullfont!
 Missing character: There is no 线 in font nullfont!
@@ -3269,7 +3257,7 @@ Missing character: There is no 度 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
 l.91 \subsection
-                {对称正定矩阵（SPD）流形}
+                {对称正定矩阵流形}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3282,11 +3270,6 @@ Missing character: There is no 正 in font nullfont!
 Missing character: There is no 定 in font nullfont!
 Missing character: There is no 矩 in font nullfont!
 Missing character: There is no 阵 in font nullfont!
-Missing character: There is no （ in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no D in font nullfont!
-Missing character: There is no ） in font nullfont!
 Missing character: There is no 流 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no 对 in font nullfont!
@@ -3599,27 +3582,27 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 集 in font nullfont!
 Missing character: There is no 合 in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 88--96
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 89--96
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 88--96
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 89--96
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 88--96
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 89--96
 []
  []
 
 
-Overfull \hbox (12.98267pt too wide) in paragraph at lines 88--96
+Overfull \hbox (12.98267pt too wide) in paragraph at lines 89--96
 \OML/cmm/m/it/10 d \OMS/cmsy/m/n/10 ^^B
  []
 
 
-Overfull \hbox (5.20486pt too wide) in paragraph at lines 88--96
+Overfull \hbox (5.20486pt too wide) in paragraph at lines 89--96
 \OML/cmm/m/it/10 d$ 
  []
 
@@ -4430,13 +4413,30 @@ Missing character: There is no 备 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
 l.135 \subsection
-                 {Lagrange对偶问题}
+                 {拉格朗日对偶问题}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no 拉 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 朗 in font nullfont!
+Missing character: There is no 日 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 偶 in font nullfont!
+Missing character: There is no 问 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 拉 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 朗 in font nullfont!
+Missing character: There is no 日 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 偶 in font nullfont!
+Missing character: There is no 问 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no ( in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
@@ -4445,22 +4445,18 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no 对 in font nullfont!
-Missing character: There is no 偶 in font nullfont!
-Missing character: There is no 问 in font nullfont!
-Missing character: There is no 题 in font nullfont!
-Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no 对 in font nullfont!
-Missing character: There is no 偶 in font nullfont!
-Missing character: There is no 问 in font nullfont!
-Missing character: There is no 题 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ) in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 转 in font nullfont!
 Missing character: There is no 化 in font nullfont!
@@ -5592,7 +5588,6 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 偶 in font nullfont!
 Missing character: There is no 问 in font nullfont!
@@ -5600,7 +5595,6 @@ Missing character: There is no 题 in font nullfont!
 Missing character: There is no 求 in font nullfont!
 Missing character: There is no 解 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 是 in font nullfont!
 Missing character: There is no 问 in font nullfont!
 Missing character: There is no 题 in font nullfont!
 Missing character: There is no 如 in font nullfont!
@@ -5608,7 +5602,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...`Lagrange_Dual_Final' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.163 ...�是问题如式\ref{Lagrange_Dual_Final}
+l.163 ...�的问题如式\ref{Lagrange_Dual_Final}
                                                   所示。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5698,8 +5692,6 @@ Missing character: There is no 与 in font nullfont!
 Missing character: There is no 原 in font nullfont!
 Missing character: There is no 问 in font nullfont!
 Missing character: There is no 题 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 解 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 关 in font nullfont!
 Missing character: There is no 系 in font nullfont!
@@ -5935,23 +5927,18 @@ Missing character: There is no 来 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 部 in font nullfont!
 Missing character: There is no 分 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 梯 in font nullfont!
-Missing character: There is no 度 in font nullfont!
-Missing character: There is no 为 in font nullfont!
 Missing character: There is no 主 in font nullfont!
 Missing character: There is no 要 in font nullfont!
-Missing character: There is no 介 in font nullfont!
-Missing character: There is no 绍 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 梯 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 及 in font nullfont!
 Missing character: There is no 优 in font nullfont!
 Missing character: There is no 化 in font nullfont!
 Missing character: There is no 问 in font nullfont!
 Missing character: There is no 题 in font nullfont!
 Missing character: There is no 相 in font nullfont!
 Missing character: There is no 关 in font nullfont!
-Missing character: There is no 内 in font nullfont!
-Missing character: There is no 容 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
 l.182 \subsection
@@ -6058,7 +6045,7 @@ Missing character: There is no 问 in font nullfont!
 Missing character: There is no 题 in font nullfont!
 ! Undefined control sequence.
 l.184 ...�里只考虑最小化的问题$\min_{\bm
-                                                  {x}} f(\bm{x})$，对于�...
+                                                  {x}} f(\bm{x})$。对于�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6067,14 +6054,14 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.184 ...虑最小化的问题$\min_{\bm{x}} f(\bm
-                                                  {x})$，对于有约束的...
+                                                  {x})$。对于有约束的...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 于 in font nullfont!
 Missing character: There is no 有 in font nullfont!
@@ -6531,6 +6518,11 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 用 in font nullfont!
 Missing character: There is no 途 in font nullfont!
 Missing character: There is no 是 in font nullfont!
+Missing character: There is no 梯 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 检 in font nullfont!
+Missing character: There is no 查 in font nullfont!
+Missing character: There is no （ in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -6544,6 +6536,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
+Missing character: There is no ） in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 当 in font nullfont!
 Missing character: There is no 把 in font nullfont!
@@ -8390,8 +8383,6 @@ Missing character: There is no 解 in font nullfont!
 Missing character: There is no 决 in font nullfont!
 Missing character: There is no ） in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 当 in font nullfont!
-Missing character: There is no 然 in font nullfont!
 Missing character: There is no 也 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 以 in font nullfont!
@@ -9199,6 +9190,7 @@ Missing character: There is no 注 in font nullfont!
 Missing character: There is no 意 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 是 in font nullfont!
+Missing character: There is no ： in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 于 in font nullfont!
 Missing character: There is no 高 in font nullfont!
@@ -9306,7 +9298,6 @@ Missing character: There is no 内 in font nullfont!
 Missing character: There is no 容 in font nullfont!
 Missing character: There is no 主 in font nullfont!
 Missing character: There is no 要 in font nullfont!
-Missing character: There is no 是 in font nullfont!
 Missing character: There is no 针 in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 矩 in font nullfont!
@@ -9318,7 +9309,6 @@ Missing character: There is no 导 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no 计 in font nullfont!
 Missing character: There is no 算 in font nullfont!
-Missing character: There is no 以 in font nullfont!
 Missing character: There is no 及 in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 称 in font nullfont!
@@ -9334,9 +9324,10 @@ Missing character: There is no 导 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no 计 in font nullfont!
 Missing character: There is no 算 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 内 in font nullfont!
-Missing character: There is no 容 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 面 in font nullfont!
 Missing character: There is no ； in font nullfont!
 Missing character: There is no 矩 in font nullfont!
 Missing character: There is no 阵 in font nullfont!
@@ -9355,7 +9346,6 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 殊 in font nullfont!
 Missing character: There is no 性 in font nullfont!
-Missing character: There is no ， in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 其 in font nullfont!
 Missing character: There is no 特 in font nullfont!
@@ -9390,7 +9380,7 @@ Missing character: There is no [ in font nullfont!
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .^^J
 l.250 ... matrix cookbook”\cite{Matrix_CookBook}
-                                                  中对矩阵求导计算�...
+                                                  中包含了矩阵求导�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9403,24 +9393,19 @@ LaTeX Warning: Citation `Matrix_CookBook' on page  undefined on input line 250.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no 中 in font nullfont!
-Missing character: There is no 对 in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no 含 in font nullfont!
+Missing character: There is no 了 in font nullfont!
 Missing character: There is no 矩 in font nullfont!
 Missing character: There is no 阵 in font nullfont!
 Missing character: There is no 求 in font nullfont!
 Missing character: There is no 导 in font nullfont!
-Missing character: There is no 计 in font nullfont!
-Missing character: There is no 算 in font nullfont!
-Missing character: There is no 中 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 大 in font nullfont!
 Missing character: There is no 多 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no 情 in font nullfont!
 Missing character: There is no 况 in font nullfont!
-Missing character: There is no 做 in font nullfont!
-Missing character: There is no 了 in font nullfont!
-Missing character: There is no 说 in font nullfont!
-Missing character: There is no 明 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 但 in font nullfont!
 Missing character: There is no 是 in font nullfont!
@@ -9435,15 +9420,6 @@ Missing character: There is no 殊 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 情 in font nullfont!
 Missing character: There is no 况 in font nullfont!
-Missing character: There is no 处 in font nullfont!
-Missing character: There is no 理 in font nullfont!
-Missing character: There is no 起 in font nullfont!
-Missing character: There is no 来 in font nullfont!
-Missing character: There is no 会 in font nullfont!
-Missing character: There is no 比 in font nullfont!
-Missing character: There is no 较 in font nullfont!
-Missing character: There is no 麻 in font nullfont!
-Missing character: There is no 烦 in font nullfont!
 Missing character: There is no （ in font nullfont!
 Missing character: There is no 如 in font nullfont!
 Missing character: There is no S in font nullfont!
@@ -9487,16 +9463,21 @@ Missing character: There is no 化 in font nullfont!
 Missing character: There is no 问 in font nullfont!
 Missing character: There is no 题 in font nullfont!
 Missing character: There is no ） in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 需 in font nullfont!
-Missing character: There is no 要 in font nullfont!
-Missing character: There is no 对 in font nullfont!
-Missing character: There is no 应 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 利 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 问 in font nullfont!
+Missing character: There is no 题 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 解 in font nullfont!
-Missing character: There is no 决 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 案 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 寻 in font nullfont!
+Missing character: There is no 找 in font nullfont!
+Missing character: There is no 更 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no 适 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 解 in font nullfont!
 Missing character: There is no 决 in font nullfont!
@@ -10040,13 +10021,12 @@ Missing character: There is no 导 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no （ in font nullfont!
 Missing character: There is no 本 in font nullfont!
-Missing character: There is no 章 in font nullfont!
+Missing character: There is no 节 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 后 in font nullfont!
 Missing character: There is no 总 in font nullfont!
 Missing character: There is no 假 in font nullfont!
 Missing character: There is no 设 in font nullfont!
-Missing character: There is no 的 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 角 in font nullfont!
@@ -10203,7 +10183,7 @@ or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
 l.287 D_{A}f(A)[H]&
-                   =\sum_{k=0}^{\infty}\alpha_{k}D_{A}A^{k}[H]\\
+                   =\sum_{k=0}^{\infty}\alpha_{k}D_{A}A^{k}[H]=\sum_{k=0}^{\...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -10215,18 +10195,6 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.288 &
-       =\sum_{k=0}^{\infty}\alpha_{k}U\left(\sum_{l=1}^{k}\Lambda^{l-1}[U^{T...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.289 &
        =U\left(\sum_{k=0}^{\infty}\alpha_{k}\sum_{l=1}^{k}\Lambda^{l-1}[U^{T...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -10238,8 +10206,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.290 &
-       =UD_{\Lambda}f(\Lambda)(\Lambda)[U^{T}HU]U^{T}\\
+l.289 &
+       =UD_{\Lambda}f(\Lambda)[U^{T}HU]U^{T}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -10254,19 +10222,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.291 \end{split}
+l.290 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (609.15184pt too wide) detected at line 292
+Overfull \hbox (594.4296pt too wide) detected at line 291
 []\OML/cmm/m/it/10 D[]f\/cmr/m/n/10 (\OML/cmm/m/it/10 A\/cmr/m/n/10 )[\OML/cmm/
 m/it/10 H\/cmr/m/n/10 ] = [] \OML/cmm/m/it/10 ^^K[]D[]A[]\/cmr/m/n/10 [\OML/cmm
-/m/it/10 H\/cmr/m/n/10 ][]  = [] \OML/cmm/m/it/10 ^^K[]U [] U[][]  \/cmr/m/n/10
- = \OML/cmm/m/it/10 U [] U[][]  \/cmr/m/n/10 = \OML/cmm/m/it/10 UD[]f\/cmr/m/n/
-10 (^^C)(^^C)[\OML/cmm/m/it/10 U[]HU\/cmr/m/n/10 ]\OML/cmm/m/it/10 U[][] 
+/m/it/10 H\/cmr/m/n/10 ] = [] \OML/cmm/m/it/10 ^^K[]U [] U[][]  \/cmr/m/n/10 = 
+\OML/cmm/m/it/10 U [] U[][]  \/cmr/m/n/10 = \OML/cmm/m/it/10 UD[]f\/cmr/m/n/10 
+(^^C)[\OML/cmm/m/it/10 U[]HU\/cmr/m/n/10 ]\OML/cmm/m/it/10 U[][] 
  []
 
 Missing character: There is no 其 in font nullfont!
@@ -10276,8 +10244,8 @@ Missing character: There is no 若 in font nullfont!
 Missing character: There is no 定 in font nullfont!
 Missing character: There is no 义 in font nullfont!
 ! Undefined control sequence.
-l.293 ...��若定义$\tilde{H}=U^{T}HU,M\triangleq
-                                                   D_{\Lambda}f(\Lambda)(\La...
+l.292 ...��若定义$\tilde{H}=U^{T}HU,M\triangleq
+                                                   D_{\Lambda}f(\Lambda)[\ti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10293,18 +10261,18 @@ Missing character: There is no 设 in font nullfont!
 Missing character: There is no ） in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (19.68048pt too wide) in paragraph at lines 292--294
+Overfull \hbox (19.68048pt too wide) in paragraph at lines 291--293
 $[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (129.45248pt too wide) in paragraph at lines 292--294
-\OML/cmm/m/it/10 U[]HU; MD[]f\/cmr/m/n/10 (^^C)(^^C)[[]]$$\OML/cmm/m/it/10 ^^U[
-] \OMS/cmsy/m/n/10 6\/cmr/m/n/10 =
+Overfull \hbox (114.73024pt too wide) in paragraph at lines 291--293
+\OML/cmm/m/it/10 U[]HU; MD[]f\/cmr/m/n/10 (^^C)[[]]$$\OML/cmm/m/it/10 ^^U[] \OM
+S/cmsy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 292--294
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 291--293
 \/cmr/m/n/10 0$ 
  []
 
@@ -10315,14 +10283,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \begin{split}
+l.295 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.297 M_{ij}&
+l.296 M_{ij}&
              =\sum_{k=1}^{\infty} \alpha_{k}\sum_{l=1}^{k}(\Lambda^{l-1}\til...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -10334,7 +10302,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.298 &
+l.297 &
        =\sum_{k=1}^{\infty} \alpha_{k}\sum_{l=1}^{k}\lambda_{i}^{l-1}\lambda...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -10346,7 +10314,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.299 &
+l.298 &
        =\tilde{H}_{ij}\sum_{k=1}^{\infty}\alpha_{k}\frac{\lambda_{j}^{k}}{\l...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -10356,20 +10324,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 294 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 293 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.300 \end{split}
+l.299 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (370.35873pt too wide) detected at line 301
+Overfull \hbox (370.35873pt too wide) detected at line 300
 []\OML/cmm/m/it/10 M[] \/cmr/m/n/10 = [] \OML/cmm/m/it/10 ^^K[] []\/cmr/m/n/10 
 (^^C[][]^^C[])[][]  = [] \OML/cmm/m/it/10 ^^K[] [] ^^U[]^^U[][][]  \/cmr/m/n/10
  = [] [] \OML/cmm/m/it/10 ^^K[][] [] [][]
@@ -10387,7 +10355,7 @@ Missing character: There is no 到 in font nullfont!
 Missing character: There is no （ in font nullfont!
 Missing character: There is no 当 in font nullfont!
 ! Undefined control sequence.
-l.302 ...到（当$\lambda_{i}\neq\lambda_{j}\text
+l.301 ...到（当$\lambda_{i}\neq\lambda_{j}\text
                                                   { and }\lambda_i \neq 0$�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10399,27 +10367,27 @@ Missing character: There is no 时 in font nullfont!
 Missing character: There is no ） in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (46.60767pt too wide) in paragraph at lines 301--303
+Overfull \hbox (46.60767pt too wide) in paragraph at lines 300--302
 $[][] \OML/cmm/m/it/10 x[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (47.9729pt too wide) in paragraph at lines 301--303
+Overfull \hbox (47.9729pt too wide) in paragraph at lines 300--302
 \OML/cmm/m/it/10 x[]; x \OMS/cmsy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (24.71817pt too wide) in paragraph at lines 301--303
+Overfull \hbox (24.71817pt too wide) in paragraph at lines 300--302
 \/cmr/m/n/10 1$$\OML/cmm/m/it/10 ^^U[] \OMS/cmsy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (46.25818pt too wide) in paragraph at lines 301--303
+Overfull \hbox (46.25818pt too wide) in paragraph at lines 300--302
 \OML/cmm/m/it/10 ^^U[][]^^U[] \OMS/cmsy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 301--303
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 300--302
 \/cmr/m/n/10 0$ 
  []
 
@@ -10430,14 +10398,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305 \begin{split}
+l.304 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.306 ...t(\frac{\lambda_i}{\lambda_j}\right)^{l}&
+l.305 ...t(\frac{\lambda_i}{\lambda_j}\right)^{l}&
                                                   =\frac{\lambda_{j}^{k}}{\l...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -10447,20 +10415,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 303 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 302 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.307 \end{split}
+l.306 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (196.93166pt too wide) detected at line 308
+Overfull \hbox (196.93166pt too wide) detected at line 307
 [][] [] [][] \/cmr/m/n/10 = [][][] = []
  []
 
@@ -10471,17 +10439,17 @@ Missing character: There is no 候 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (19.71815pt too wide) in paragraph at lines 308--310
+Overfull \hbox (19.71815pt too wide) in paragraph at lines 307--309
 $\OML/cmm/m/it/10 ^^U[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (34.20949pt too wide) in paragraph at lines 308--310
+Overfull \hbox (34.20949pt too wide) in paragraph at lines 307--309
 \OML/cmm/m/it/10 ^^U[]; ^^U[] \OMS/cmsy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 308--310
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 307--309
 \/cmr/m/n/10 0$ 
  []
 
@@ -10492,14 +10460,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.312 \begin{split}
+l.311 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.313 ...t(\frac{\lambda_i}{\lambda_j}\right)^{l}&
+l.312 ...t(\frac{\lambda_i}{\lambda_j}\right)^{l}&
                                                   =k\lambda_{j}^{k-1}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -10509,20 +10477,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 310 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 309 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.314 \end{split}
+l.313 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (101.01364pt too wide) detected at line 315
+Overfull \hbox (101.01364pt too wide) detected at line 314
 [][] [] [][] \/cmr/m/n/10 = \OML/cmm/m/it/10 k^^U[]
  []
 
@@ -10548,7 +10516,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...direction_gradient_M' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.316 ...不能由公式\ref{direction_gradient_M}
+l.315 ...不能由公式\ref{direction_gradient_M}
                                                   的结果确认，关于�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10558,7 +10526,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `direction_gradient_M' on page  undefined on input lin
-e 316.
+e 315.
 
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 结 in font nullfont!
@@ -10580,7 +10548,7 @@ Missing character: There is no 了 in font nullfont!
 ! Undefined control sequence.
 <write> ...ith_Zeros_Eigenvalue' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.316 ...�放在了\ref{sec:With_Zeros_Eigenvalue}
+l.315 ...�放在了\ref{sec:With_Zeros_Eigenvalue}
                                                   中。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10590,17 +10558,17 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:With_Zeros_Eigenvalue' on page  undefined on inpu
-t line 316.
+t line 315.
 
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (19.71815pt too wide) in paragraph at lines 315--317
+Overfull \hbox (19.71815pt too wide) in paragraph at lines 314--316
 $\OML/cmm/m/it/10 ^^U[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (36.20827pt too wide) in paragraph at lines 315--317
+Overfull \hbox (36.20827pt too wide) in paragraph at lines 314--316
 \/cmr/m/n/10 0$$0[]$[][] 
  []
 
@@ -10617,7 +10585,7 @@ Missing character: There is no 定 in font nullfont!
 Missing character: There is no 需 in font nullfont!
 Missing character: There is no 要 in font nullfont!
 ! Undefined control sequence.
-l.318 ...�注意到并不一定需要$A\in \mathbb
+l.317 ...�注意到并不一定需要$A\in \mathbb
                                                   {S}_{d}$，只要$A=U\Lamb...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10667,17 +10635,17 @@ Missing character: There is no 如 in font nullfont!
 Missing character: There is no 下 in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (36.94441pt too wide) in paragraph at lines 318--319
+Overfull \hbox (36.94441pt too wide) in paragraph at lines 317--318
 []$\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 2
  []
 
 
-Overfull \hbox (28.85034pt too wide) in paragraph at lines 318--319
+Overfull \hbox (28.85034pt too wide) in paragraph at lines 317--318
 \OML/cmm/m/it/10 S[]$$A \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (42.64162pt too wide) in paragraph at lines 318--319
+Overfull \hbox (42.64162pt too wide) in paragraph at lines 317--318
 \OML/cmm/m/it/10 U\/cmr/m/n/10 ^^C\OML/cmm/m/it/10 U[]$$H$ 
  []
 
@@ -10688,12 +10656,12 @@ Missing character: There is no 矩 in font nullfont!
 Missing character: There is no 阵 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (25.55554pt too wide) in paragraph at lines 321--322
+Overfull \hbox (25.55554pt too wide) in paragraph at lines 320--321
 \OML/cmm/m/it/10 A$$A \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (33.51665pt too wide) in paragraph at lines 321--322
+Overfull \hbox (33.51665pt too wide) in paragraph at lines 320--321
 \OML/cmm/m/it/10 U\/cmr/m/n/10 ^^C\OML/cmm/m/it/10 U[]$ 
  []
 
@@ -10703,17 +10671,17 @@ Missing character: There is no 矩 in font nullfont!
 Missing character: There is no 阵 in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (9.12497pt too wide) in paragraph at lines 322--323
+Overfull \hbox (9.12497pt too wide) in paragraph at lines 321--322
 []$
  []
 
 
-Overfull \hbox (19.68048pt too wide) in paragraph at lines 322--323
+Overfull \hbox (19.68048pt too wide) in paragraph at lines 321--322
 [] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (35.69717pt too wide) in paragraph at lines 322--323
+Overfull \hbox (35.69717pt too wide) in paragraph at lines 321--322
 \OML/cmm/m/it/10 U[]HU$ 
  []
 
@@ -10723,7 +10691,7 @@ Missing character: There is no 矩 in font nullfont!
 Missing character: There is no 阵 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (7.81946pt too wide) in paragraph at lines 323--324
+Overfull \hbox (7.81946pt too wide) in paragraph at lines 322--323
 \OML/cmm/m/it/10 F$ 
  []
 
@@ -10734,14 +10702,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.327 \begin{split}
+l.326 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.328 &
+l.327 &
        \frac{f(\lambda_i)-f(\lambda_j)}{\lambda_i-\lambda_j},\text{if $\lamb...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -10751,7 +10719,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.328 ...-f(\lambda_j)}{\lambda_i-\lambda_j},\text
+l.327 ...-f(\lambda_j)}{\lambda_i-\lambda_j},\text
                                                   {if $\lambda_i \neq \lambd...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10762,7 +10730,7 @@ and I'll forget about whatever was undefined.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.328 ...ambda_j)}{\lambda_i-\lambda_j},\text{if $
+l.327 ...ambda_j)}{\lambda_i-\lambda_j},\text{if $
                                                   \lambda_i \neq \lambda_j$}\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10773,7 +10741,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.328 ...ambda_j)}{\lambda_i-\lambda_j},\text{if $
+l.327 ...ambda_j)}{\lambda_i-\lambda_j},\text{if $
                                                   \lambda_i \neq \lambda_j$}\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10784,7 +10752,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.328 ...ambda_j)}{\lambda_i-\lambda_j},\text{if $
+l.327 ...ambda_j)}{\lambda_i-\lambda_j},\text{if $
                                                   \lambda_i \neq \lambda_j$}\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10795,26 +10763,26 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \lambda 
-l.328 ...)}{\lambda_i-\lambda_j},\text{if $\lambda
+l.327 ...)}{\lambda_i-\lambda_j},\text{if $\lambda
                                                   _i \neq \lambda_j$}\\
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-Overfull \hbox (110.70026pt too wide) detected at line 328
+Overfull \hbox (110.70026pt too wide) detected at line 327
 []\OML/cmm/m/it/10 F[] \/cmr/m/n/10 = []
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.328 ...)}{\lambda_i-\lambda_j},\text{if $\lambda
+l.327 ...)}{\lambda_i-\lambda_j},\text{if $\lambda
                                                   _i \neq \lambda_j$}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten \endgroup.
-l.328 ...a_j},\text{if $\lambda_i \neq \lambda_j$}
+l.327 ...a_j},\text{if $\lambda_i \neq \lambda_j$}
                                                   \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10825,7 +10793,7 @@ deleted material, e.g., by typing `I$}'.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.329 &
+l.328 &
        f^{\prime}(\lambda_{i}),\text{otherwise}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -10838,13 +10806,13 @@ Missing character: There is no f in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.329 &f^
+l.328 &f^
          {\prime}(\lambda_{i}),\text{otherwise}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.329 &f^{\prime}(\lambda_{i}),\text
+l.328 &f^{\prime}(\lambda_{i}),\text
                                     {otherwise}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10853,13 +10821,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{equation} on input line 324 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 323 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.330 \end{split}
+l.329 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10868,7 +10836,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.330 \end{split}
+l.329 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10879,20 +10847,20 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.331 \right
+l.330 \right
             .
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra \right.
-l.331 \right.
+l.330 \right.
              
 I'm ignoring a \right that had no matching \left.
 
 ! You can't use `\eqno' in math mode.
 \endequation ->\eqno 
                      \hbox {\@eqnnum }$$\@ignoretrue 
-l.332 \end{equation}
+l.331 \end{equation}
                     
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -10900,13 +10868,13 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-! LaTeX Error: \begin{itemize} on input line 319 ended by \end{equation}.
+! LaTeX Error: \begin{itemize} on input line 318 ended by \end{equation}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 \end{equation}
+l.331 \end{equation}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10915,7 +10883,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.332 \end{equation}
+l.331 \end{equation}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10924,22 +10892,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (19.71815pt too wide) in paragraph at lines 328--333
+Overfull \hbox (19.71815pt too wide) in paragraph at lines 327--332
 $\OML/cmm/m/it/10 ^^U[] \OMS/cmsy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (10.04692pt too wide) in paragraph at lines 328--333
+Overfull \hbox (10.04692pt too wide) in paragraph at lines 327--332
 \OML/cmm/m/it/10 ^^U[]$ 
  []
 
 
-Overfull \hbox (68.07312pt too wide) in paragraph at lines 328--333
+Overfull \hbox (68.07312pt too wide) in paragraph at lines 327--332
 []\/cmr/m/n/10 (\OML/cmm/m/it/10 ^^U[]\/cmr/m/n/10 )\OML/cmm/m/it/10 ; []$
  []
 
 
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 328--333
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 327--332
 []$$$ 
  []
 
@@ -10950,7 +10918,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.333 \item 计
+l.332 \item 计
                算$D_{A}f(A)(A)[H]=U(F\odot\tilde{H})U^{-1}$
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -10958,18 +10926,18 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no 计 in font nullfont!
 Missing character: There is no 算 in font nullfont!
 
-Overfull \hbox (76.55702pt too wide) in paragraph at lines 333--334
+Overfull \hbox (76.55702pt too wide) in paragraph at lines 332--333
 \OML/cmm/m/it/10 D[]f\/cmr/m/n/10 (\OML/cmm/m/it/10 A\/cmr/m/n/10 )(\OML/cmm/m/
 it/10 A\/cmr/m/n/10 )[\OML/cmm/m/it/10 H\/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (27.40419pt too wide) in paragraph at lines 333--334
+Overfull \hbox (27.40419pt too wide) in paragraph at lines 332--333
 \OML/cmm/m/it/10 U\/cmr/m/n/10 (\OML/cmm/m/it/10 F \OMS/cmsy/m/n/10 ^^L
  []
 
 
-Overfull \hbox (31.66805pt too wide) in paragraph at lines 333--334
+Overfull \hbox (31.66805pt too wide) in paragraph at lines 332--333
 []\/cmr/m/n/10 )\OML/cmm/m/it/10 U[]$ 
  []
 
@@ -10980,7 +10948,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.334 \end{itemize}
+l.333 \end{itemize}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10989,7 +10957,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.334 \end{itemize}
+l.333 \end{itemize}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -11021,7 +10989,7 @@ Missing character: There is no 相 in font nullfont!
 Missing character: There is no 乘 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
-l.337 \subsection
+l.336 \subsection
                  {矩阵包含0特征值的问题}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11059,7 +11027,7 @@ Missing character: There is no 以 in font nullfont!
 ! Undefined control sequence.
 <write> ...sec:matrix_func_devi' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.339 ...定义，所以\ref{sec:matrix_func_devi}
+l.338 ...定义，所以\ref{sec:matrix_func_devi}
                                                   部分介绍的方法不�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11069,7 +11037,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:matrix_func_devi' on page  undefined on input lin
-e 339.
+e 338.
 
 Missing character: There is no 部 in font nullfont!
 Missing character: There is no 分 in font nullfont!
@@ -11099,17 +11067,17 @@ Missing character: There is no 讨 in font nullfont!
 Missing character: There is no 论 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 335--340
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 334--339
 $\OMS/cmsy/m/n/10 ^^L$
  []
 
 
-Overfull \hbox (20.3472pt too wide) in paragraph at lines 335--340
+Overfull \hbox (20.3472pt too wide) in paragraph at lines 334--339
 \/cmr/m/n/10 0[]$[] 
  []
 
 ! Undefined control sequence.
-l.342 let:B=A+\mu I,\text
+l.341 let:B=A+\mu I,\text
                          { then } A=\lim_{\mu \rightarrow 0}B
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11118,7 +11086,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (139.56812pt too wide) detected at line 343
+Overfull \hbox (139.56812pt too wide) detected at line 342
 []\OML/cmm/m/it/10 let \/cmr/m/n/10 : \OML/cmm/m/it/10 B \/cmr/m/n/10 = \OML/cm
 m/m/it/10 A \/cmr/m/n/10 + \OML/cmm/m/it/10 ^^VI; []A \/cmr/m/n/10 = [] \OML/cm
 m/m/it/10 B
@@ -11146,7 +11114,7 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 时 in font nullfont!
 Missing character: There is no 候 in font nullfont!
 ! Undefined control sequence.
-l.344 ...\mu_0>0$使得$0<\mu<\mu_0$的时候${\rm
+l.343 ...\mu_0>0$使得$0<\mu<\mu_0$的时候${\rm
                                                    det}(B)\neq 0$。并且�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11180,7 +11148,7 @@ Missing character: There is no 起 in font nullfont!
 Missing character: There is no 见 in font nullfont!
 Missing character: There is no 记 in font nullfont!
 ! Undefined control sequence.
-l.344 ...��便起见记$D=\Lambda+\mu I \triangleq
+l.343 ...��便起见记$D=\Lambda+\mu I \triangleq
                                                    {\rm diag}(\gamma_1,\gamm...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11189,7 +11157,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.344 ...起见记$D=\Lambda+\mu I \triangleq {\rm
+l.343 ...起见记$D=\Lambda+\mu I \triangleq {\rm
                                                    diag}(\gamma_1,\gamma_2,\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11206,7 +11174,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...irection_gradient_fx' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.344 ...��利用公式\ref{direction_gradient_fx}
+l.343 ...��利用公式\ref{direction_gradient_fx}
                                                   的话可得到公式\ref{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11216,7 +11184,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `direction_gradient_fx' on page  undefined on input li
-ne 344.
+ne 343.
 
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 话 in font nullfont!
@@ -11228,7 +11196,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ... `zeros_eig_opt_devi' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.344 ...��可得到公式\ref{zeros_eig_opt_devi}
+l.343 ...��可得到公式\ref{zeros_eig_opt_devi}
                                                   的形式。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11238,56 +11206,56 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `zeros_eig_opt_devi' on page  undefined on input line 
-344.
+343.
 
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no 式 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (28.56714pt too wide) in paragraph at lines 343--345
+Overfull \hbox (28.56714pt too wide) in paragraph at lines 342--344
 $\OML/cmm/m/it/10 A$$^^V[] >
  []
 
 
-Overfull \hbox (20.55554pt too wide) in paragraph at lines 343--345
+Overfull \hbox (20.55554pt too wide) in paragraph at lines 342--344
 \/cmr/m/n/10 0$$0 \OML/cmm/m/it/10 <
  []
 
 
-Overfull \hbox (16.581pt too wide) in paragraph at lines 343--345
+Overfull \hbox (16.581pt too wide) in paragraph at lines 342--344
 \OML/cmm/m/it/10 ^^V <
  []
 
 
-Overfull \hbox (50.40398pt too wide) in paragraph at lines 343--345
+Overfull \hbox (50.40398pt too wide) in paragraph at lines 342--344
 \OML/cmm/m/it/10 ^^V[]$$[]\/cmr/m/n/10 (\OML/cmm/m/it/10 B\/cmr/m/n/10 ) \OMS/c
 msy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (23.05554pt too wide) in paragraph at lines 343--345
+Overfull \hbox (23.05554pt too wide) in paragraph at lines 342--344
 \/cmr/m/n/10 0$$\OML/cmm/m/it/10 A \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (63.10934pt too wide) in paragraph at lines 343--345
+Overfull \hbox (63.10934pt too wide) in paragraph at lines 342--344
 \OML/cmm/m/it/10 U\/cmr/m/n/10 ^^C\OML/cmm/m/it/10 U[]$$A$$U\/cmr/m/n/10 (^^C +
 
  []
 
 
-Overfull \hbox (56.51187pt too wide) in paragraph at lines 343--345
+Overfull \hbox (56.51187pt too wide) in paragraph at lines 342--344
 \OML/cmm/m/it/10 ^^VI\/cmr/m/n/10 )\OML/cmm/m/it/10 U[]$$B$$D \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (14.72224pt too wide) in paragraph at lines 343--345
+Overfull \hbox (14.72224pt too wide) in paragraph at lines 342--344
 \/cmr/m/n/10 ^^C +
  []
 
 
-Overfull \hbox (115.6038pt too wide) in paragraph at lines 343--345
+Overfull \hbox (115.6038pt too wide) in paragraph at lines 342--344
 \OML/cmm/m/it/10 ^^VI[]\/cmr/m/n/10 (\OML/cmm/m/it/10 ^^M[]; ^^M[]; [] ; ^^M[]\
 /cmr/m/n/10 )$[][] 
  []
@@ -11299,15 +11267,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.347 \begin{split}
+l.346 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.348 Df(B)(B)[H]&
-                  =\sum_{k=0}^{\infty}\alpha_{k}DB^{k}(B)[H]\\
+l.347 D_{B}f(B)[H]&
+                   =\sum_{k=0}^{\infty}\alpha_{k}D_{B}B^{k}[H]\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -11318,7 +11286,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.349 &
+l.348 &
        =\sum_{k=0}^{\infty}\alpha_{k}U\left(\sum_{l=1}^{k}D^{l-1}[U^{T}HU]D^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11330,7 +11298,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.350 &
+l.349 &
        =U\left(\sum_{k=0}^{\infty}\alpha_{k}\sum_{l=1}^{k}D^{l-1}[U^{T}HU]D^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11342,8 +11310,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.351 &
-       =UDf(D)(D)[U^{T}HU]U^{T}\\
+l.350 &
+       =UD_{D}f(D)[U^{T}HU]U^{T}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -11352,27 +11320,26 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 345 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 344 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.352 \end{split}
+l.351 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (633.56293pt too wide) detected at line 353
-[]\OML/cmm/m/it/10 Df\/cmr/m/n/10 (\OML/cmm/m/it/10 B\/cmr/m/n/10 )(\OML/cmm/m/
-it/10 B\/cmr/m/n/10 )[\OML/cmm/m/it/10 H\/cmr/m/n/10 ] = [] \OML/cmm/m/it/10 ^^
-K[]DB[]\/cmr/m/n/10 (\OML/cmm/m/it/10 B\/cmr/m/n/10 )[\OML/cmm/m/it/10 H\/cmr/m
-/n/10 ][]  = [] \OML/cmm/m/it/10 ^^K[]U [] U[][]  \/cmr/m/n/10 = \OML/cmm/m/it/
-10 U [] U[][]  \/cmr/m/n/10 = \OML/cmm/m/it/10 UDf\/cmr/m/n/10 (\OML/cmm/m/it/1
-0 D\/cmr/m/n/10 )(\OML/cmm/m/it/10 D\/cmr/m/n/10 )[\OML/cmm/m/it/10 U[]HU\/cmr/
-m/n/10 ]\OML/cmm/m/it/10 U[][] 
+Overfull \hbox (605.68536pt too wide) detected at line 352
+[]\OML/cmm/m/it/10 D[]f\/cmr/m/n/10 (\OML/cmm/m/it/10 B\/cmr/m/n/10 )[\OML/cmm/
+m/it/10 H\/cmr/m/n/10 ] = [] \OML/cmm/m/it/10 ^^K[]D[]B[]\/cmr/m/n/10 [\OML/cmm
+/m/it/10 H\/cmr/m/n/10 ][]  = [] \OML/cmm/m/it/10 ^^K[]U [] U[][]  \/cmr/m/n/10
+ = \OML/cmm/m/it/10 U [] U[][]  \/cmr/m/n/10 = \OML/cmm/m/it/10 UD[]f\/cmr/m/n/
+10 (\OML/cmm/m/it/10 D\/cmr/m/n/10 )[\OML/cmm/m/it/10 U[]HU\/cmr/m/n/10 ]\OML/c
+mm/m/it/10 U[][] 
  []
 
 Missing character: There is no 其 in font nullfont!
@@ -11382,8 +11349,8 @@ Missing character: There is no 若 in font nullfont!
 Missing character: There is no 定 in font nullfont!
 Missing character: There is no 义 in font nullfont!
 ! Undefined control sequence.
-l.354 ...��$\tilde{H}=U^{T}HU,M^{\prime}\triangleq
-                                                   Df(D)(D)[\tilde{H}]$，�...
+l.353 ...��$\tilde{H}=U^{T}HU,M^{\prime}\triangleq
+                                                   D_{D}f(D)[\tilde{H}]$，�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -11398,7 +11365,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...direction_gradient_M' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.354 ...公式\ref{ZerosEig_direction_gradient_M}
+l.353 ...公式\ref{ZerosEig_direction_gradient_M}
                                                   。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11408,18 +11375,18 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `ZerosEig_direction_gradient_M' on page  undefined on 
-input line 354.
+input line 353.
 
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (19.68048pt too wide) in paragraph at lines 353--355
+Overfull \hbox (19.68048pt too wide) in paragraph at lines 352--354
 $[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (120.93147pt too wide) in paragraph at lines 353--355
-\OML/cmm/m/it/10 U[]HU; M[]Df\/cmr/m/n/10 (\OML/cmm/m/it/10 D\/cmr/m/n/10 )(\OM
-L/cmm/m/it/10 D\/cmr/m/n/10 )[[]]$[] 
+Overfull \hbox (111.57271pt too wide) in paragraph at lines 352--354
+\OML/cmm/m/it/10 U[]HU; M[]D[]f\/cmr/m/n/10 (\OML/cmm/m/it/10 D\/cmr/m/n/10 )[[
+]]$[] 
  []
 
 
@@ -11429,14 +11396,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.357 \begin{split}
+l.356 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.358 M_{ij}^{\prime}&
+l.357 M_{ij}^{\prime}&
                       =\sum_{k=1}^{\infty} \alpha_{k}\sum_{l=1}^{k}(\Lambda^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11448,7 +11415,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.359 &
+l.358 &
        =\sum_{k=1}^{\infty} \alpha_{k}\sum_{l=1}^{k}\gamma_{i}^{l-1}\gamma_{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11458,20 +11425,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 355 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 354 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.360 \end{split}
+l.359 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (251.10359pt too wide) detected at line 361
+Overfull \hbox (251.10359pt too wide) detected at line 360
 []\OML/cmm/m/it/10 M[] \/cmr/m/n/10 = [] \OML/cmm/m/it/10 ^^K[] []\/cmr/m/n/10 
 (^^C[][]^^C[])[][]  = [] \OML/cmm/m/it/10 ^^K[] [] ^^M[]^^M[][][] 
  []
@@ -11499,17 +11466,17 @@ Missing character: There is no 此 in font nullfont!
 Missing character: There is no 时 in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (43.37213pt too wide) in paragraph at lines 361--363
+Overfull \hbox (43.37213pt too wide) in paragraph at lines 360--362
 $\OML/cmm/m/it/10 ^^U[]; ^^U[]$$^^U[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (30.04686pt too wide) in paragraph at lines 361--363
+Overfull \hbox (30.04686pt too wide) in paragraph at lines 360--362
 \/cmr/m/n/10 0\OML/cmm/m/it/10 ; ^^U[] \OMS/cmsy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 361--363
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 360--362
 \/cmr/m/n/10 0$ 
  []
 
@@ -11520,14 +11487,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.365 \begin{split}
+l.364 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.366 M_{ij}^{\prime}&
+l.365 M_{ij}^{\prime}&
                       =\sum_{k=1}^{\infty} \alpha_{k}\sum_{l=1}^{k}\mu^{l-1}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11539,7 +11506,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.367 &
+l.366 &
        =\tilde{H}_{ij}\sum_{k=1}^{\infty}\alpha_{k}\gamma_{j}^{k-1}\sum_{l=0...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11551,7 +11518,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.368 &
+l.367 &
        =\tilde{H}_{ij}\sum_{k=1}^{\infty}\alpha_{k}\gamma_{j}^{k-1}\frac{1-\...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11561,20 +11528,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 363 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 362 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.369 \end{split}
+l.368 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (383.15182pt too wide) detected at line 370
+Overfull \hbox (383.15182pt too wide) detected at line 369
 []\OML/cmm/m/it/10 M[] \/cmr/m/n/10 = [] \OML/cmm/m/it/10 ^^K[] [] ^^V[]^^M[][]
 []  \/cmr/m/n/10 = [] [] \OML/cmm/m/it/10 ^^K[]^^M[] [] [][] []  \/cmr/m/n/10 =
  [] [] \OML/cmm/m/it/10 ^^K[]^^M[][][] 
@@ -11587,12 +11554,12 @@ Missing character: There is no 于 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 
-Overfull \hbox (64.6466pt too wide) in paragraph at lines 370--372
+Overfull \hbox (64.6466pt too wide) in paragraph at lines 369--371
 $[][] [] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 370--372
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 369--371
 \/cmr/m/n/10 1$ 
  []
 
@@ -11603,14 +11570,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.374 \begin{split}
+l.373 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.375 M_{ij}&
+l.374 M_{ij}&
              =\lim_{\mu \rightarrow 0} M_{ij}^{\prime}=\lim_{\mu \rightarrow...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11622,7 +11589,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.376 &
+l.375 &
        =\frac{1}{\lambda_{j}}\tilde{H}_{ij}\sum_{k=1}^{\infty}\alpha_{k}\lam...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11634,7 +11601,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.377 &
+l.376 &
        =\frac{\tilde{H}_{ij}}{\lambda_{j}}(f(\lambda_{j})-f(0))
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -11644,20 +11611,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 372 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 371 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.378 \end{split}
+l.377 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (332.84561pt too wide) detected at line 379
+Overfull \hbox (332.84561pt too wide) detected at line 378
 []\OML/cmm/m/it/10 M[] \/cmr/m/n/10 = [] \OML/cmm/m/it/10 M[] \/cmr/m/n/10 = []
  [] [] \OML/cmm/m/it/10 ^^K[]^^M[][]  \/cmr/m/n/10 = [][] [] \OML/cmm/m/it/10 ^
 ^K[]^^U[][]  \/cmr/m/n/10 = [](\OML/cmm/m/it/10 f\/cmr/m/n/10 (\OML/cmm/m/it/10
@@ -11702,7 +11669,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...rence `Compute_Zij_1' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.380 ...�可以归结到公式\ref{Compute_Zij_1}
+l.379 ...�可以归结到公式\ref{Compute_Zij_1}
                                                   和\ref{Compute_Zij_2}的�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11711,13 +11678,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Compute_Zij_1' on page  undefined on input line 380.
+LaTeX Warning: Reference `Compute_Zij_1' on page  undefined on input line 379.
 
 Missing character: There is no 和 in font nullfont!
 ! Undefined control sequence.
 <write> ...rence `Compute_Zij_2' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.380 ...\ref{Compute_Zij_1}和\ref{Compute_Zij_2}
+l.379 ...\ref{Compute_Zij_1}和\ref{Compute_Zij_2}
                                                   的形式。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11726,14 +11693,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Compute_Zij_2' on page  undefined on input line 380.
+LaTeX Warning: Reference `Compute_Zij_2' on page  undefined on input line 379.
 
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no 式 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
-l.382 \subsection
+l.381 \subsection
                  {矩阵函数的偏导数计算示例}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11770,7 +11737,7 @@ Missing character: There is no 面 in font nullfont!
 ! Undefined control sequence.
 <write> ...sec:matrix_func_devi' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.384 ...例子和前面\ref{sec:matrix_func_devi}
+l.383 ...例子和前面\ref{sec:matrix_func_devi}
                                                   小结的结果，对矩�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11780,7 +11747,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:matrix_func_devi' on page  undefined on input lin
-e 384.
+e 383.
 
 Missing character: There is no 小 in font nullfont!
 Missing character: There is no 结 in font nullfont!
@@ -11862,7 +11829,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.384 ...也是\cite{Maniopt_DiscreteCurveFitting}
+l.383 ...也是\cite{Maniopt_DiscreteCurveFitting}
                                                   中的例子。\\\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11872,7 +11839,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `Maniopt_DiscreteCurveFitting' on page  undefined on in
-put line 384.
+put line 383.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no 中 in font nullfont!
@@ -11881,7 +11848,7 @@ Missing character: There is no 例 in font nullfont!
 Missing character: There is no 子 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
-l.385 {\heiti
+l.384 {\heiti
               A.第一个例子}\\\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11917,7 +11884,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...ixFunc_devi_example1' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.386 ...)$如公式\ref{MatrixFunc_devi_example1}
+l.385 ...)$如公式\ref{MatrixFunc_devi_example1}
                                                   所示：
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11927,75 +11894,75 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `MatrixFunc_devi_example1' on page  undefined on input
- line 386.
+ line 385.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (19.71815pt too wide) in paragraph at lines 379--387
+Overfull \hbox (19.71815pt too wide) in paragraph at lines 378--386
 $\OML/cmm/m/it/10 ^^U[] \OMS/cmsy/m/n/10 6\/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (30.04686pt too wide) in paragraph at lines 379--387
+Overfull \hbox (30.04686pt too wide) in paragraph at lines 378--386
 \/cmr/m/n/10 0\OML/cmm/m/it/10 ; ^^U[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (32.29977pt too wide) in paragraph at lines 379--387
+Overfull \hbox (32.29977pt too wide) in paragraph at lines 378--386
 \/cmr/m/n/10 0$$\OML/cmm/m/it/10 M[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (49.93245pt too wide) in paragraph at lines 379--387
+Overfull \hbox (49.93245pt too wide) in paragraph at lines 378--386
 []\/cmr/m/n/10 (\OML/cmm/m/it/10 f\/cmr/m/n/10 (\OML/cmm/m/it/10 ^^U[]\/cmr/m/n
 /10 ) \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (42.35713pt too wide) in paragraph at lines 379--387
+Overfull \hbox (42.35713pt too wide) in paragraph at lines 378--386
 \OML/cmm/m/it/10 f\/cmr/m/n/10 (0))$$\OML/cmm/m/it/10 ^^U[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (20.60243pt too wide) in paragraph at lines 379--387
+Overfull \hbox (20.60243pt too wide) in paragraph at lines 378--386
 \OML/cmm/m/it/10 ^^U[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (32.29977pt too wide) in paragraph at lines 379--387
+Overfull \hbox (32.29977pt too wide) in paragraph at lines 378--386
 \/cmr/m/n/10 0$$\OML/cmm/m/it/10 M[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (151.1577pt too wide) in paragraph at lines 379--387
+Overfull \hbox (151.1577pt too wide) in paragraph at lines 378--386
 [][] [][] \OML/cmm/m/it/10 ^^K[] [][] k^^V[][] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (66.67606pt too wide) in paragraph at lines 379--387
+Overfull \hbox (66.67606pt too wide) in paragraph at lines 378--386
 []\OML/cmm/m/it/10 f[]\/cmr/m/n/10 (0)$$\OML/cmm/m/it/10 ^^U[]^^U[] \/cmr/m/n/1
 0 =
  []
 
 
-Overfull \hbox (26.72212pt too wide) in paragraph at lines 379--387
+Overfull \hbox (26.72212pt too wide) in paragraph at lines 378--386
 \/cmr/m/n/10 0$[][]
  []
 
 
-Overfull \hbox (16.29158pt too wide) in paragraph at lines 379--387
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 378--386
 [][] 
  []
 
 
-Overfull \hbox (32.15279pt too wide) in paragraph at lines 379--387
+Overfull \hbox (32.15279pt too wide) in paragraph at lines 378--386
 \OML/cmm/m/it/10 f\/cmr/m/n/10 (\OML/cmm/m/it/10 Z\/cmr/m/n/10 )$[] 
  []
 
 ! Undefined control sequence.
-l.389 f(Z)={\rm
+l.388 f(Z)={\rm
                 tr}\left(\left((C_1+Z)(C_1+Z)^{T}\right)^{\frac{1}{n}}\left(...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12004,7 +11971,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (355.3532pt too wide) detected at line 390
+Overfull \hbox (355.3532pt too wide) detected at line 389
 []\OML/cmm/m/it/10 f\/cmr/m/n/10 (\OML/cmm/m/it/10 Z\/cmr/m/n/10 ) = [] [] \OML
 /cmm/m/it/10 ; C \OMS/cmsy/m/n/10 ^^W \/cmr/m/n/10 0\OML/cmm/m/it/10 ; Z \OMS/c
 msy/m/n/10 ^^_ \/cmr/m/n/10 0\OML/cmm/m/it/10 ; n \OMS/cmsy/m/n/10 ^^U \/cmr/m/
@@ -12124,7 +12091,7 @@ Missing character: There is no 为 in font nullfont!
 ! Undefined control sequence.
 <recently read> \mathbb 
                         
-l.391 ...�$Z \succ 0$使得优化空间为$\mathbb
+l.390 ...�$Z \succ 0$使得优化空间为$\mathbb
                                                   {S}_{d}^{+}$）；我们�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12152,12 +12119,12 @@ Missing character: There is no 如 in font nullfont!
 Missing character: There is no 下 in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (18.09718pt too wide) in paragraph at lines 390--392
+Overfull \hbox (18.09718pt too wide) in paragraph at lines 389--391
     $\OML/cmm/m/it/10 Z \OMS/cmsy/m/n/10 ^^_
  []
 
 
-Overfull \hbox (39.63898pt too wide) in paragraph at lines 390--392
+Overfull \hbox (39.63898pt too wide) in paragraph at lines 389--391
 \/cmr/m/n/10 0$$\OML/cmm/m/it/10 S[]$$f\/cmr/m/n/10 (\OML/cmm/m/it/10 Z\/cmr/m/
 n/10 )$ 
  []
@@ -12177,7 +12144,7 @@ Missing character: There is no 用 in font nullfont!
 ! Undefined control sequence.
 <write> ...erence `devi_rules_2' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.393 ...Z)(C_2+Z)^{T}$。利用\ref{devi_rules_2}
+l.392 ...Z)(C_2+Z)^{T}$。利用\ref{devi_rules_2}
                                                   中的定律，可得到：
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12186,7 +12153,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `devi_rules_2' on page  undefined on input line 393.
+LaTeX Warning: Reference `devi_rules_2' on page  undefined on input line 392.
 
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -12198,38 +12165,38 @@ Missing character: There is no 得 in font nullfont!
 Missing character: There is no 到 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (55.1308pt too wide) in paragraph at lines 393--394
+Overfull \hbox (55.1308pt too wide) in paragraph at lines 392--393
 []$\OML/cmm/m/it/10 g[]\/cmr/m/n/10 (\OML/cmm/m/it/10 Z\/cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (23.30005pt too wide) in paragraph at lines 393--394
+Overfull \hbox (23.30005pt too wide) in paragraph at lines 392--393
 \/cmr/m/n/10 (\OML/cmm/m/it/10 C[] \/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (34.73062pt too wide) in paragraph at lines 393--394
+Overfull \hbox (34.73062pt too wide) in paragraph at lines 392--393
 \OML/cmm/m/it/10 Z\/cmr/m/n/10 )(\OML/cmm/m/it/10 C[] \/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (57.30544pt too wide) in paragraph at lines 393--394
+Overfull \hbox (57.30544pt too wide) in paragraph at lines 392--393
 \OML/cmm/m/it/10 Z\/cmr/m/n/10 )[]\OML/cmm/m/it/10 ; g[]\/cmr/m/n/10 (\OML/cmm/
 m/it/10 Z\/cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (23.30005pt too wide) in paragraph at lines 393--394
+Overfull \hbox (23.30005pt too wide) in paragraph at lines 392--393
 \/cmr/m/n/10 (\OML/cmm/m/it/10 C[] \/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (34.73062pt too wide) in paragraph at lines 393--394
+Overfull \hbox (34.73062pt too wide) in paragraph at lines 392--393
 \OML/cmm/m/it/10 Z\/cmr/m/n/10 )(\OML/cmm/m/it/10 C[] \/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (28.59128pt too wide) in paragraph at lines 393--394
+Overfull \hbox (28.59128pt too wide) in paragraph at lines 392--393
 \OML/cmm/m/it/10 Z\/cmr/m/n/10 )[]$[] 
  []
 
@@ -12240,14 +12207,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.396 \begin{split}
+l.395 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.397 D_{Z}f(Z)[H]&
+l.396 D_{Z}f(Z)[H]&
                    =D_{Z}\left<\left(g_{1}(Z)\right)^{\frac{1}{n}},\left(g_{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12259,7 +12226,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.398 &
+l.397 &
        =\left<D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[H],\left(g_{2}(Z)\rig...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12269,20 +12236,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 394 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 393 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.399 \end{split}
+l.398 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (480.439pt too wide) detected at line 400
+Overfull \hbox (480.439pt too wide) detected at line 399
 []\OML/cmm/m/it/10 D[]f\/cmr/m/n/10 (\OML/cmm/m/it/10 Z\/cmr/m/n/10 )[\OML/cmm/
 m/it/10 H\/cmr/m/n/10 ] = \OML/cmm/m/it/10 D[] [] \/cmr/m/n/10 [\OML/cmm/m/it/1
 0 H\/cmr/m/n/10 ][]  = [] + [] [] 
@@ -12296,7 +12263,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...e `devi_power_metric' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.401 注意到公式\ref{devi_power_metric}
+l.400 注意到公式\ref{devi_power_metric}
                                             右边的两部分中，如果�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12306,7 +12273,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric' on page  undefined on input line 4
-01.
+00.
 
 Missing character: There is no 右 in font nullfont!
 Missing character: There is no 边 in font nullfont!
@@ -12361,7 +12328,7 @@ Missing character: There is no 对 in font nullfont!
 Missing character: There is no 象 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 400--402
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 399--401
 [] 
  []
 
@@ -12372,14 +12339,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 \begin{split}
+l.403 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.405 ...eft(g_{2}(Z)\right)^{\frac{1}{n}}\right>&
+l.404 ...eft(g_{2}(Z)\right)^{\frac{1}{n}}\right>&
                                                   =\left<D_{g_{1}(Z)}\left(g...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12389,7 +12356,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.406 D_{Z}g_{1}(Z)[H]&
+l.405 D_{Z}g_{1}(Z)[H]&
                        =D_{Z}(C_{1}^{\frac{1}{2}}+Z)(C_{1}^{\frac{T}{2}}+Z^{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12401,7 +12368,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.407 &
+l.406 &
        =D_{Z}(C_{1}^{\frac{1}{2}}C_{1}^{\frac{T}{2}}+C_{1}^{\frac{1}{2}}Z^{T...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12413,7 +12380,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.408 &
+l.407 &
        =C_{1}^{\frac{1}{2}}H^{T}+HC_{1}^{\frac{T}{2}}+HZ^{T}+ZH^{T}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12425,7 +12392,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.409 &
+l.408 &
        =(C_{1}^{\frac{1}{2}}+Z)H^{T}+H(C_{1}^{\frac{T}{2}}+Z^{T})
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12435,20 +12402,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 402 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 401 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.410 \end{split}
+l.409 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (978.41959pt too wide) detected at line 411
+Overfull \hbox (978.41959pt too wide) detected at line 410
 [][] \/cmr/m/n/10 = [] [] \OML/cmm/m/it/10 D[]g[]\/cmr/m/n/10 (\OML/cmm/m/it/10
  Z\/cmr/m/n/10 )[\OML/cmm/m/it/10 H\/cmr/m/n/10 ] = \OML/cmm/m/it/10 D[]\/cmr/m
 /n/10 (\OML/cmm/m/it/10 C[] \/cmr/m/n/10 + \OML/cmm/m/it/10 Z\/cmr/m/n/10 )(\OM
@@ -12468,7 +12435,7 @@ Missing character: There is no 据 in font nullfont!
 ! Undefined control sequence.
 <write> ...vi_power_metric_part' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.412 根据\ref{devi_power_metric_part}
+l.411 根据\ref{devi_power_metric_part}
                                         以及\ref{sec:matrix_func_devi}中�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12478,14 +12445,14 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric_part' on page  undefined on input l
-ine 412.
+ine 411.
 
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 及 in font nullfont!
 ! Undefined control sequence.
 <write> ...sec:matrix_func_devi' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.412 ...ric_part}以及\ref{sec:matrix_func_devi}
+l.411 ...ric_part}以及\ref{sec:matrix_func_devi}
                                                   中的内容，对\ref{dev...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12495,7 +12462,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:matrix_func_devi' on page  undefined on input lin
-e 412.
+e 411.
 
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -12506,7 +12473,7 @@ Missing character: There is no 对 in font nullfont!
 ! Undefined control sequence.
 <write> ...vi_power_metric_part' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.412 ...�内容，对\ref{devi_power_metric_part}
+l.411 ...�内容，对\ref{devi_power_metric_part}
                                                   做公式\ref{devi_power_m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12516,7 +12483,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric_part' on page  undefined on input l
-ine 412.
+ine 411.
 
 Missing character: There is no 做 in font nullfont!
 Missing character: There is no 公 in font nullfont!
@@ -12524,7 +12491,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...power_metric_part_+1' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.412 ...}做公式\ref{devi_power_metric_part_+1}
+l.411 ...}做公式\ref{devi_power_metric_part_+1}
                                                   中的变换，其中为�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12534,7 +12501,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric_part_+1' on page  undefined on inpu
-t line 412.
+t line 411.
 
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -12560,7 +12527,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...power_metric_part_+1' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.412 ...�有公式\ref{devi_power_metric_part_+1}
+l.411 ...�有公式\ref{devi_power_metric_part_+1}
                                                   的计算过程。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12570,7 +12537,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric_part_+1' on page  undefined on inpu
-t line 412.
+t line 411.
 
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 计 in font nullfont!
@@ -12579,19 +12546,19 @@ Missing character: There is no 过 in font nullfont!
 Missing character: There is no 程 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (62.08653pt too wide) in paragraph at lines 411--413
+Overfull \hbox (62.08653pt too wide) in paragraph at lines 410--412
 [][][][]$\OML/cmm/m/it/10 B \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (93.54909pt too wide) in paragraph at lines 411--413
+Overfull \hbox (93.54909pt too wide) in paragraph at lines 410--412
 \OML/cmm/m/it/10 D[]g[]\/cmr/m/n/10 (\OML/cmm/m/it/10 Z\/cmr/m/n/10 )[\OML/cmm/
 m/it/10 H\/cmr/m/n/10 ]\OML/cmm/m/it/10 ; g[]\/cmr/m/n/10 (\OML/cmm/m/it/10 Z\/
 cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (47.82321pt too wide) in paragraph at lines 411--413
+Overfull \hbox (47.82321pt too wide) in paragraph at lines 410--412
 \OML/cmm/m/it/10 U[]\/cmr/m/n/10 ^^C[]\OML/cmm/m/it/10 U[]$[] 
  []
 
@@ -12602,14 +12569,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.415 \begin{split}
+l.414 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.416 &
+l.415 &
        Compute:\tilde{H}=U_{i}^{T}BU_{i}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12621,7 +12588,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.417 &
+l.416 &
        Compute:\tilde{F},where~\tilde{F}_{ij}=\left\{
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12637,14 +12604,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.418 \begin{split}
+l.417 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.419 &
+l.418 &
        \frac{\lambda_{i}^{\frac{1}{n}}-\lambda_{j}^{\frac{1}{n}}}{\lambda_{i...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12656,7 +12623,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.420 &
+l.419 &
        \frac{1}{n}\lambda_{i}^{\frac{1}{n}-1},\lambda_{i}=\lambda_{j}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12666,13 +12633,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 413 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 412 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.421 \end{split}
+l.420 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12681,7 +12648,7 @@ or  <return>  to continue without it.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.423 &
+l.422 &
        Compute:M=\tilde{H}\odot\tilde{F}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12693,7 +12660,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.424 &
+l.423 &
        Compute:D\left(g_{1}(Z)\right)^{\frac{1}{n}}(Z)[B]=U_{i}MU_{i}^{T}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12703,20 +12670,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 413 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 412 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.425 \end{split}
+l.424 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (662.34285pt too wide) detected at line 426
+Overfull \hbox (662.34285pt too wide) detected at line 425
 []\OML/cmm/m/it/10 Compute \/cmr/m/n/10 : [] = \OML/cmm/m/it/10 U[]BU[][] Compu
 te \/cmr/m/n/10 : []\OML/cmm/m/it/10 ; where [][] \/cmr/m/n/10 = [] [] \OML/cmm
 /m/it/10 Compute \/cmr/m/n/10 : \OML/cmm/m/it/10 M \/cmr/m/n/10 = [] \OMS/cmsy/
@@ -12730,7 +12697,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...power_metric_part_+1' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.427 公式\ref{devi_power_metric_part_+1}
+l.426 公式\ref{devi_power_metric_part_+1}
                                            中当$n=1$的时候，$F$的计�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12740,7 +12707,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric_part_+1' on page  undefined on inpu
-t line 427.
+t line 426.
 
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 当 in font nullfont!
@@ -12775,7 +12742,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...vi_power_metric_part' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.427 ...�来对公式\ref{devi_power_metric_part}
+l.426 ...�来对公式\ref{devi_power_metric_part}
                                                   做进一步的化简得�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12785,7 +12752,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric_part' on page  undefined on input l
-ine 427.
+ine 426.
 
 Missing character: There is no 做 in font nullfont!
 Missing character: There is no 进 in font nullfont!
@@ -12798,12 +12765,12 @@ Missing character: There is no 得 in font nullfont!
 Missing character: There is no 到 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (27.41891pt too wide) in paragraph at lines 426--428
+Overfull \hbox (27.41891pt too wide) in paragraph at lines 425--427
 []$\OML/cmm/m/it/10 n \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (23.68053pt too wide) in paragraph at lines 426--428
+Overfull \hbox (23.68053pt too wide) in paragraph at lines 425--427
 \/cmr/m/n/10 1$$\OML/cmm/m/it/10 F$[] 
  []
 
@@ -12814,14 +12781,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.430 \begin{split}
+l.429 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.431 &
+l.430 &
        \left<D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[B],\left(g_{2}(Z)\righ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12833,7 +12800,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.432 &
+l.431 &
        ~~~~~~~~~=\left<U_{i}MU_{i}^{T},\left(g_{2}(Z)\right)^{\frac{1}{n}}\r...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12845,19 +12812,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.433 &
-       ~~~~~~~~~=\left<\tilde{H}\odot\tilde{F},(U_{i}^{T}\left(g_{2}(Z)\righ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.434 &
+l.432 &
        ~~~~~~~~~=\left<U_{i}^{T}BU_{i},(U_{i}^{T}\left(g_{2}(Z)\right)^{\fra...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12869,7 +12824,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.435 &
+l.433 &
        ~~~~~~~~~=\left<B,U_{i}(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12881,7 +12836,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.436 &
+l.434 &
        ~~~~~~~~~=\left<(C_{1}^{\frac{1}{n}}+Z)H^{T},U_{i}(U_{i}^{T}\left(g_{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12893,7 +12848,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.437 &
+l.435 &
        ~~~~~~~~~+\left<H(C_{1}^{\frac{T}{n}}+Z^{T}),U_{i}(U_{i}^{T}\left(g_{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12905,7 +12860,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.438 &
+l.436 &
        ~~~~~~~~~={\rm tr}\left((C_{1}^{\frac{1}{n}}+Z)H^{T}\left(U_{i}(U_{i}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12915,7 +12870,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.438 &~~~~~~~~~={\rm
+l.436 &~~~~~~~~~={\rm
                       tr}\left((C_{1}^{\frac{1}{n}}+Z)H^{T}\left(U_{i}(U_{i}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12926,7 +12881,7 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.439 &
+l.437 &
        ~~~~~~~~~+{\rm tr}\left((C_{1}^{\frac{1}{n}}+Z)H^{T}U_{i}(U_{i}^{T}\l...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12936,7 +12891,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.439 &~~~~~~~~~+{\rm
+l.437 &~~~~~~~~~+{\rm
                       tr}\left((C_{1}^{\frac{1}{n}}+Z)H^{T}U_{i}(U_{i}^{T}\l...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12947,7 +12902,7 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.440 &
+l.438 &
        ~~~~~~~~~=2{\rm tr}\left(H^{T}{\rm symm}\left(U_{i}(U_{i}^{T}\left(g_...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12957,7 +12912,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.440 &~~~~~~~~~=2{\rm
+l.438 &~~~~~~~~~=2{\rm
                        tr}\left(H^{T}{\rm symm}\left(U_{i}(U_{i}^{T}\left(g_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12966,7 +12921,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.440 &~~~~~~~~~=2{\rm tr}\left(H^{T}{\rm
+l.438 &~~~~~~~~~=2{\rm tr}\left(H^{T}{\rm
                                           symm}\left(U_{i}(U_{i}^{T}\left(g_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12977,7 +12932,7 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.441 &
+l.439 &
        ~~~~~~~~~=2\left<H,{\rm symm}\left(U_{i}(U_{i}^{T}\left(g_{2}(Z)\righ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -12987,7 +12942,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.441 &~~~~~~~~~=2\left<H,{\rm
+l.439 &~~~~~~~~~=2\left<H,{\rm
                                symm}\left(U_{i}(U_{i}^{T}\left(g_{2}(Z)\righ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12998,8 +12953,8 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.442 &
-       ~~~~~~~~~=2\left<H,Z{\rm symm}\left(D\left(g_{1}(Z)\right)^{\frac{1}{...
+l.440 &
+       ~~~~~~~~~=2\left<H,Z{\rm symm}\left(D_{Z}\left(g_{1}(Z)\right)^{\frac...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -13008,8 +12963,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.442 &~~~~~~~~~=2\left<H,Z{\rm
-                                symm}\left(D\left(g_{1}(Z)\right)^{\frac{1}{...
+l.440 &~~~~~~~~~=2\left<H,Z{\rm
+                                symm}\left(D_{Z}\left(g_{1}(Z)\right)^{\frac...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13017,33 +12972,33 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{equation} on input line 428 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 427 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.443 \end{split}
+l.441 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (2417.86128pt too wide) detected at line 444
-[][] []  [] [] [] [] [] [] [] [] [] \/cmr/m/n/10 = [] []  [] [] [] [] [] [] [] 
-[] [] = [] []  [] [] [] [] [] [] [] [] [] = [] \OML/cmm/m/it/10 ; where [][] \/
-cmr/m/n/10 = \OML/cmm/m/it/10 U[]BU[][]  [] [] [] [] [] [] [] [] [] \/cmr/m/n/1
-0 = [] []  [] [] [] [] [] [] [] [] [] = [] []  [] [] [] [] [] [] [] [] [] + [] 
-[]  [] [] [] [] [] [] [] [] [] = [] [] []  [] [] [] [] [] [] [] [] [] + [] [] [
-]  [] [] [] [] [] [] [] [] [] = 2[] [] []  [] [] [] [] [] [] [] [] [] = 2 [] []
-  [] [] [] [] [] [] [] [] [] = 2 [][] [] 
+Overfull \hbox (2407.03629pt too wide) detected at line 442
+[][] []  [] [] [] [] [] [] [] [] [] \/cmr/m/n/10 = [] = [] []  [] [] [] [] [] [
+] [] [] [] = [] \OML/cmm/m/it/10 ; where [][] \/cmr/m/n/10 = \OML/cmm/m/it/10 U
+[]BU[][]  [] [] [] [] [] [] [] [] [] \/cmr/m/n/10 = [] []  [] [] [] [] [] [] []
+ [] [] = [] []  [] [] [] [] [] [] [] [] [] + [] []  [] [] [] [] [] [] [] [] [] 
+= [] [] []  [] [] [] [] [] [] [] [] [] + [] [] []  [] [] [] [] [] [] [] [] [] =
+ 2[] [] []  [] [] [] [] [] [] [] [] [] = 2 [] []  [] [] [] [] [] [] [] [] [] = 
+2 [][] [] 
  []
 
 Missing character: There is no 其 in font nullfont!
 Missing character: There is no 中 in font nullfont!
 ! Undefined control sequence.
-l.445 其中${\rm
+l.443 其中${\rm
                   symm}(X)=0.5(X+X^{T})$，$\left<\cdot,\cdot\right>_Z$表�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13059,7 +13014,7 @@ Missing character: There is no 是 in font nullfont!
 ! Undefined control sequence.
 <recently read> \mathbb 
                         
-l.445 ...\cdot,\cdot\right>_Z$表示的是$\mathbb
+l.443 ...\cdot,\cdot\right>_Z$表示的是$\mathbb
                                                   {S}_{d}^{+}$的$Z$的切�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13089,8 +13044,8 @@ Missing character: There is no 可 in font nullfont!
 Missing character: There is no 得 in font nullfont!
 Missing character: There is no 到 in font nullfont!
 ! Undefined control sequence.
-l.445 ...{2}(Z)\right)^{\frac{1}{n}}\right>=2Z{\rm
-                                                   symm}\left(D\left(g_{1}(Z...
+l.443 ...{2}(Z)\right)^{\frac{1}{n}}\right>=2Z{\rm
+                                                   symm}\left(D_{Z}\left(g_{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13105,7 +13060,7 @@ Missing character: There is no 合 in font nullfont!
 ! Undefined control sequence.
 <write> ...e `devi_power_metric' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.445 ...)Z$，最后综合\ref{devi_power_metric}
+l.443 ...)Z$，最后综合\ref{devi_power_metric}
                                                   $\sim$\ref{devi_power_metr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13115,12 +13070,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric' on page  undefined on input line 4
-45.
+43.
 
 ! Undefined control sequence.
 <write> ...power_metric_part_+2' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.445 ...ric}$\sim$\ref{devi_power_metric_part_+2}
+l.443 ...ric}$\sim$\ref{devi_power_metric_part_+2}
                                                   的内容得到如公式\r...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13130,7 +13085,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric_part_+2' on page  undefined on inpu
-t line 445.
+t line 443.
 
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 内 in font nullfont!
@@ -13143,7 +13098,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...i_power_metric_final' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.445 ...到如公式\ref{devi_power_metric_final}
+l.443 ...到如公式\ref{devi_power_metric_final}
                                                   所示的形式。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13153,7 +13108,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `devi_power_metric_final' on page  undefined on input 
-line 445.
+line 443.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
@@ -13162,30 +13117,30 @@ Missing character: There is no 形 in font nullfont!
 Missing character: There is no 式 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (54.91211pt too wide) in paragraph at lines 444--446
+Overfull \hbox (54.91211pt too wide) in paragraph at lines 442--444
 $[]\/cmr/m/n/10 (\OML/cmm/m/it/10 X\/cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (33.51395pt too wide) in paragraph at lines 444--446
+Overfull \hbox (33.51395pt too wide) in paragraph at lines 442--444
 \/cmr/m/n/10 0\OML/cmm/m/it/10 :\/cmr/m/n/10 5(\OML/cmm/m/it/10 X \/cmr/m/n/10 
 +
  []
 
 
-Overfull \hbox (228.19078pt too wide) in paragraph at lines 444--446
+Overfull \hbox (234.35188pt too wide) in paragraph at lines 442--444
 \OML/cmm/m/it/10 X[]\/cmr/m/n/10 )$$[][]$$\OML/cmm/m/it/10 S[]$$Z$$\OMS/cmsy/m/
 n/10 r[] [] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (194.24133pt too wide) in paragraph at lines 444--446
+Overfull \hbox (185.08296pt too wide) in paragraph at lines 442--444
 \/cmr/m/n/10 2\OML/cmm/m/it/10 Z[] [] \/cmr/m/n/10 (\OML/cmm/m/it/10 C[] \/cmr/
 m/n/10 +
  []
 
 
-Overfull \hbox (59.3332pt too wide) in paragraph at lines 444--446
+Overfull \hbox (59.3332pt too wide) in paragraph at lines 442--444
 \OML/cmm/m/it/10 Z\/cmr/m/n/10 )\OML/cmm/m/it/10 Z$[]$\OMS/cmsy/m/n/10 ^^X$[][]
  
  []
@@ -13197,14 +13152,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.448 \begin{split}
+l.446 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.449 ...eft(g_{2}(Z)\right)^{\frac{1}{n}}\right>&
+l.447 ...eft(g_{2}(Z)\right)^{\frac{1}{n}}\right>&
                                                   =\left<\nabla_{Z}\left(g_{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -13216,8 +13171,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.450 &
-       =2Z{\rm symm}\left(D\left(g_{1}(Z)\right)^{\frac{1}{n}}(Z)[\left(g_{2...
+l.448 &
+       =2Z{\rm symm}\left(D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[\left(g_{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -13226,8 +13181,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.450 &=2Z{\rm
-               symm}\left(D\left(g_{1}(Z)\right)^{\frac{1}{n}}(Z)[\left(g_{2...
+l.448 &=2Z{\rm
+               symm}\left(D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[\left(g_{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13237,8 +13192,8 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.451 &
-       +2Z{\rm symm}\left(D\left(g_{2}(Z)\right)^{\frac{1}{n}}(Z)[\left(g_{1...
+l.449 &
+       +2Z{\rm symm}\left(D_{Z}\left(g_{2}(Z)\right)^{\frac{1}{n}}[\left(g_{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -13247,8 +13202,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.451 &+2Z{\rm
-               symm}\left(D\left(g_{2}(Z)\right)^{\frac{1}{n}}(Z)[\left(g_{1...
+l.449 &+2Z{\rm
+               symm}\left(D_{Z}\left(g_{2}(Z)\right)^{\frac{1}{n}}[\left(g_{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13256,20 +13211,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{equation} on input line 446 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 444 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.452 \end{split}
+l.450 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (812.57469pt too wide) detected at line 453
+Overfull \hbox (794.25795pt too wide) detected at line 451
 []\OMS/cmsy/m/n/10 r[] [] \/cmr/m/n/10 = [] + [] []  = 2\OML/cmm/m/it/10 Z[] []
  \/cmr/m/n/10 (\OML/cmm/m/it/10 C[] \/cmr/m/n/10 + \OML/cmm/m/it/10 Z\/cmr/m/n/
 10 )\OML/cmm/m/it/10 Z[]  \/cmr/m/n/10 + 2\OML/cmm/m/it/10 Z[] [] \/cmr/m/n/10 
@@ -13278,7 +13233,7 @@ Overfull \hbox (812.57469pt too wide) detected at line 453
  []
 
 ! Undefined control sequence.
-l.454 {\heiti
+l.452 {\heiti
               B.第二个例子}\\\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13353,7 +13308,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...ixFunc_devi_example2' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.455 ...��如公式\ref{MatrixFunc_devi_example2}
+l.453 ...��如公式\ref{MatrixFunc_devi_example2}
                                                   所示。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13363,18 +13318,18 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `MatrixFunc_devi_example2' on page  undefined on input
- line 455.
+ line 453.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 453--456
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 451--454
 [] 
  []
 
 ! Undefined control sequence.
-l.458 ...A}(X),\log_{A}(X)\right>_A,A,X\in \mathbb
+l.456 ...A}(X),\log_{A}(X)\right>_A,A,X\in \mathbb
                                                   {S}_{d}^{+}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13383,7 +13338,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (199.48317pt too wide) detected at line 459
+Overfull \hbox (199.48317pt too wide) detected at line 457
 []\OML/cmm/m/it/10 f\/cmr/m/n/10 (\OML/cmm/m/it/10 X\OMS/cmsy/m/n/10 j\OML/cmm/
 m/it/10 A\/cmr/m/n/10 ) = [] [][] \OML/cmm/m/it/10 ; A; X \OMS/cmsy/m/n/10 2 \O
 ML/cmm/m/it/10 S[]
@@ -13432,7 +13387,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <write> ...Func_devi_example2_2' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.460 ...成公式\ref{MatrixFunc_devi_example2_2}
+l.458 ...成公式\ref{MatrixFunc_devi_example2_2}
                                                   的形式。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13442,31 +13397,31 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `MatrixFunc_devi_example2_2' on page  undefined on inp
-ut line 460.
+ut line 458.
 
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 形 in font nullfont!
 Missing character: There is no 式 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (109.82994pt too wide) in paragraph at lines 459--461
+Overfull \hbox (109.82994pt too wide) in paragraph at lines 457--459
 $[][]$$\OML/cmm/m/it/10 A$$T[]M$$[][] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (169.30867pt too wide) in paragraph at lines 459--461
+Overfull \hbox (169.30867pt too wide) in paragraph at lines 457--459
 []$$[][]\/cmr/m/n/10 (\OML/cmm/m/it/10 X\/cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (143.10028pt too wide) in paragraph at lines 459--461
+Overfull \hbox (143.10028pt too wide) in paragraph at lines 457--459
 \OML/cmm/m/it/10 A[] []\/cmr/m/n/10 (\OML/cmm/m/it/10 A[]XA[]\/cmr/m/n/10 )\OML
 /cmm/m/it/10 A[]$$f\/cmr/m/n/10 (\OML/cmm/m/it/10 X\OMS/cmsy/m/n/10 j\OML/cmm/m
 /it/10 A\/cmr/m/n/10 )$[] 
  []
 
 
-Overfull \hbox (211.90305pt too wide) detected at line 464
+Overfull \hbox (211.90305pt too wide) detected at line 462
 []\OML/cmm/m/it/10 f\/cmr/m/n/10 (\OML/cmm/m/it/10 X\OMS/cmsy/m/n/10 j\OML/cmm/
 m/it/10 A\/cmr/m/n/10 ) = [] []
  []
@@ -13488,11 +13443,11 @@ Missing character: There is no 导 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (106.2793pt too wide) in paragraph at lines 464--466
+Overfull \hbox (96.7564pt too wide) in paragraph at lines 462--464
 $\OML/cmm/m/it/10 f\/cmr/m/n/10 (\OML/cmm/m/it/10 X\OMS/cmsy/m/n/10 j\OML/cmm/m
-/it/10 A\/cmr/m/n/10 )$$\OML/cmm/m/it/10 Df\/cmr/m/n/10 (\OML/cmm/m/it/10 X\OMS
-/cmsy/m/n/10 j\OML/cmm/m/it/10 A\/cmr/m/n/10 )(\OML/cmm/m/it/10 X\/cmr/m/n/10 )
-[\OML/cmm/m/it/10 H\/cmr/m/n/10 ]$ 
+/it/10 A\/cmr/m/n/10 )$$\OML/cmm/m/it/10 D[]f\/cmr/m/n/10 (\OML/cmm/m/it/10 X\O
+MS/cmsy/m/n/10 j\OML/cmm/m/it/10 A\/cmr/m/n/10 )[\OML/cmm/m/it/10 H\/cmr/m/n/10
+ ]$ 
  []
 
 
@@ -13502,15 +13457,39 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.468 \begin{split}
+l.466 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
+l.467 &
+       D_{X}f(X|A)[H]\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.468 &
+       ~~~~~~~~~=D_{X}\frac{1}{2}\left<\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
 l.469 &
-       Df(X|A)(X)[H]\\
+       ~~~~~~~~~=\left<D_{X}\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}})[H],\log(...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -13522,7 +13501,7 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.470 &
-       ~~~~~~~~~=D\frac{1}{2}\left<\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}}),\...
+       ~~~~~~~~~=\left<D_{A^{-\frac{1}{2}}XA^{-\frac{1}{2}}}\log(A^{-\frac{1...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -13534,31 +13513,7 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.471 &
-       ~~~~~~~~~=\left<D\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}})(X)[H],\log(A...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.472 &
-       ~~~~~~~~~=\left<D\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}})(A^{-\frac{1}...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.473 &
-       ~~~~~~~~~=\left<D\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}})(A^{-\frac{1}...
+       ~~~~~~~~~=\left<D_{A^{-\frac{1}{2}}XA^{-\frac{1}{2}}}\log(A^{-\frac{1...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -13567,26 +13522,25 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 466 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 464 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.474 \end{split}
+l.472 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1141.4402pt too wide) detected at line 475
-[]\OML/cmm/m/it/10 Df\/cmr/m/n/10 (\OML/cmm/m/it/10 X\OMS/cmsy/m/n/10 j\OML/cmm
-/m/it/10 A\/cmr/m/n/10 )(\OML/cmm/m/it/10 X\/cmr/m/n/10 )[\OML/cmm/m/it/10 H\/c
-mr/m/n/10 ][]  [] [] [] [] [] [] [] [] [] = \OML/cmm/m/it/10 D[] [] \/cmr/m/n/1
-0 (\OML/cmm/m/it/10 X\/cmr/m/n/10 )[\OML/cmm/m/it/10 H\/cmr/m/n/10 ][]  [] [] [
-] [] [] [] [] [] [] = [] []  [] [] [] [] [] [] [] [] [] = [] []  [] [] [] [] []
- [] [] [] [] = [] [] 
+Overfull \hbox (1075.02525pt too wide) detected at line 473
+[]\OML/cmm/m/it/10 D[]f\/cmr/m/n/10 (\OML/cmm/m/it/10 X\OMS/cmsy/m/n/10 j\OML/c
+mm/m/it/10 A\/cmr/m/n/10 )[\OML/cmm/m/it/10 H\/cmr/m/n/10 ][]  [] [] [] [] [] [
+] [] [] [] = \OML/cmm/m/it/10 D[][] [] \/cmr/m/n/10 [\OML/cmm/m/it/10 H\/cmr/m/
+n/10 ][]  [] [] [] [] [] [] [] [] [] = [] []  [] [] [] [] [] [] [] [] [] = [] [
+]  [] [] [] [] [] [] [] [] [] = [] [] 
  []
 
 Missing character: There is no 根 in font nullfont!
@@ -13594,7 +13548,7 @@ Missing character: There is no 据 in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `Compute_direct' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.476 根据\ref{Compute_direct}
+l.474 根据\ref{Compute_direct}
                                 部分的内容，首先将$A^{-\frac{1}{2}}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13603,7 +13557,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Compute_direct' on page  undefined on input line 476.
+LaTeX Warning: Reference `Compute_direct' on page  undefined on input line 474.
 
 
 Missing character: There is no 部 in font nullfont!
@@ -13628,12 +13582,12 @@ Missing character: There is no 计 in font nullfont!
 Missing character: There is no 算 in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (119.76685pt too wide) in paragraph at lines 475--477
+Overfull \hbox (119.76685pt too wide) in paragraph at lines 473--475
 []$\OML/cmm/m/it/10 A[]XA[]$$A[]XA[] \/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (29.08015pt too wide) in paragraph at lines 475--477
+Overfull \hbox (29.08015pt too wide) in paragraph at lines 473--475
 \OML/cmm/m/it/10 U\/cmr/m/n/10 ^^C\OML/cmm/m/it/10 U[]$ 
  []
 
@@ -13644,14 +13598,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.479 \begin{split}
+l.477 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.480 &
+l.478 &
        \tilde{H}=U^{T}A^{-\frac{1}{2}}XA^{-\frac{1}{2}}U;F=\{F_{ij}\}_{n \ti...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -13663,7 +13617,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.481 &
+l.479 &
        ~~~~~~~~~~~~~F_{ij}=\left\{
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -13679,14 +13633,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.482 \begin{split}
+l.480 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.483 &
+l.481 &
        \frac{\log(\lambda_{i})-\log(\lambda_{j})}{\lambda_{i}-\lambda_{j}},\...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -13696,7 +13650,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.483 ...mbda_{j})}{\lambda_{i}-\lambda_{j}},\text
+l.481 ...mbda_{j})}{\lambda_{i}-\lambda_{j}},\text
                                                   { if $\lambda_i \neq \lamb...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13707,7 +13661,7 @@ and I'll forget about whatever was undefined.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.483 ...j})}{\lambda_{i}-\lambda_{j}},\text{ if $
+l.481 ...j})}{\lambda_{i}-\lambda_{j}},\text{ if $
                                                   \lambda_i \neq \lambda_j$}\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -13718,7 +13672,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.483 ...j})}{\lambda_{i}-\lambda_{j}},\text{ if $
+l.481 ...j})}{\lambda_{i}-\lambda_{j}},\text{ if $
                                                   \lambda_i \neq \lambda_j$}\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -13729,7 +13683,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.483 ...j})}{\lambda_{i}-\lambda_{j}},\text{ if $
+l.481 ...j})}{\lambda_{i}-\lambda_{j}},\text{ if $
                                                   \lambda_i \neq \lambda_j$}\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -13740,7 +13694,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.483 ...j})}{\lambda_{i}-\lambda_{j}},\text{ if $
+l.481 ...j})}{\lambda_{i}-\lambda_{j}},\text{ if $
                                                   \lambda_i \neq \lambda_j$}\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -13751,13 +13705,13 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \lambda 
-l.483 ...ambda_{i}-\lambda_{j}},\text{ if $\lambda
+l.481 ...ambda_{i}-\lambda_{j}},\text{ if $\lambda
                                                   _i \neq \lambda_j$}\\
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-Overfull \hbox (284.06535pt too wide) detected at line 483
+Overfull \hbox (284.06535pt too wide) detected at line 481
 [][] \/cmr/m/n/10 = \OML/cmm/m/it/10 U[]A[]XA[]U\/cmr/m/n/10 ; \OML/cmm/m/it/10
  F \/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 F[]\OMS/cmsy/m/n/10 g[][] 
  [] [] [] [] [] [] [] [] [] [] [] [] []\OML/cmm/m/it/10 F[] \/cmr/m/n/10 = []
@@ -13766,13 +13720,13 @@ Overfull \hbox (284.06535pt too wide) detected at line 483
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.483 ...ambda_{i}-\lambda_{j}},\text{ if $\lambda
+l.481 ...ambda_{i}-\lambda_{j}},\text{ if $\lambda
                                                   _i \neq \lambda_j$}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten \endgroup.
-l.483 ...j}},\text{ if $\lambda_i \neq \lambda_j$}
+l.481 ...j}},\text{ if $\lambda_i \neq \lambda_j$}
                                                   \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -13783,7 +13737,7 @@ deleted material, e.g., by typing `I$}'.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.484 &
+l.482 &
        \frac{1}{\lambda_i},\text{ if $\lambda_i=\lambda$}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -13796,7 +13750,7 @@ Missing character: There is no 1 in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.484 &\frac{1}{\lambda_i}
+l.482 &\frac{1}{\lambda_i}
                           ,\text{ if $\lambda_i=\lambda$}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -13804,7 +13758,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \frac #1#2->{\begingroup #1\endgroup \over #2}
                                               
-l.484 &\frac{1}{\lambda_i}
+l.482 &\frac{1}{\lambda_i}
                           ,\text{ if $\lambda_i=\lambda$}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -13813,7 +13767,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.484 &\frac{1}{\lambda_i},\text
+l.482 &\frac{1}{\lambda_i},\text
                                 { if $\lambda_i=\lambda$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13824,7 +13778,7 @@ and I'll forget about whatever was undefined.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.484 &\frac{1}{\lambda_i},\text{ if $
+l.482 &\frac{1}{\lambda_i},\text{ if $
                                       \lambda_i=\lambda$}
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -13835,13 +13789,39 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.484 &\frac{1}{\lambda_i},\text{ if $\lambda
+l.482 &\frac{1}{\lambda_i},\text{ if $\lambda
                                              _i=\lambda$}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-! LaTeX Error: \begin{equation} on input line 477 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 475 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.484 \right
+            .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra \right.
+l.484 \right.
+             
+I'm ignoring a \right that had no matching \left.
+
+
+! LaTeX Error: \begin{document} ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -13856,33 +13836,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.486 \right
-            .
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra \right.
-l.486 \right.
-             
-I'm ignoring a \right that had no matching \left.
-
-
-! LaTeX Error: \begin{document} ended by \end{split}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.487 \end{split}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.487 \end{split}
+l.485 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -13893,13 +13847,20 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.487 \end{split}
+l.485 \end{split}
                  
+Things are pretty mixed up, but I think the worst is over.
+
+! You can't use `\eqno' in horizontal mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.486 \end{equation}
+                    
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
  78 strings out of 428721
  1065 string characters out of 3166455
- 101964 words of memory out of 3000000
+ 100929 words of memory out of 3000000
  3538 multiletter control sequences out of 15000+200000
  3948 words of font info for 15 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
