@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces 流形上的投影示意图\relax }}{39}{figure.caption.21}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces 算法\ref {alg:RPLS_discrim_tangent_approx_regression}的示意图\relax }}{44}{figure.caption.22}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces 算法\ref {alg:RPLS_multi_support_approx_regression}的示意图\relax }}{46}{figure.caption.23}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 奇异值分解示意图\relax }}{52}{figure.caption.25}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 特征值分解示意图\relax }}{52}{figure.caption.25}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 固定秩对称半正定矩阵示意图\relax }}{57}{figure.caption.26}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces 图嵌入框架示意图\relax }}{61}{figure.caption.29}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces 带判别信息的低秩对称半正定矩阵模型示意图\relax }}{64}{figure.caption.30}

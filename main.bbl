@@ -54,7 +54,8 @@ J.~Hamm and D.D. Lee,
 R.~Wang, S.~Shan, X.~Chen, and W.~Gao,
 \newblock ``Manifold-manifold distance with application to face recognition
   based on image set,''
-\newblock in {\em Computer Vision and Pattern Recognition}, pp. 1--8. 2008.
+\newblock in {\em Computer Vision and Pattern Recognition}, pp. 2940--2947.
+  2008.
 
 \bibitem{Manifold_MDA}
 R.~Wang and X.~Chen,
@@ -188,6 +189,13 @@ G.B. Huang, M.~Ramesh, T.~Berg, and E.~Learned-Miller,
 \newblock Tech. {R}ep. 07-49, University of Massachusetts, Amherst, October
   2007.
 
+\bibitem{RegionCov}
+O.~Tuzel, F.~Porikli, and P.~Meer,
+\newblock ``Region covariance: A fast descriptor for detection and
+  classification,''
+\newblock in {\em European Conference On Computer Vision}, pp. 589--600.
+  Springer, 2006.
+
 \bibitem{PSD_WACV}
 M.~Faraki, M.~Harandi, and F.~Porikli,
 \newblock ``Image set classification by symmetric positive semi-definite
@@ -319,13 +327,6 @@ F.~Yger and M.~Sugiyama,
 \newblock ``Supervised logeuclidean metric learning for symmetric positive
   definite matrices,''
 \newblock {\em arXiv preprint arXiv:1502.03505}, 2015.
-
-\bibitem{RegionCov}
-O.~Tuzel, F.~Porikli, and P.~Meer,
-\newblock ``Region covariance: A fast descriptor for detection and
-  classification,''
-\newblock in {\em European Conference On Computer Vision}, pp. 589--600.
-  Springer, 2006.
 
 \bibitem{SIFT}
 D.G. Lowe,

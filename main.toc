@@ -40,9 +40,9 @@
 \contentsline {subsection}{\numberline {3.2.3}黎曼流形上的子流形与投影}{38}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}黎曼流形上的偏最小二乘回归问题}{38}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}黎曼流形上偏最小二乘回归问题的一般形式}{39}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}面向图像集合分类的黎曼流形上的偏最小二乘回归}{41}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}面向图像集合分类的黎曼流形上的偏最小二乘回归}{40}{subsection.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.2.1}融合判别信息的子流形构造}{41}{subsubsection.3.3.2.1}
-\contentsline {subsubsection}{\numberline {3.3.2.2}融合判别信息的切空间构造问题的优化}{42}{subsubsection.3.3.2.2}
+\contentsline {subsubsection}{\numberline {3.3.2.2}融合判别信息的子流形构造问题的优化}{42}{subsubsection.3.3.2.2}
 \contentsline {subsubsection}{\numberline {3.3.2.3}多切空间逐步回归的偏最小二乘方法}{44}{subsubsection.3.3.2.3}
 \contentsline {section}{\numberline {3.4}实验验证}{46}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}原始特征构造}{46}{subsection.3.4.1}

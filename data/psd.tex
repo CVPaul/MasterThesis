@@ -1,7 +1,7 @@
 % create on 2016-03-14,the third chapter of thesis: Fixed-rank PSD流形判别学习方法
 \chapter{低秩对称半正定矩阵判别学习方法}
 \label{chap:PSD_discrim_learning}
-前面的章节已经提到，统计建模图像集合的方法中有相当一部分的模型都是与样本协方差矩阵有关，但样本协方差矩阵的计算中一个很现实的问题是样本数往往小于数据维度，因为即使是$20\times 20$的小图像也有400维，也就是说至少需要400个样本才有可能使得样本协方差矩阵是非奇异的；这不管是对多视角图像的图片集合还是对视频监控（400帧的图像在30FPS的帧率下也需要13秒还多）中的视频都是很苛刻的要求。因此实际中获得的样本协方差矩阵实际上是对称半正定（Positive Semi-Definite, PSD）矩阵。在使用样本协方差矩阵建模图像集合的方法中，针对该问题的一个常用的trick是给样本协方差矩阵的对角线上加上一个正则项（如\ref{sec:Database_SPD_Construct}中介绍的一样）；但是这并没从本质上解决样本协方差矩阵奇异的问题，这促使本文回到数据所在的原始集合——对称半正定矩阵集合中研究图像集合的建模和判别学习问题。
+前面的章节已经提到，统计建模图像集合的方法中有相当一部分的模型都是与样本协方差矩阵有关，但样本协方差矩阵的计算中一个很现实的问题是样本数往往小于数据维度，因为即使是$20\times 20$的小图像也有400维，也就是说至少需要400个样本才有可能使得样本协方差矩阵是非奇异的；这不管是对多视角图像的图片集合还是对视频监控（400帧的图像在30FPS的帧率下也需要13秒还多）中的视频都是很苛刻的要求。因此实际中获得的样本协方差矩阵实际上是对称半正定（Positive Semi-Definite, PSD）矩阵。在使用样本协方差矩阵建模图像集合的方法中，针对该问题的一个常用的trick是给样本协方差矩阵的对角线上加上一个正则项（如\ref{sec:Database_SPD_Construct}中介绍的一样）；但是这并没从本质上解决样本协方差矩阵奇异的问题，这促使本章回到数据所在的原始集合——对称半正定矩阵集合中研究图像集合的建模和判别学习问题。
 
 %注意到，虽然原始的对称半正定（PSD）矩阵空间是一个凸集合，但是以目前了解到的情况而言，无约束的对称半正定集合上并没有很好的定义的数学结构，与之最接近的一个数学结构是Fixed-Rank PSD集合（公式\ref{Fixed-Rank-PSD-set}），这也是我们早期的主要研究对象。
 %\begin{equation}
@@ -15,7 +15,7 @@
 \begin{figure}[hbt]
 	\centering
 	\includegraphics[width=0.95\linewidth]{source/svd_decomposition.png}
-	\caption{奇异值分解示意图}
+	\caption{特征值分解示意图}
 	\label{fig:SVD_Decomposition}
 \end{figure}
 
@@ -26,7 +26,7 @@
 这部分会对对称正定矩阵流形以外的两种流形进行介绍，分别是施蒂费尔(Stiefel)流形和格拉斯曼(Grassmann)流形，这里之所以同时介绍这两种流形主要是出于以下考虑：其一是因为Grassmann与Stiefel流形的关系密切使得两者需要同时介绍，其二是为Fixed-Rank PSD流形的介绍做准备。本节的内容只是对Stiefel流形和Grassmann流形的简要介绍，更多关于Grassmann流形以及两者的关系的内容可以参看文献\cite{Grassmann}。以下的内容以基本定义居多，但相较于\ref{sec:Manifold_SPD}节的内容这里的内容相对简单一些；接下来就首先从Grassmann流形的定义开始。
 \begin{definition}
 \label{Grassmann_def}
-{\heiti （\textbf{Grassmann}流形）}Grassmann流形是定义在$\mathbb{R}^n$中所有$k$维的线性子空间构成的集合上的数学结构。
+{\heiti （\textbf{Grassmann}流形）}Grassmann流形是定义在$\mathbb{R}^n$中所有$k$维的线性子空间构成的集合上的拓扑结构。
 \begin{equation}
 {\rm Gr}(k,n)=\{\mathbb{V} \subset \mathbb{R}^n,\mathbb{V}\text{ is a linear subspace with }\rm{dim}\mathbb{V}=k\}
 \end{equation}
@@ -80,10 +80,10 @@
 \begin{equation}
 \pi^{-1}[\pi(A)]=\{AP;P\in {\rm GL}(k)\}
 \end{equation}
-\item 映射$\pi$是连续（continuous）的开（open）的（开（open）的意思是说映射的像是开集的话原像也是开集）
+\item 映射$\pi$是连续（continuous）的开（open）的（“开”的意思是说映射的像是开集的话原像也是开集）
 \end{itemize}
 \begin{rela}
-{\heiti （\textbf{Stiefel(compact) V.S Grassmann}）}类似于关系\ref{psd_map_pi}，定义Stiefel(compact) 和 Grassmann之间的映射$\bar{\pi}$\ref{cSt2Gr}。
+{\heiti （\textbf{Stiefel(compact) V.S Grassmann}）}类似于关系\ref{psd_map_pi}，定义Stiefel(compact) 和 Grassmann之间的映射$\bar{\pi}$。
 \begin{equation}
 \label{cSt2Gr}
 \bar{\pi}:{\rm St}^{*}(k,n)\rightarrow {\rm Gr}(k,n);A=(a_1,...,a_k)\rightarrow {\rm{span}}(A),A^{T}A=I_k 
@@ -130,7 +130,7 @@ s.t~~~~& \bm{u}_{i}^{T}\bm{u}_i=1,\bm{v}_{i}^{T}\bm{v}_i=1\\
 \Pi_k:U\rightarrow UU^{T};U \in {\rm St}^*(k,\mathbb{R}^n)\text{ and }UU^{T} \in \mathbb{S}_n
 \end{equation}
 \end{definition}
-其中$\mathbb{S}_n$表示的是对称矩阵构成的空间。实际上，投影矩阵$UU^{T}$是半正定的。利用“主夹角”和“投影变换”两个概念可方便的介绍Grassmann流形上两个常用的度量的：“投影度量”和“比奈-柯西度量”
+其中$\mathbb{S}_n$表示的是对称矩阵构成的空间。实际上，投影矩阵$UU^{T}$是半正定的。利用“主夹角”和“投影变换”两个概念可方便的介绍Grassmann流形上两个常用的度量的：“投影度量”和“比奈-柯西度量”。
 \begin{definition}
 \label{Projection_metric}
 {\heiti （投影度量）}假定$X_1,X_2,\in {\rm St}^{*}(k,\mathbb{R}^{n})$表示两个子空间的基矩阵，并且有主夹角$\{\theta_i\}_{i=1}^{k}$，两者之间定义投影距离度量的定义如\ref{proj_dist}所示。
@@ -171,7 +171,7 @@ A=UR^2U^{T}=(UR)(UR)^{T} \triangleq ZZ^{T};Z \in {\rm St}(k,d)
 \label{psd_product}
 (U,R^2)\sim (UO,O^{T}R^2O) \in {\rm St}^*(k,d)\times \mathbb{S}^{+}_{k}
 \end{equation}
-运用上述公式的内容来表示固定秩半正定矩阵$A$的时候，在其切空间$T_A\mathbb{S}_{d}^{+}(k)$处的无穷小变量$(\Delta,D)$定义为（具体形式可参看文献\cite{PSD_Riemannian}）：
+运用上述公式的内容来表示固定秩对称半正定矩阵$A$的时候，在其切空间$T_A\mathbb{S}_{d}^{+}(k)$处的无穷小变量$(\Delta,D)$定义为（具体形式可参看文献\cite{PSD_Riemannian}）：
 \begin{equation}
 \label{psd_varation}
 \begin{split}
@@ -201,7 +201,7 @@ A=UR^2U^{T}=(UR)(UR)^{T} \triangleq ZZ^{T};Z \in {\rm St}(k,d)
 \end{aligned}
 \right.
 \end{equation}
-公式\ref{psd_curve}中的$PA$是Principle Angles的缩写；$X=(I-U_AU_{A}^{T})U_BF$，其中$F$是矩阵${\rm diag}(\sin(\theta_1),\sin(\theta_2),...,\sin(\theta_k))$的逆（或伪逆）；而上式中的$L(\gamma_{A \rightarrow B})$给出了曲线之间的长度，根据定义\ref{Length}如果要进一步的给出流形上的测地距离则需要找到链接$A,B$所有曲线中长度最小的曲线$\gamma_{A \rightarrow B}^{*}(t)$，这对于固定秩的对称正定矩阵流形过复杂，不过好在文献\cite{PSD_Riemannian}证明的了$L(\gamma_{A \rightarrow B})$是测地距离的一个不错估计（虽然它不一定满足三角不等式），所以接下来就可以运用该“度量”。
+公式\ref{psd_curve}中的$PA$是Principle Angles的缩写；$X=(I-U_AU_{A}^{T})U_BF$，其中$F$是矩阵${\rm diag}(\sin(\theta_1),\sin(\theta_2),...,\sin(\theta_k))$的逆（或伪逆）；而上式中的$L(\gamma_{A \rightarrow B})$给出了曲线之间的长度，根据定义\ref{Length}如果要进一步的给出流形上的测地距离则需要找到链接$A,B$所有曲线中长度最小的曲线$\gamma_{A \rightarrow B}^{*}(t)$，这对于固定秩的对称半正定矩阵流形过复杂，不过好在文献\cite{PSD_Riemannian}证明的了$L(\gamma_{A \rightarrow B})$是测地距离的一个不错估计（虽然它不一定满足三角不等式），所以接下来就可以运用该“距离度量”。
 \begin{equation}
 \label{polar_metric}
 \delta^{2}_{FRPSD}(A,B)=\|\Theta\|_{F}^{2}+p~\|\log\left(R_{A}^{-1}R_{B}^{2}R_{A}^{-1}\right)\|_{F}^{2}
@@ -217,11 +217,12 @@ A=UR^2U^{T}=(UR)(UR)^{T} \triangleq ZZ^{T};Z \in {\rm St}(k,d)
 \begin{itemize}
 \label{construct_fixed_rank_PSD}
 \item 设$\{\bm{x}_{ij} \in \mathbb{R}^{d}\}_{j=1}^{n_i}$表示第$i$个图像集合
-\item 计算样本均值：$\bar{\bm{x}}_i=\frac{1}{n_i}\sum_{i=1}^{n_i} \bm{x}_{ij}$，样本协方差：$C_i=\frac{1}{n_i-1}\sum_{j=1}^{n_i}(\bm{x}_{ij}-\bar{\bm{x}}_i)(\bm{x}_{ij}-\bar{\bm{x}}_i)^{T}$
-\item 对样本协方差矩阵做奇异值分解获得：$C_i=U_i\Lambda_iU_{i}^{T}$，并假设分解结果按特征值由大到小排列
+\item 计算样本均值：$\bar{\bm{x}}_i=\frac{1}{n_i}\sum_{i=1}^{n_i} \bm{x}_{ij}$，样本协方差：$S_i=\frac{1}{n_i-1}\sum_{j=1}^{n_i}(\bm{x}_{ij}-\bar{\bm{x}}_i)(\bm{x}_{ij}-\bar{\bm{x}}_i)^{T}$
+\item 利用公式\ref{MeanCov_SPD_Construct}融入均值信息（此时不再添加正则项）。
+\item 对样本协方差矩阵做特征值分解获得：$C_i=U_i\Lambda_iU_{i}^{T}$，并假设分解结果按特征值由大到小排列
 \item 对于给定的${\rm rank}=k$，选取$U_i$的前$k$列$Y_i=U_i(:,1:k)\in {\rm St}^{*}(d,k)$以及$\Lambda_i$的$k$阶主子式$R_{i}^{2}=\Lambda_{i}(1:k,1:k)\in \mathbb{S}_{k}^{+}$作为图像集合的Fixed-Rank PSD表示$(Y_i,R_{i}^{2})$，关于该表示具体可参看本文的\ref{sec:Fixed-rank-PSD}或参考文献\cite{PSD_Riemannian}
 \end{itemize}
-通过上述的步骤为每一个图像集合构造Fixed-Rank PSD矩阵的表示，为了方便理解这里使用图\ref{fig:FRPSD}对Fixed-Rank PSD进行示意，而关于奇异值分解的示意则可参看图\ref{fig:SVD_Decomposition}。
+通过上述的步骤为每一个图像集合构造Fixed-Rank PSD矩阵的表示，为了方便理解这里使用图\ref{fig:FRPSD}对Fixed-Rank PSD进行示意，而关于特征值分解的示意则可参看图\ref{fig:SVD_Decomposition}。
 \begin{figure}[hbt]
 	\centering
 	\includegraphics[width=\linewidth]{source/FRPSD.png}
@@ -245,7 +246,7 @@ A=UR^2U^{T}=(UR)(UR)^{T} \triangleq ZZ^{T};Z \in {\rm St}(k,d)
 \right.
 \end{equation}
 
-其中$\Delta_i,D_i,i=1,2;R_A,R_B,\Theta$的定义请参看\ref{sec:Fixed-rank-PSD}部分的介绍；对于公式\ref{polar_metric_split}，注意到其前半部分实际上是Grassmann流形的测地距离，而它与\ref{sec:Grassmann_Manifold}部分介绍的投影度量（Projection Metric，公式\ref{proj_dist}）之间仅相差一个倍数关系\cite{PSD_WACV}，所以公式\ref{polar_metric_split}的前半部分可以由投影度量来代替，对于公式\ref{polar_metric_split}的后半部分，注意到这是SPD矩阵流形的AIM\cite{AIM_metric}度量，进一步的注意到$R_A,R_B$都是对角矩阵，于是可以得到：$\|\log\left(R_{A}^{-1}R_{B}^{2}R_{A}^{-1}\right)=2\|\log(R_A)-\log(R_B)\|$。综合以上两点特点$\delta^{2}(A,B)$可以进一步的形式化为：
+其中$\Delta_i,D_i,i=1,2;R_A,R_B,\Theta$的定义请参看\ref{sec:Fixed-rank-PSD}部分的介绍；对于公式\ref{polar_metric_split}，注意到其前半部分实际上是Grassmann流形的测地距离，而它与\ref{sec:Grassmann_Manifold}部分介绍的投影度量（Projection Metric，公式\ref{proj_dist}）之间仅相差一个倍数关系\cite{PSD_WACV}，所以公式\ref{polar_metric_split}的前半部分可以由投影度量来代替，对于公式\ref{polar_metric_split}的后半部分，注意到这是SPD矩阵流形的AIM\cite{AIM_metric}距离，进一步的注意到$R_A,R_B$都是对角矩阵，于是可以得到：$\|\log\left(R_{A}^{-1}R_{B}^{2}R_{A}^{-1}\right)\|=2\|\log(R_A)-\log(R_B)\|$。综合以上两点特点$\delta^{2}(A,B)$可以进一步的形式化为：
 \begin{equation}
 \label{polar_metric_kernel}
 \begin{split}
@@ -286,23 +287,23 @@ A=UR^2U^{T}=(UR)(UR)^{T} \triangleq ZZ^{T};Z \in {\rm St}(k,d)
 	\begin{tabular}{llcc}
 	\toprule[1.5pt]
 		{\heiti 距离度量} &{\heiti 形式化} &{\heiti 是测地距离} &{\heiti 可接受不满秩输入}\\ \hline
-		Affine-Invariant度量\cite{AIM_metric} &$\|\log(X_{i}^{-\frac{1}{2}}X_jX_{i}^{-\frac{1}{2}})\|_F$ &$\surd$ &$\times$ \\
-		Log-Euclidean度量\cite{LEM_metric} &$\|\log(X_{i})-\log(X_{j})\|_F$ &$\surd$ &$\times$ \\
+		Affine-Invariant距离\cite{AIM_metric} &$\|\log(X_{i}^{-\frac{1}{2}}X_jX_{i}^{-\frac{1}{2}})\|_F$ &$\surd$ &$\times$ \\
+		Log-Euclidean距离\cite{LEM_metric} &$\|\log(X_{i})-\log(X_{j})\|_F$ &$\surd$ &$\times$ \\
 		Stein散度\cite{Stein_divergence} &$\log{\rm det}(\frac{X_1+X_2}{2})-\frac{1}{2}\log{\rm det}(X_1X_2)$ &$\times$ &$\times$ \\
 		Jeffreys散度\cite{Jeffreys_divergence} &$\frac{1}{2}{\rm tr}(X_{1}^{-1}X_2+X_{2}^{-1}X_{1})-d$ &$\times$ &$\times$\\
 		Cholesky距离\cite{Cholesky_distance} &$\|chol(X_1)-chol(X_2)\|_{F}$ &$\times$ &$\surd$\\
-		Power-Euclidean度量\cite{Cholesky_distance} & $\frac{1}{\alpha}\|X_{1}^{\alpha}-X_{2}^{\alpha}\|_{F}$ &$\times$ &$\surd$\\
+		Power-Euclidean距离\cite{Cholesky_distance} & $\frac{1}{\alpha}\|X_{1}^{\alpha}-X_{2}^{\alpha}\|_{F}$ &$\times$ &$\surd$\\
 	\bottomrule[1.5pt]
 	\end{tabular}
 	\label{tab:SPD_metric_list}
 \end{table}\\
 表格\ref{tab:SPD_metric_list}中$chol(\cdot)$表示的是Cholesky分解。
 
-表格\ref{tab:SPD_metric_list}中列出的所有的度量均可用于对称正定矩阵的之间距离的度量，其中Affine-Invariant度量和Log-Euclidean度量分别在\cite{AIM_metric}和\cite{LEM_metric}被提出，且它们有各自的黎曼度量也是是$\mathbb{S}_{d}^{+}$上的测地距离，并且Log-Euclidean度量以其优于Affine-Invariant度量的计算性质而赢得了不少青睐，但是遗憾的是这两种度量都不能用于不满秩（也就是半正定的）的情况，Stein散度\cite{Stein_divergence}和Jeffreys散度\cite{Jeffreys_divergence}最初是为了提高计算效率而提出来的，但是由于Stein散度需要计算$\log {\rm det}(\cdot)$而Jeffreys散度需要计算$X_{i}^{-1},i=1,2$所以也不能直接用于处理半正定的输入，最后剩下Cholesky距离\cite{Cholesky_distance}和Power-Euclidean度量\cite{Cholesky_distance}这两种度量由于不涉及求逆或者$\log(\cdot)$操作所以可以直接用于半正定矩阵，而与$\delta_{FRPSD}(\cdot,\cdot)$（公式\ref{polar_metric}）相比，其直接考虑半正定输入，没有割裂${\rm Gr}(d,k),\mathbb{S}_{k}^{+}$之间的关系，应该有更好的表示能力；但需要注意到的是Cholesky距离和Power-Euclidean度量并不是$\mathbb{S}_{d}^{+}$上的测地距离更不是$\mathbb{S}_{d}^{+}(k)$上的测地距离，因此不能完全刻画$\mathbb{S}_{d}^{+}(k)$的geometry的结构，不过本文相信它们的联合的形式的优点能够弥补其不是测地距离的不足（最后的实验验证了我们的观点）。接下来这里选择Cholesky距离和Power-Euclidean度量作为半正定矩阵的度量。特别地，简单的验证试验发现Power-Euclidean度量比Cholesky距离能够更好的刻画数据本身的性质，所以本章接下来的部分以Power-Euclidean度量进行介绍和实验。
+表格\ref{tab:SPD_metric_list}中列出的所有的距离度量均可用于对称正定矩阵的之间距离的度量，其中Affine-Invariant距离和Log-Euclidean距离分别在\cite{AIM_metric}和\cite{LEM_metric}中被提出，且它们由各自的黎曼度量导出，都是$\mathbb{S}_{d}^{+}$上的测地距离，并且Log-Euclidean距离以其优于Affine-Invariant距离的计算性质而赢得了不少青睐，但是遗憾的是这两种距离都不能用于不满秩（也就是半正定的）的情况，Stein散度\cite{Stein_divergence}和Jeffreys散度\cite{Jeffreys_divergence}最初是为了提高计算效率而提出来的，但是由于Stein散度需要计算$\log {\rm det}(\cdot)$而Jeffreys散度需要计算$X_{i}^{-1},i=1,2$所以也不能直接用于处理半正定的输入，最后剩下Cholesky距离\cite{Cholesky_distance}和Power-Euclidean距离\cite{Cholesky_distance}这两种距离由于不涉及求逆或者$\log(\cdot)$操作所以可以直接用于半正定矩阵，而与$\delta_{FRPSD}(\cdot,\cdot)$（公式\ref{polar_metric}）相比，其直接考虑半正定输入，没有割裂${\rm Gr}(d,k),\mathbb{S}_{k}^{+}$之间的关系，应该有更好的表示能力；但需要注意到的是Cholesky距离和Power-Euclidean距离并不是$\mathbb{S}_{d}^{+}$上的测地距离更不是$\mathbb{S}_{d}^{+}(k)$上的测地距离，因此不能完全刻画$\mathbb{S}_{d}^{+}(k)$的geometry的结构，不过本文相信它们的联合的形式的优点能够弥补其不是测地距离的不足（最后的实验验证了我们的观点）。接下来这里选择Cholesky距离和Power-Euclidean距离作为半正定矩阵的距离度量。特别地，简单的验证试验发现Power-Euclidean距离比Cholesky距离能够更好的刻画数据本身的性质，所以本章接下来的部分以Power-Euclidean距离进行介绍和实验。
 
-最后还需要注意的是文章\cite{PSD_WACV}使用Fixed-Rank PSD建模图像集合的方法中，Fixed-Rank的约束主要是为了能够在PSD上定义流形的geometry结构，并利用该geometry结构进行判别学习；但是在使用Power-Euclidean度量两个PSD矩阵之间的关系的时候Fixed-Rank的性质却不是那么必要，而此时Low-Rank成为更本质的一个要求，因此接下来的内容中我们使用更一般的Low-Rank PSD矩阵建模图像集合。
+最后还需要注意的是文章\cite{PSD_WACV}使用Fixed-Rank PSD建模图像集合的方法中，Fixed-Rank的约束主要是为了能够在PSD上定义流形的geometry结构，并利用该geometry结构进行判别学习；但是在使用Power-Euclidean距离度量两个PSD矩阵之间的关系的时候Fixed-Rank的性质却不是那么必要，而此时Low-Rank成为更本质的一个要求，因此接下来的内容中我们使用更一般的Low-Rank PSD矩阵建模图像集合。
 
-以上是对本文所提方法的一个概要介绍，下面将进一步细化该方法。遵循图像集合分类问题的两个主要步骤将接下来的内容大致分为：1）如何利构造一个好的Low-Rank PSD的表示；2）如何利用Power-Euclidean度量进行判别学习以及Low-Rank PSD矩阵上的判别学习方法的形式化。
+以上是对本文所提方法的一个概要介绍，下面将进一步细化该方法。遵循图像集合分类问题的两个主要步骤将接下来的内容大致分为：1）如何利构造一个好的Low-Rank PSD的表示；2）如何利用Power-Euclidean距离进行判别学习以及Low-Rank PSD矩阵上的判别学习方法的形式化。
 \subsection{融入判别信息的低秩对称半正定矩阵的构造}
 \label{sec:discrim_Low_Rank_PSD}
 在\ref{sec:Low-Rank-PSD-Discrim-Approch}节的前半部分提出了借鉴\cite{PSD_AAAI}中构造PSD的内容（公式\ref{construct_discriminat_psd}），构造图像集合的带判别性的低秩对称半正定矩阵表示:
@@ -345,13 +346,13 @@ G_{ij}=\left\{
 \begin{split}
 &G_w=\{G^{w}_{ij}\}_{n \times n},\text{where }G^{w}_{ij}=\left\{
 \begin{split}
-&1,\text{$j$与$i$同类且属于$i$的$k_w$近邻}\\
+&1,\text{$j$属于$i$的前$k_w$个同类近邻}\\
 &0,\text{否者}
 \end{split}
 \right.\\
 &G_b=\{G^{b}_{ij}\}_{n \times n},where~G^{b}_{ij}=\left\{
 \begin{split}
-&1,\text{$j$与$i$不同类但属于$i$的$k_b$近邻}\\
+&1,\text{$j$属于$i$的前$k_b$个不同类近邻}\\
 &0,\text{否则}
 \end{split}
 \right.
@@ -374,7 +375,7 @@ G=G_w-G_b
 接下来，使用$\rho_{ij}=\frac{\left<Z_{i},Z_{j}\right>_{F}}{\|Z_{i}\|_{F}\|Z_{j}\|_{F}};i,j=1,2,\cdots n$来度量两个表示之间的相似度\footnote{注：这里不使用$\frac{\left<Z_{i}^{\frac{1}{m}},Z_{j}^{\frac{1}{m}}\right>_{F}}{\|Z_{i}\|_{F}^{\frac{1}{m}}\|Z_{j}^{\frac{1}{m}}\|_{F}};i,j=1,2,\cdots n$的原因主要是这会大大增加计算复杂度而且当$n>1$时$x^{\frac{1}{n}}$的导数未定义，所以这里退而求其次}；利用$\rho_{ij}$和$G_{ij}$的定义，给出公式\ref{FRPSD_discriminant}中的损失函数:
 \begin{equation}
 \label{FRPSD_discriminant}
-C(Z)=-\sum_{i=1}^{n}\sum_{j=1}^{n}G_{ij}\rho_{ij}^{2}={\rm tr}(GF^{T})+\gamma\|Z\|_{F}^{2},where~F_{ij}=\rho_{ij}^{2}
+C(Z)=-\sum_{i=1}^{n}\sum_{j=1}^{n}G_{ij}\rho_{ij}^{2}+\gamma\|Z\|_{F}^{2}=-{\rm tr}(GF^{T})+\gamma\|Z\|_{F}^{2},where~F_{ij}=\rho_{ij}^{2}
 \end{equation}
 其中函数$C(Z)$的最后一项是正则项，其目的是为了防止过拟合，这虽然只是一个小的trick，但是实验中发现该trick却比较有效。
 
@@ -417,7 +418,7 @@ D_{Z}\left((C_{i}^{\frac{1}{2}}+Z)S_{i}(C_{i}^{\frac{1}{2}}+Z)^{T}\right)[H]&=D_
 &=(C_{i}^{\frac{1}{2}}+Z)S_{i}H^{T}+HS_{i}(C_{i}^{\frac{T}{2}}+Z^{T})
 \end{split}
 \end{equation}
-其中$S_{i}=Y_{i}Y_{i}^{T},i=1,2,\cdots,n$，接下来利用公式\ref{discrimZ_search_part2_gradeint}的结果，得到公式\ref{discrimZ_gradient}的结果（其中利用了$Z_{i},S_{i};i=1,2,\cdots,n$是对称矩阵的结果）。
+其中$S_{i}=Y_{i}Y_{i}^{T},i=1,2,\cdots,n$，接下来利用公式\ref{discrimZ_search_part2_gradeint}的结果，得到公式\ref{discrimZ_gradient}的结果（其中利用了$Z_{i},S_{i};i=1,2,\cdots,n$是对称矩阵的性质）。
 \begin{equation}
 \label{discrimZ_gradient}
 \left\{
@@ -432,7 +433,7 @@ D_{Z}k_{ij}[H]&=2\left<H,Z_j(C_{i}^{\frac{1}{2}}+Z)S_{i}\right>_{F}+2\left<H,Z_i
 \end{split}
 \right.
 \end{equation}
-最后结合公式\ref{discrimZ_search_gradeint}和\ref{discrimZ_gradient}的结果，即可计算出$C(Z)$的梯度，将其作为共轭梯度算法的输入，最小化$C(Z)$获得$Z^{*}$即可用于对图像集合的PSD编码。这里使用图\ref{fig:Discrim_LRPSD}示意带判别信息的低秩对称正定矩阵编码图像集合的模型。
+最后结合公式\ref{discrimZ_search_gradeint}和\ref{discrimZ_gradient}的结果，即可计算出$C(Z)$的梯度，将其作为共轭梯度算法的输入，最小化$C(Z)$获得$Z^{*}$即可用于对图像集合的PSD编码。这里使用图\ref{fig:Discrim_LRPSD}示意带判别信息的低秩对称半正定矩阵编码图像集合的模型。
 \begin{figure}[htb]
 	\centering
 	\subcaptionbox{半正定矩阵平方根示意图}
@@ -443,7 +444,7 @@ D_{Z}k_{ij}[H]&=2\left<H,Z_j(C_{i}^{\frac{1}{2}}+Z)S_{i}\right>_{F}+2\left<H,Z_i
 	\label{fig:Discrim_LRPSD}
 \end{figure}
 \subsection{低秩对称半正定矩阵集合上的判别学习方法}
-在\ref{sec:discrim_Low_Rank_PSD}小节中介绍了将判别信息编码到Low-Rank PSD矩阵问题，但是仅仅有内嵌入判别性的编码还是不足以处理太复杂的问题，且算法也不具有Large Margin等性质，类似于\cite{PSD_WACV}中的方法，这里选择在核判别学习(Kernel Discriminant Learning, KDA\cite{Kernel_KDA})的框架下进行判别学习。特别地，注意到Power-Euclidean度量的定义可以由$k_{ij}=\left<Z_{i}^{\frac{1}{m}},Z_{j}^{\frac{1}{m}}\right>_{F}$的kernel的形式导出，并且容易证明$K=\{k_{ij}\}_{n\times  n}$的正定性。
+在\ref{sec:discrim_Low_Rank_PSD}小节中介绍了将判别信息编码到Low-Rank PSD矩阵问题，但是仅仅有内嵌入判别性的编码还是不足以处理太复杂的问题，且算法也不具有Large Margin等性质，类似于\cite{PSD_WACV}中的方法，这里选择在核判别学习(Kernel Discriminant Learning, KDA\cite{Kernel_KDA})的框架下进行判别学习。特别地，注意到Power-Euclidean距离的定义可以由$k_{ij}=\left<Z_{i}^{\frac{1}{m}},Z_{j}^{\frac{1}{m}}\right>_{F}$的kernel的形式导出，并且容易证明$K=\{k_{ij}\}_{n\times  n}$的正定性。
 
 由于KDA\cite{Kernel_KDA}的研究已经非常成熟，且这里也不是对它的改进或相关的工作，所以不会从头再介绍一遍，而只会简单的回顾一下KDA的基本思想：首先，KDA的基础是线性判别分析(Linear Discriminant Analysis, LDA)，其目标是使得内类散度小而类间散度大。KDA则是LDA在再生核希尔伯特空间(Reproducing Kernel Hilbert space, RKHS)中的版本，其目的与LDA一样。文献\cite{Kernel_KDA}中给出了十分简洁的KDA的形式：设$n_c,c=1,2,\cdots,C$表示各个类别中的样本数，$\sum_{c=1}^{C}n_{c}=n$，这里的$n$表示的是样本总数，$\phi(\cdot)$表示的是非线性变化（例如接下来将要使用的$\phi(Z_{i})=Z_{i}^{\frac{1}{n}},n>1$），定义核矩阵$K=\{k_{ij}\}_{n\times n}$，其中$k_{ij}=\left<\phi(Z_{i}),\phi(Z_j)\right>_{F}$，则KDA的目标形式化为公式\ref{KDA_Formulation}。
 \begin{equation}
@@ -462,7 +463,7 @@ W=\{W_{ij}\}_{n \times n},\text{where }W_{ij}=\left\{
 \end{equation}
 以上便是本章所提方法使用的判别学习方法——KDA\cite{Kernel_KDA}的介绍，试验中我们使用了文献\cite{KDA_DengCai1,KDA_DengCai2}提供的代码。
 \section{实验结果与分析}
-本章所做的问题是使用Low-Rank PSD矩阵表示集合数据，并在该表示下进行集合数据的分类问题，任务与第二章的任务类似，都是集合数据的分类问题，所以这里使用了相同的数据进行实验（物体识别数据库ETH\cite{Database_ETH80}，材质分类数据库UIUC\cite{Database_UIUC}以及视频人脸识别数据库\cite{Database_YTC}），这几个数据库上的实验任务已经在\ref{sec:RPLS_exp}部分做了相对细致的介绍，同时数据库的规模（包含了小数据库ETH，中等规模数据库UIUC，较大规模的数据库YTC）也具有一定的代表性；各个数据集合上的基本特征的提取与\ref{Database_feature}节介绍的方式相同，这里不再赘述；在获得原始特征之后，利用公式\ref{MeanCov_SPD_Construct}构造初始半正定矩阵表示$C_{i}$（此时不需要再加正则项），然后利用\ref{sec:discrim_Low_Rank_PSD}的编码过程获得图像集合带判别性的低秩对称半正定矩阵表示。关于数据库的详细介绍以及对应的测试协议可以参看\ref{sec:data_intro}部分的内容，而关于原始图像特征的提取部分的内容则可以参看\ref{Database_feature}节的内容。最后表\ref{tab:LRPSD_experiment}给出了我们的实验结果。
+本章所做的问题是使用Low-Rank PSD矩阵表示集合数据，并在该表示下进行集合数据的分类问题，任务与第二章的任务类似，都是集合数据的分类问题，所以这里使用了相同的数据进行实验（物体识别数据库ETH\cite{Database_ETH80}，材质分类数据库UIUC\cite{Database_UIUC}以及视频人脸识别数据库YTC\cite{Database_YTC}），这几个数据库上的实验任务已经在\ref{sec:RPLS_exp}部分做了相对细致的介绍，同时数据库的规模（包含了小数据库ETH，中等规模数据库UIUC，较大规模的数据库YTC）也具有一定的代表性；各个数据集合上的基本特征的提取与\ref{Database_feature}节介绍的方式相同，这里不再赘述；在获得原始特征之后，利用公式\ref{MeanCov_SPD_Construct}构造初始半正定矩阵表示$C_{i}$（此时不需要再加正则项），然后利用\ref{sec:discrim_Low_Rank_PSD}的编码过程获得图像集合带判别性的低秩对称半正定矩阵表示。关于数据库的详细介绍以及对应的测试协议可以参看\ref{sec:data_intro}部分的内容，而关于原始图像特征的提取部分的内容则可以参看\ref{Database_feature}节的内容。最后表\ref{tab:LRPSD_experiment}给出了我们的实验结果。
 
 \begin{table}[htb]
 	\centering
@@ -488,13 +489,13 @@ W=\{W_{ij}\}_{n \times n},\text{where }W_{ij}=\left\{
 
 表格\ref{tab:LRPSD_experiment}中选取的方法与\ref{sec:RPLS_exp_result_analysis}部分选择方法类似，包含了目前取得state-of-the-art的一些主要方法，此外还包含了与我们最相关的工作\cite{PSD_WACV}中的方法的结果，由于作者没有公布源代码，所以我们小心的实现并进行细致的参数调节之后汇报我们所获得的最好的结果。还有GDA\cite{Subspace_GDA}的结果（该结果也是自己实现并小心调参后获得的结果）。其它方法我们均从作者主页获取代码并小心调参后汇报的最好的结果。
 
-从表格\ref{tab:LRPSD_experiment}我们的可以得到的信息是：本章所提的${\rm \bm{LRPSD-KDA}}$方法在三个数据集上获得了与state-of-the-art可比甚至是更好的性能，相较于子空间和协方差建模的方法（表格\ref{tab:LRPSD_experiment}的前两行），${\rm \bm{LRPSD-KDA}}$方法在三个任务上都有相对明显的提升。我们认为获得这种提升的主要原因有两个方面：1）通过与文章\cite{PSD_WACV}中的方法（表中的${\rm FRPSD-KDA}$一类方法）相比，可得出本文使用的Power-Euclidean度量更能刻画PSD矩阵的性质的结论，这与我们的一开始的想法是吻合的；2）表中的最后六行的结果与其它行的结果相比说明了PSD建模图像集合的有效性。最后还注意到融入判别信息带来提升，虽然幅度不大（这与本文选择的相对简单的融合方式有关）但是可以看出方向的正确性，这里还有上升的空间。
+从表格\ref{tab:LRPSD_experiment}我们的可以得到的信息是：本章所提的${\rm \bm{LRPSD-KDA}}$方法在三个数据集上获得了与state-of-the-art可比甚至是更好的性能，相较于子空间和协方差建模的方法（表格\ref{tab:LRPSD_experiment}的前两行），${\rm \bm{LRPSD-KDA}}$方法在三个任务上都有相对明显的提升。我们认为获得这种提升的主要原因有两个方面：1）通过与文章\cite{PSD_WACV}中的方法（表中的${\rm FRPSD-KDA}$一类方法）相比，可得出本文使用的Power-Euclidean距离更能刻画PSD矩阵的性质的结论，这与我们的一开始的想法是吻合的；2）表中的最后六行的结果与其它行的结果相比说明了PSD建模图像集合的有效性。最后还注意到融入判别信息带来提升，虽然幅度不大（这与本文选择的相对简单的融合方式有关）但是可以看出方向的正确性，这里还有上升的空间。
 
-实验中还发现：公式\ref{FRPSD_discriminant}中的正则项$\gamma\|Z\|_{F}^{2}$对结果的影响与数据集相关，对于每个集合中数据较少或噪声较大的数据集，如ETH\cite{Database_ETH80}和YTC\cite{Database_YTC}（其中YTC属于集合个数多，但是每个集合都不是很大的类型，这在视频监控中很常见）该项的设置很重要，但是对于每个集合中样本较多的数据集该项则可忽略掉（如：在UIUC\cite{Database_UIUC}上我们设置$\gamma=0$），其它实验参数的设置主要包含$k_w,k_b$的设置，Power-Euclidean度量中$n$（或$\alpha=\frac{1}{n}$）的设置，以及Low-Rank约束的上界$k$的设置。由于都是整数设置方法比较常规这里就不再一一赘述。最后，需要注意的是利用Power-Euclidean度量还可以定义其它的核的形式，表\ref{tab:PSD_PowerMetric_KernelList}中给出了kernel的形式：
+实验中还发现：公式\ref{FRPSD_discriminant}中的正则项$\gamma\|Z\|_{F}^{2}$对结果的影响与数据集相关，对于每个集合中数据较少或噪声较大的数据集，如ETH\cite{Database_ETH80}和YTC\cite{Database_YTC}（其中YTC属于集合个数多，但是每个集合都不是很大的类型，这在视频监控中很常见）该项的设置很重要，但是对于每个集合中样本较多的数据集该项则可忽略掉（如：在UIUC\cite{Database_UIUC}上我们设置$\gamma=0$），其它实验参数的设置主要包含$k_w,k_b$的设置，Power-Euclidean距离中$n$（或$\alpha=\frac{1}{n}$）的设置，以及Low-Rank约束的上界$k$的设置。由于都是整数设置方法比较常规这里就不再一一赘述。最后，需要注意的是利用Power-Euclidean距离还可以定义其它的核的形式，表\ref{tab:PSD_PowerMetric_KernelList}中给出了kernel的形式：
 \begin{table}[htb]
   \centering
   \begin{minipage}[t]{0.8\linewidth} % 如果想在表格中使用脚注，minipage是个不错的办法
-  \caption{Power-Euclidean度量相关的核}
+  \caption{Power-Euclidean距离相关的核}
   \label{tab:PSD_PowerMetric_KernelList}
     \begin{tabular*}{\linewidth}{lp{10cm}}
       \toprule[1.5pt]
@@ -508,8 +509,8 @@ W=\{W_{ij}\}_{n \times n},\text{where }W_{ij}=\left\{
   \end{minipage}
 \end{table}
 
-但是从实验结果中可以看出：在线性核下我们已经得到了与state-of-the-art可比甚至是更好一些的结果，此外Kernel的方法的引入虽然会对最终的结果有所提高（部分测试试验中发现Laplace Kernel对于Power-Euclidean度量有更好的促进作用），但是由于引入了更多的参数需要调节，所以使得算法的实际运用价值打了折扣；因此这里仅把kernel的方法作为一个未来深入方向，而不在这里做深入讨论。
+但是从实验结果中可以看出：在线性核下我们已经得到了与state-of-the-art可比甚至是更好一些的结果，此外Kernel的方法的引入虽然会对最终的结果有所提高（部分测试试验中发现Laplace Kernel对于Power-Euclidean距离有更好的促进作用），但是由于引入了更多的参数需要调节，所以使得算法的实际运用价值打了折扣；因此这里仅把kernel的方法作为一个未来深入方向，而不在这里做深入讨论。
 \section{总结与下一步工作}
-在本章中我们针对集合数据的建模问题以及集合数据特征本身存在的一些问题，使用PSD矩阵建模图像集合，并且结合前期关于Fixed-Rank PSD流形的研究以及工作\cite{PSD_WACV}的内容，针对使用子空间、协方差矩阵以及Fixed-Rank PSD矩阵建模图像集合的工作\cite{PSD_WACV}中存在的问题，提出了Low-Rank PSD矩阵的判别学习方法，主要的内容可以归纳为如下几点：1）使用带有判别性的低秩对称半正定矩阵表示图像集合；2）针对文献\cite{PSD_WACV}中的使用的$\delta_{FRPSD}(\cdot,\cdot)$（公式\ref{polar_metric}）割裂了Grassmann流形和对称正定矩阵流形之间关系的问题提出了使用Power-Euclidean度量进行判别学习的方法；3）在KDA\cite{Kernel_KDA}的框架下进行判别学习获得与state-of-the-art可比甚至是更好的结果。
+在本章中我们针对集合数据的建模问题以及集合数据特征本身存在的一些问题，使用PSD矩阵建模图像集合，并且结合前期关于Fixed-Rank PSD流形的研究以及工作\cite{PSD_WACV}的内容，针对使用子空间、协方差矩阵以及Fixed-Rank PSD矩阵建模图像集合的工作\cite{PSD_WACV}中存在的问题，提出了Low-Rank PSD矩阵的判别学习方法，主要的内容可以归纳为如下几点：1）使用带有判别性的低秩对称半正定矩阵表示图像集合；2）针对文献\cite{PSD_WACV}中的使用的$\delta_{FRPSD}(\cdot,\cdot)$（公式\ref{polar_metric}）割裂了Grassmann流形和对称正定矩阵流形之间关系的问题提出了使用Power-Euclidean距离进行判别学习的方法；3）在KDA\cite{Kernel_KDA}的框架下进行判别学习获得与state-of-the-art可比甚至是更好的结果。
 
 最后，前面已经提到表格\ref{tab:LRPSD_experiment}中的结果显示判别学习与非判别学习的结果提升不是特别的明显，究其原因的话可能是Graph Embedding的框架与最后的KDA的框架没有很好的适配的原因，这里的问题值得深入研究，此外就是前面提到的使用更多Kernel版本的方法，可能也是一个尝试的方向。

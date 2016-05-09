@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.6)  4 MAY 2016 15:29
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.6)  9 MAY 2016 21:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -2170,8 +2170,56 @@ LaTeX Info: Redefining \nameref on input line 24.
 
  (data/cover.tex)
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@underline' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 34.
+
+
 Package hyperref Warning: pdfproducer: xdvipdfmx will use its own setting
 (hyperref)                instead of the value given on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@underline' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 36.
 
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 14.05249pt
@@ -2341,6 +2389,20 @@ Requested font "SimHei/OT:script=hani;language=DFLT;mapping=tex-text;" at 26.09
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 16.06pt
  -> C:/WINDOWS/Fonts/times.ttf
+Requested font "txmi" at 16.06pt
+Requested font "txsy" at 16.06pt
+Requested font "txex" at 16.06pt
+Requested font "txi" at 16.06pt
+Requested font "txmia" at 16.06pt
+Requested font "txsya" at 16.06pt
+Requested font "txsyb" at 16.06pt
+Requested font "txsyc" at 16.06pt
+Requested font "txexa" at 16.06pt
+Requested font "txb" at 16.06pt
+Requested font "txbmi" at 16.06pt
+Requested font "txbsy" at 16.06pt
+Requested font "txbex" at 16.06pt
+Requested font "cmr12" at 16.06pt
 Requested font "SimHei/OT:script=hani;language=DFLT;mapping=tex-text;" at 16.06
 pt
  -> C:/WINDOWS/Fonts/simhei.ttf
@@ -2410,6 +2472,53 @@ apping=tex-text;" at 9.03374pt
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;mapping=tex-text;" at 12.045pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 6.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 5.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "txmi" at 9.03374pt
+Requested font "txmi" at 6.0pt
+Requested font "txmi" at 5.0pt
+Requested font "txsy" at 9.03374pt
+Requested font "txsy" at 6.0pt
+Requested font "txsy" at 5.0pt
+Requested font "txex" at 9.03374pt
+Requested font "txex" at 6.0pt
+Requested font "txex" at 5.0pt
+Requested font "txi" at 9.03374pt
+Requested font "txi" at 6.0pt
+Requested font "txi" at 5.0pt
+Requested font "txmia" at 9.03374pt
+Requested font "txmia" at 6.0pt
+Requested font "txmia" at 5.0pt
+Requested font "txsya" at 9.03374pt
+Requested font "txsya" at 6.0pt
+Requested font "txsya" at 5.0pt
+Requested font "txsyb" at 9.03374pt
+Requested font "txsyb" at 6.0pt
+Requested font "txsyb" at 5.0pt
+Requested font "txsyc" at 9.03374pt
+Requested font "txsyc" at 6.0pt
+Requested font "txsyc" at 5.0pt
+Requested font "txexa" at 9.03374pt
+Requested font "txexa" at 6.0pt
+Requested font "txexa" at 5.0pt
+Requested font "txb" at 9.03374pt
+Requested font "txb" at 6.0pt
+Requested font "txb" at 5.0pt
+Requested font "txbmi" at 9.03374pt
+Requested font "txbmi" at 6.0pt
+Requested font "txbmi" at 5.0pt
+Requested font "txbsy" at 9.03374pt
+Requested font "txbsy" at 6.0pt
+Requested font "txbsy" at 5.0pt
+Requested font "txbex" at 9.03374pt
+Requested font "txbex" at 6.0pt
+Requested font "txbex" at 5.0pt
+Requested font "cmr9" at 9.03374pt
+Requested font "cmr6" at 6.0pt
 Requested font "SimSun/OT:script=hani;language=DFLT;mapping=tex-text;" at 9.033
 74pt
  -> C:/WINDOWS/Fonts/simsun.ttc
@@ -2421,51 +2530,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 8.0pt
  -> C:/WINDOWS/Fonts/times.ttf
-Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
-apping=tex-text;" at 6.0pt
- -> C:/WINDOWS/Fonts/times.ttf
 Requested font "txmi" at 12.045pt
 Requested font "txmi" at 8.0pt
-Requested font "txmi" at 6.0pt
 Requested font "txsy" at 12.045pt
 Requested font "txsy" at 8.0pt
-Requested font "txsy" at 6.0pt
 Requested font "txex" at 12.045pt
 Requested font "txex" at 8.0pt
-Requested font "txex" at 6.0pt
 Requested font "txi" at 12.045pt
 Requested font "txi" at 8.0pt
-Requested font "txi" at 6.0pt
 Requested font "txmia" at 12.045pt
 Requested font "txmia" at 8.0pt
-Requested font "txmia" at 6.0pt
 Requested font "txsya" at 12.045pt
 Requested font "txsya" at 8.0pt
-Requested font "txsya" at 6.0pt
 Requested font "txsyb" at 12.045pt
 Requested font "txsyb" at 8.0pt
-Requested font "txsyb" at 6.0pt
 Requested font "txsyc" at 12.045pt
 Requested font "txsyc" at 8.0pt
-Requested font "txsyc" at 6.0pt
 Requested font "txexa" at 12.045pt
 Requested font "txexa" at 8.0pt
-Requested font "txexa" at 6.0pt
 Requested font "txb" at 12.045pt
 Requested font "txb" at 8.0pt
-Requested font "txb" at 6.0pt
 Requested font "txbmi" at 12.045pt
 Requested font "txbmi" at 8.0pt
-Requested font "txbmi" at 6.0pt
 Requested font "txbsy" at 12.045pt
 Requested font "txbsy" at 8.0pt
-Requested font "txbsy" at 6.0pt
 Requested font "txbex" at 12.045pt
 Requested font "txbex" at 8.0pt
-Requested font "txbex" at 6.0pt
 Requested font "cmr12" at 12.045pt
 Requested font "cmr8" at 8.0pt
-Requested font "cmr6" at 6.0pt
  [5
 
 
@@ -2645,36 +2737,6 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 6.52437pt
  -> C:/WINDOWS/Fonts/times.ttf
 \ucas@tempboxa=\box66
-Requested font "txsy" at 9.03374pt
-Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
-apping=tex-text;" at 5.0pt
- -> C:/WINDOWS/Fonts/times.ttf
-Requested font "txmi" at 9.03374pt
-Requested font "txmi" at 5.0pt
-Requested font "txsy" at 5.0pt
-Requested font "txex" at 9.03374pt
-Requested font "txex" at 5.0pt
-Requested font "txi" at 9.03374pt
-Requested font "txi" at 5.0pt
-Requested font "txmia" at 9.03374pt
-Requested font "txmia" at 5.0pt
-Requested font "txsya" at 9.03374pt
-Requested font "txsya" at 5.0pt
-Requested font "txsyb" at 9.03374pt
-Requested font "txsyb" at 5.0pt
-Requested font "txsyc" at 9.03374pt
-Requested font "txsyc" at 5.0pt
-Requested font "txexa" at 9.03374pt
-Requested font "txexa" at 5.0pt
-Requested font "txb" at 9.03374pt
-Requested font "txb" at 5.0pt
-Requested font "txbmi" at 9.03374pt
-Requested font "txbmi" at 5.0pt
-Requested font "txbsy" at 9.03374pt
-Requested font "txbsy" at 5.0pt
-Requested font "txbex" at 9.03374pt
-Requested font "txbex" at 5.0pt
-Requested font "cmr9" at 9.03374pt
 File: source/2d_SPD_cone.png Graphic file (type QTm)
 <use  "source/2d_SPD_cone.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2840,6 +2902,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
 \ucas@tempboxa=\box71
+\ucas@tempboxa=\box72
+
+Overfull \vbox (1.65128pt too high) has occurred while \output is active []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2847,16 +2913,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-\ucas@tempboxa=\box72
 \ucas@tempboxa=\box73
 \ucas@tempboxa=\box74
+\ucas@tempboxa=\box75
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 245.
+(amsmath)                trying to recover with `aligned' on input line 243.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2864,7 +2930,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [21]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 270.
+(amsmath)                trying to recover with `aligned' on input line 268.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2872,18 +2938,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [22]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 329.
+(amsmath)                trying to recover with `aligned' on input line 327.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
 
  []
 
@@ -2894,7 +2960,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Underfull \hbox (badness 10000) in paragraph at lines 451--454
+Underfull \hbox (badness 10000) in paragraph at lines 448--451
 
  []
 
@@ -2902,17 +2968,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 451--454
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-\ucas@tempboxa=\box75
+\ucas@tempboxa=\box76
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
 
 LaTeX Font Warning: Font shape `EU1/KaiTi(0)/bx/n' undefined
-(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 512.
+(Font)              using `EU1/KaiTi(0)/m/n' instead on input line 509.
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 522.
+put line 519.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2920,7 +2986,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-\ucas@tempboxa=\box76
+\ucas@tempboxa=\box77
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2954,7 +3020,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [37]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 202.
+(amsmath)                trying to recover with `aligned' on input line 204.
 
 File: source/SPD_submanifold.png Graphic file (type QTm)
 <use  "source/SPD_submanifold.png" >
@@ -2964,7 +3030,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-Underfull \hbox (badness 3078) in paragraph at lines 243--244
+Underfull \hbox (badness 3078) in paragraph at lines 245--246
 []\EU1/SimSun(0)/m/n/12.045 这 里 的 近 似 的 方 法 在 工 作 \EU1/TimesNewRoman(0)/m/n/12.
 045 [[],[]] \EU1/SimSun(0)/m/n/12.045 中 已 有 类 似 的 介 绍，|  主 要 是 针 对 $\OML/txmi/m
 /it/12.045 t[] \OT1/cmr/m/n/12.045 =
@@ -2974,7 +3040,7 @@ Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;mapping=tex-text;" at 12.045pt
  -> C:/WINDOWS/Fonts/timesi.ttf
 
-Underfull \hbox (badness 1708) in paragraph at lines 267--282
+Underfull \hbox (badness 1708) in paragraph at lines 269--284
 []\EU1/SimSun(0)/m/n/12.045 算 法[][]\EU1/TimesNewRoman(0)/m/n/12.045 5[][]\EU1/S
 imSun(0)/m/n/12.045 中 的\EU1/TimesNewRoman(0)/m/n/12.045 : |\EU1/SimSun(0)/m/it/
 12.045 “在 $\OMS/txsy/m/n/12.045 f[]g[]$ \EU1/SimSun(0)/m/it/12.045 以 及 $\OMS/tx
@@ -2992,13 +3058,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [41]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 307.
+(amsmath)                trying to recover with `aligned' on input line 309.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-Overfull \hbox (6.93567pt too wide) in paragraph at lines 351--351
+Overfull \hbox (17.05138pt too wide) in paragraph at lines 354--354
 [] 
  []
 
@@ -3012,7 +3078,7 @@ File: source/Discrim_Tangent_PLS.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
-Underfull \hbox (badness 1400) in paragraph at lines 403--404
+Underfull \hbox (badness 1400) in paragraph at lines 406--407
 [] []\EU1/SimSun(0)/m/n/12.045 融 入 判 别 性 的 $\OML/txmi/m/it/12.045 p$ \EU1/SimSu
 n(0)/m/n/12.045 个 切 空 间 $\OML/txmi/m/it/12.045 T[]M; []  ; T[]M$ \EU1/SimSun(0)
 /m/n/12.045 对 应 的 $\OML/txmi/m/it/12.045 ^^V[]; [] ^^V[]$\EU1/SimSun(0)/m/n/12.
@@ -3078,7 +3144,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 File: source/svd_decomposition.png Graphic file (type QTm)
  <use  "source/svd_decomposition.png" > [51]
-\ucas@tempboxa=\box77
+\ucas@tempboxa=\box78
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3106,7 +3172,7 @@ File: source/FRPSD.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57]
-Underfull \hbox (badness 10000) in alignment at lines 262--270
+Underfull \hbox (badness 10000) in alignment at lines 263--271
 [][] 
  []
 
@@ -3114,9 +3180,9 @@ Underfull \hbox (badness 10000) in alignment at lines 262--270
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-\ucas@tempboxa=\box78
+\ucas@tempboxa=\box79
 
-Overfull \hbox (6.09355pt too wide) in paragraph at lines 286--298
+Overfull \hbox (6.09355pt too wide) in paragraph at lines 287--299
  [][] 
  []
 
@@ -3129,7 +3195,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [60]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 339.
+(amsmath)                trying to recover with `aligned' on input line 340.
 
 Requested font "SimSun/OT:script=hani;language=DFLT;mapping=tex-text;" at 8.0pt
  -> C:/WINDOWS/Fonts/simsun.ttc
@@ -3140,11 +3206,11 @@ File: source/Graph_Embedding.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61]
-\ucas@tempboxa=\box79
+\ucas@tempboxa=\box80
 
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 388.
+(amsmath)                trying to recover with `aligned' on input line 389.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3152,7 +3218,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [62]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 432.
+(amsmath)                trying to recover with `aligned' on input line 433.
 
 File: source/Discrim_LRPSD_sqrt.png Graphic file (type QTm)
 <use  "source/Discrim_LRPSD_sqrt.png" >
@@ -3163,7 +3229,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [63]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 460.
+(amsmath)                trying to recover with `aligned' on input line 461.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3172,7 +3238,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65]
-Underfull \hbox (badness 10000) in alignment at lines 499--507
+Underfull \hbox (badness 10000) in alignment at lines 500--508
 [][] 
  []
 
@@ -3293,11 +3359,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 34343 strings out of 428721
- 652736 string characters out of 3166455
- 675997 words of memory out of 3000000
- 37179 multiletter control sequences out of 15000+200000
- 67921 words of font info for 282 fonts, out of 3000000 for 9000
+ 34359 strings out of 428721
+ 653051 string characters out of 3166455
+ 681001 words of memory out of 3000000
+ 37195 multiletter control sequences out of 15000+200000
+ 72555 words of font info for 296 fonts, out of 3000000 for 9000
  1097 hyphenation exceptions out of 8191
  71i,27n,74p,10419b,800s stack positions out of 5000i,500n,10000p,200000b,50000s
 

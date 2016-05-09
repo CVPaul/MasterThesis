@@ -1,7 +1,7 @@
 % 本节开始介绍研究生阶段的主要研究工作之一：黎曼流形上的PLS回归问题——RPLS
 \chapter{黎曼流形上的偏最小二乘回归}
 \label{cha:rpls}
-在\ref{sec:current}节中已经提到，统计建模图像集合的方法在图像集合分类问题中的优异表现使得该方法逐渐成为研该问题的主流方法之一；而在使用统计模型建模图像集合的时候往往会涉及到一种特殊的数据结构——对称正定(Symmetric Positive Definite, SPD)矩阵：在单统计量建模图像集合的工作\cite{Statistics_CDL}和\cite{Statistics_SPDML}中均使用样本协方差（Covariance）建模图像集合；在多统计模型建模图像集合的工作\cite{Statistics_LMKML}和\cite{Statistics_HERML}中使用的二阶统计量以及高斯分布等都与对称正定矩阵相关（根据信息几何的内容\cite{Information_geometry}，高斯分布在适当的结构定义下构成黎曼流形，且该流形与SPD矩阵流形关系十分密切，详细的内容读者可以阅读文献\cite{Information_geometry}做进一步的了解）。分布函数建模图像集合的工作\cite{Statistics_DARG}也利用了GMM（混合高斯模型）中的高斯分布与SPD矩阵流形的关系对图像集合进行建模。由此可见黎曼流形，特别是SPD矩阵流形的研究对于图像集合统计建模的重要性。
+在\ref{sec:current}节中已经提到，统计建模图像集合的方法在图像集合分类问题中的优异表现使得该方法逐渐成为研究该问题的主流方法之一；而在使用统计模型建模图像集合的时候往往会涉及到一种特殊的数据结构——对称正定(Symmetric Positive Definite, SPD)矩阵：在单统计量建模图像集合的工作\cite{Statistics_CDL}和\cite{Statistics_SPDML}中均使用样本协方差（Covariance）建模图像集合；在多统计模型建模图像集合的工作\cite{Statistics_LMKML}和\cite{Statistics_HERML}中使用的二阶统计量以及高斯分布等都与对称正定矩阵相关（根据信息几何的内容\cite{Information_geometry}，高斯分布在适当的结构定义下构成黎曼流形，且该流形与SPD矩阵流形关系十分密切，详细的内容读者可以阅读文献\cite{Information_geometry}做进一步的了解）。分布函数建模图像集合的工作\cite{Statistics_DARG}也利用了GMM（混合高斯模型）中的高斯分布与SPD矩阵流形的关系对图像集合进行建模。由此可见黎曼流形，特别是SPD矩阵流形的研究对于图像集合统计建模的重要性。
 
 另一方面，关于SPD流形的研究更早于图像集合的问题而被提出，在计算机视觉领域较早且影响深远的是医学上的DTI(Diffusion Tensor Image)图像的研究（如工作\cite{AIM_metric}，\cite{LEM_metric}，\cite{PGA}，\cite{RCCA}等），它们为后续用SPD矩阵流形研究图像集合奠定了基础。同时工作\cite{PGA}和\cite{RCCA}则更进一步的将欧氏空间中的两个有效的数据分析方法：主成分分析(Principle Component Analysis, PCA)和典型相关分析(Canonical Correlation Analysis, CCA)扩展到了黎曼流形上；这启示我们将与PCA和CCA关系十分密切的偏最小二乘回归(Partial Least Square Regression, PLSR)扩展到黎曼流形上，并针对图像集合问题的特点（相较于DTI图像，图像集合问题中的样本数更稀少但是维度却很高）对其进行改进，将其适配到图像集合分类问题上。
 
@@ -13,7 +13,7 @@
 
 偏最小二乘法于1983年由伍德（S.Wold）和阿巴诺（C.Albano）等人首次提出，并在之后的几十年间得到了长足的发展，文献\cite{KPLS,pls_PLS,pls_PLSR,pls_PLSR2,pls_PLSALL}都是其中具有代表性的工作。偏最小二乘方法也被称为第二代回归方法，它是对传统的多元线性回归模型的一种扩展。它具有主成分分析，典型相关分析以及回归分析的特点，因而往往能给出更加合理的多元数据分析模型。特别地，偏最小二乘方法可以比较好的处理回归分析中自变量多重共线性的问题，且当解释变量的数量超过观测变量的时候或者两者之间存在严重的共线性的关系的时候偏最小二乘方法仍然可以对数据进行很好的建模，下面对偏最小二乘的数学形式进行简要的描述。
 
-假设两个数据集合${\mathcal{X} \subset \mathbb{R}^{N}}$和${\mathcal{Y} \subset \mathbb{R}^{M}}$，并且有分别来自两个集合的$n$个样本，记为：${X \in R^{n\times N},Y \in R^{n\times M}}$，这里不失一般性的假设数据集${X,Y}$都是${0}$均值的，偏最小二乘通过公式\ref{pls_score_model}中的得分向量来关联两个数据集合。
+假设两个数据集合${\mathcal{X} \subset \mathbb{R}^{N}}$和${\mathcal{Y} \subset \mathbb{R}^{M}}$，并且有分别来自两个集合的$n$个样本，记为：${X \in R^{n\times N},Y \in R^{n\times M}}$，这里不失一般性的假设数据集${X,Y}$都是${0}$均值的，偏最小二乘通过公式\ref{pls_score_model}中的得分向量（$T,U$）来关联两个数据集合。
 \begin{equation}
 \begin{split}
 \label{pls_score_model}
@@ -95,7 +95,7 @@ p^{y_i}_{k}=\left\{
 &PLS~~:~~\max_{\|\bm{r}\|=\|\bm{s}\|=1}[cov(X\bm{r},Y\bm{s})]^2
 \end{split}
 \end{equation}
-上两式的联系，在1976年H. D. Vinod关于“canonical ridge analysis”的论文\cite{pls_Canonical_ridge}中给出的公式\ref{pls_PCA_CCA_PLS}即可看出一二。
+上两式的联系，从1976年H. D. Vinod关于“canonical ridge analysis”的论文\cite{pls_Canonical_ridge}中给出的公式\ref{pls_PCA_CCA_PLS}即可看出一二。
 \begin{equation}
 \label{pls_PCA_CCA_PLS}
 \begin{split}
@@ -114,7 +114,7 @@ p^{y_i}_{k}=\left\{
 简单回顾欧氏空间中的PCA，CCA和PLS不难发现其中都涉及到投影的概念，它是这一类方法的核心，也是本节的主要讨论对象。这一节的内容主要分为两部分：第一部分从欧氏空间中的投影开始，逐步介绍抽象的投影的概念，然后将这个概念推广到黎曼流形；第二部分会具体的以SPD矩阵流形为例，将黎曼流形的投影的概念具体化。
 \subsection{一般化的投影}
 \label{sec:common_projection}
-这里的投影理解为欧氏空间中高维空间向低维空间的投影的一般化，此外由于PCA，CCA以及PLS中的投影概念是相似的所以这里就直接以PLS为载体进行欧氏空间中的投影的概念的解释和一般化介绍。
+这里的投影理解为欧氏空间中高维空间向低维空间的投影的一般化，此外由于PCA，CCA以及PLS中的投影概念是相似的，所以这里就直接以PLS为载体进行欧氏空间中的投影的概念的解释和一般化介绍。
 
 \ref{sec:plsr}节给出了欧氏空间中的偏最小二乘的目标函数的形式是公式\ref{pls_max_cov}，也就是最大化协方差的目标，如公式\ref{pls_data_MaxCov}所示。
 \begin{equation}
@@ -126,7 +126,7 @@ p^{y_i}_{k}=\left\{
 \end{equation}
 在公式\ref{pls_data_MaxCov}中$\bm{r}^{T}(\bm{x}_{i}-\bar{\bm{x}})$和$\bm{s}^{T}(\bm{y}_{i}-\bar{\bm{y}}),i=1,2,...,n$即为高维空间向低维空间的投影变换。但是这样的概念并不能直接应用到流形上，因为流形并没有内积的定义。为此，这里先回顾一下欧氏空间中投影的更一般的形式。
 
-高维空间向低位空间的投影的物理意义是在低维空间中找到高维空间中的原始数据最接近的表示。设$\bm{x} \in \mathbb{R}^{n}$是$n$维空间中的向量,又有$S_k$表示$n$维空间中的一个$k$维子空间，那么$\bm{x}$向$S_k$中的投影可以由如\ref{projection}所示的优化问题得到（$d(\cdot,\cdot)$为距离函数）。
+高维空间向低维空间的投影的物理意义是在低维空间中找到高维空间中的原始数据最接近的表示。设$\bm{x} \in \mathbb{R}^{n}$是$n$维空间中的向量,又有$S_k$表示$n$维空间中的一个$k$维子空间，那么$\bm{x}$向$S_k$中的投影可以由\ref{projection}所示的优化问题得到（$d(\cdot,\cdot)$为距离函数）。
 \begin{equation}
 \label{projection}
 \begin{split}
@@ -144,16 +144,16 @@ p^{y_i}_{k}=\left\{
 这里的$t$称为投影系数，也就是\ref{pls_data_MaxCov}中的$\bm{r}^{T}(\bm{x}_{i}-\bar{\bm{x}})$或$\bm{s}^{T}(\bm{y}_{i}-\bar{\bm{y}}),i=1,2,...,N$，因而\ref{pls_data_MaxCov}的问题在这个投影描述下，变成了寻找合适的一维子空间$S_{1}^{x}=\{\bm{v}|\bm{v}=t\bm{r},t\in \mathbb{R}\text{ and }\bm{r}\in\mathbb{R}^{n},\|\bm{r}\|=1\}$，$S_{1}^{y}=\{\bm{v}|\bm{v}=u\bm{s},u\in \mathbb{R}~~{\rm and}~~\bm{s}\in\mathbb{R}^{n},\|\bm{s}\|=1\}$使得投影后的数据表示具有最大的协方差。
 \subsection{对称正定矩阵流形上的均值}
 \label{sec:riemannian_mean}
-本节将就SPD矩阵流形为例，介绍其上的投影变换；此外总结欧氏空间中的偏最小二乘方法，不难发现，若要将偏最小二乘推广到黎曼流形需要完成四件事：1）数据的中心化；2）寻找合适的子流形，3）将高维空间中的数据投影到子流形中；4）最大化的协方差。本节的内容主要完成的是前两件事：数据的中心化和寻找合适的子流形。由于子流形的构造与中心化相关，所以本节先花一点篇幅简要回顾SPD上的Karcher mean问题。由于在本文的第二章中，针对该问题已有详细的的介绍和讨论，所以这里我们直接给出它计算的数学形式。
+本节将就SPD矩阵流形为例，介绍其上的投影变换；此外总结欧氏空间中的偏最小二乘方法，不难发现，若要将偏最小二乘推广到黎曼流形需要完成四件事：1）数据的中心化；2）寻找合适的子流形，3）将高维空间中的数据投影到子流形中；4）最大化协方差。本节的内容主要完成的是前两件事：数据的中心化和寻找合适的子流形。由于子流形的构造与中心化相关，所以本节先花一点篇幅简要回顾SPD上的Karcher mean问题。由于在本文的第二章中，针对该问题已有详细的的介绍和讨论，所以这里我们直接给出它计算的数学形式。
 \begin{displaymath}
-\bar{\bm{x}}=\arg\min_x\frac{1}{2n}\sum_{i=1}^{n}\delta^{2}(\bm{x},\bm{x}_i)
+\bar{\bm{x}}=\arg\min_{\bm{x}}\frac{1}{2n}\sum_{i=1}^{n}\delta^{2}(\bm{x},\bm{x}_i)
 \end{displaymath}
 这里的$\delta(\cdot,\cdot)$表示的是流形中的测地距离，在PSD流形中常使用也是最基本的就是仿射不便距离(Affine Invariant Distance, AID\cite{AIM_metric})，将AID带入到上式的话得到:
 \begin{equation}
 \label{AIM_mean}
 \begin{split}
 \mu&=\arg\min_{X}f(X)=\arg\min_{X}\frac{1}{2n}\sum_{i=1}^{n}\delta^{2}(X,X_i)\\
-&=\arg\min_{X}\frac{1}{2n}\sum_{i=1}^{n}\|\log(X^{-\frac{1}{2}}X_iX^{-\frac{1}{2}})\|_F
+&=\arg\min_{X}\frac{1}{2n}\sum_{i=1}^{n}\|\log(X^{-\frac{1}{2}}X_iX^{-\frac{1}{2}})\|_{F}^{2}
 \end{split}
 \end{equation}
 其中，由于使用$\mu$来表示样本均值已经是约定俗成的了所以尽管Karcher mean是一个矩阵，这里仍然用$\mu$来表示。第二章已经介绍过，要想求出公式\ref{AIM_mean}的解析解几乎是不可能的，但是作为优化问题的话，优化算法仍然是可用的，因此主要的问题就是计算公式\ref{AIM_mean}的梯度函数，在第二章中我们有如下的结果：
@@ -161,7 +161,7 @@ p^{y_i}_{k}=\left\{
 \label{AIM_grad}
 \begin{split}
 {\rm dist}(X,X_i)&=\|\log(X^{-\frac{1}{2}} X_i X^{-\frac{1}{2}})\|_{F},i=1,2,...,n\\
-\nabla_X {\rm dist}(X,X_i)&=2X^{\frac{1}{2}}\log(X^{\frac{1}{2}}X_{i}^{-1}X^{\frac{1}{2}})X^{\frac{1}{2}}=-2\log_{X}(X_i)
+\nabla_X {\rm dist^{2}}(X,X_i)&=2X^{\frac{1}{2}}\log(X^{\frac{1}{2}}X_{i}^{-1}X^{\frac{1}{2}})X^{\frac{1}{2}}=-2\log_{X}(X_i)
 \end{split}
 \end{equation}
 将上式带入到\ref{AIM_mean}得到:
@@ -181,7 +181,9 @@ p^{y_i}_{k}=\left\{
 \label{sec:riemannian_mean}
 在\ref{sec:riemannian_mean}节介绍了黎曼流形上的均值的计算，这节将会介绍黎曼流形上高维流形向低维流形的投影的过程，此前在文献\cite{PGA,RCCA}中对该问题就有一些介绍，这里会对之前工作做一个总结，为黎曼流形上的偏最小二乘推广做准备。
 
-首先，根据欧氏空间中高维空间向一维子空间的投影形式（公式\ref{onedim_projection}），可以看出确定一个一维的子流形是投影变换的首要任务，并注意到流形上的测地线是链接两点之间最短的曲线，它是欧氏空间中两点之间直线最短概念的推广，因此利用测地线构造子流形是自然的一种途径。一般利用样本均值（Karcher mean）出发的测地线构造这样的子流形，虽然目前还没有理论证明这样的构造是最优的，但是一部分在PSD矩阵流形上的实验结果验证在这点可以得到不错的结果\cite{RegionCov_pedestrain}。将从Karcher mean出发利用测地线构造子空间记为$S_W$，带入到公式\ref{onedim_projection}中并使用测第距离可得到公式\ref{submanifold_projection}的形式。
+首先，根据欧氏空间中高维空间向一维子空间的投影形式（公式\ref{onedim_projection}），可以看出确定一个一维的子流形是投影变换的首要任务，并注意到流形上的测地线是链接两点之间最短的曲线，它是欧氏空间中两点之间直线最短概念的推广，因此利用测地线构造子流形是自然的一种途径。一般利用样本均值（Karcher mean）出发的测地线构造这样的子流形，虽然目前还没有理论证明这样的构造是最优的，但是一部分在对称正定矩阵流形上的实验结果验证在这点可以得到不错的结果\cite{RegionCov_pedestrain}。
+
+将从Karcher mean出发利用测地线构造的子空间记为$S_W$，带入到公式\ref{onedim_projection}中并使用测地距离$\delta(\cdot,\cdot)$可得到公式\ref{submanifold_projection}的形式。
 \begin{equation}
 \label{submanifold_projection}
 \begin{split}
@@ -196,8 +198,8 @@ p^{y_i}_{k}=\left\{
 \begin{aligned}
 &S_W=\exp_\mu({\rm{span}}(W)\cap U)\\
 &\Pi_{S_W}(X)=\arg\min_{X^{\prime} \in S_W}\delta^{2}(X^{\prime},X)\\
-&~~~~~~~~~~=\arg\min_{t \in (-\epsilon,\epsilon),X^{\prime}=tW}\|\log_{[\exp_{\mu}(tW)]}(X)\|^2\\
-&\pi_{S_W}(X)=\arg\min_{t \in (-\epsilon,\epsilon)}\|\log_{[\exp_{\mu}(tw)]}(X)\|^2=t^{*}
+&~~~~~~~~~~=\arg\min_{X^{\prime}=tW}\|\log_{[\exp_{\mu}(tW)]}(X)\|^2,t \in (-\epsilon,\epsilon)\\
+&t^{*}=\pi_{S_W}(X)=\arg\min_{t \in (-\epsilon,\epsilon)}\|\log_{[\exp_{\mu}(tw)]}(X)\|^2
 \end{aligned}
 \end{split}
 \right.
@@ -220,8 +222,8 @@ p^{y_i}_{k}=\left\{
 \label{Riemannian_PLS}
 \begin{split}
 \max_{w_x,w_y}& C^2(w_x,w_y)=\max_{w_x,w_y}{\left(\sum_{i=1}^{n}(t_i-\bar{t})(u_i-\bar{u})\right)^2}\\
-s.t.~~&t_i=\arg\min_{X(t) \in S_{w_x},t \in (-\epsilon,\epsilon)}\delta^{2}(X(t),X_i);i=1,2,..,n;\\
-&u_i=\arg\min_{Y(u) \in S_{w_y},u \in (-\eta,\eta)}\delta^{2}(Y(u),Y_i);i=1,2,...,n;\\
+s.t.~~&t_i=\arg\min_{t \in (-\epsilon,\epsilon)}\delta^{2}(X(t),X_i);i=1,2,..,n, X(t) \in S_{w_x};\\
+&u_i=\arg\min_{u \in (-\eta,\eta)}\delta^{2}(Y(u),Y_i);i=1,2,...,n, Y(u) \in S_{w_y};\\
 &\|w_x\|=\|w_y\|=1;\bar{t}=\frac{1}{n}\sum_{i=1}^{n}t_i;\bar{u}=\frac{1}{n}\sum_{i=1}^{n}u_i.
 \end{split}
 \end{equation}
@@ -238,14 +240,14 @@ s.t.~~&t_i=\arg\min_{t \in (-\epsilon,\epsilon)}\|\log_{[\exp_{\mu_x}(tW_X)]}(X_
 
 公式\ref{SPD_RPLS}描述了SPD矩阵流形上的偏最小二乘问题的一般形式，也是定义了流形中的投影之后所能得到的最直接的形式化；但是不难发现还有如下一些问题遗留：1）由于公式\ref{SPD_RPLS}没有解析解，上述问题需要大量的计算，消耗时间过长是一个问题，究其原因主要是$t_i=\arg\min_{t \in (-\epsilon,\epsilon)}\|\log_{[\exp_{\mu_x}(tW_X)]}(X_i)\|^2;i=1,2,..,n;$和$u_i=\arg\min_{u \in (-\eta,\eta)}\|\log_{[\exp_{\mu_y}(uW_Y)]}(Y_i)\|^2;i=1,2,...,n;$的计算过于复杂。2）如何像欧氏空间中的偏最小二乘一样计算第二个（或更多个）投影方向；3）如何将上述问题用于分类问题（或者说如何做回归问题）。在接下来的内容我们将会发现：这些问题中最主要的问题还是原问题没有解析解的问题，当通过适当近似手段将原问题简化后，上面列出的几个问题都将迎刃而解。
 
-前面已经提到优化问题\ref{SPD_RPLS}的计算复杂度过高，并且该问题在图像集合分类问题上会更加严重，原因是数据的维度太高，所以这里选择适当的近似，以求在保证一定的精度的同时速度能有较大的提升。
+前面已经提到优化问题\ref{SPD_RPLS}的计算复杂度过高，并且该问题在图像集合分类问题上会更加严重，原因是数据的维度太高；所以这里选择适当的近似，以求在保证一定的精度的同时速度能有较大的提升。
 
 这里的近似的方法在工作\cite{RCCA,PGA}中已有类似的介绍，主要是针对$t_i=\arg\min_{t \in (-\epsilon,\epsilon)}\|\log_{[\exp_{\mu_x}(tW_X)]}(X_i)\|^2;i=1,2,..,n;$和$u_i=\arg\min_{u \in (-\eta,\eta)}\|\log_{[\exp_{\mu_y}(uW_Y)]}(Y_i)\|^2;i=1,2,...,n;$的计算复杂过高（或者说没有解析解）的问题而提出的简化方案。
 
 以$t_i=\arg\min_{t \in (-\epsilon,\epsilon)}\|\log_{[\exp_{\mu_x}(tW_X)]}(X_i)\|^2$为例，这里我们不难发现时间复杂度主要来自于$\|\log_{[\exp_{\mu_x}(tW_X)]}(X_i)\|^2$而这一部分实际上描述了这样一个过程：将Karcher mean（$\mu_x$）的切空间中的向量$tW_X$通过$\exp_{\mu_x}(\cdot)$变换到$\mathbb{S}_{d}^{+}$中，然后在$\mathbb{S}_{d}^{+}$中度量$\exp_{\mu_x}(tW_X),X_i$两者的测地距离$\delta(\exp_{\mu_x}(tW_X),X_i)$；据此并参考\cite{PGA}，我们使用如下的近似方案：将在原流形中度量$\exp_{\mu_x}(tW_X),X_i$两者的距离改在$\mu_x$的切空间中度量两者对应切向量的距离$\delta(\exp_{\mu_x}(tW_X),X_i)\approx \|tW_X-\log_{\mu_x}(X_i)\|_{\mu_x}$，于是原来的投影问题\ref{SPD_submanifold}就变成了:
 \begin{equation}
 \label{tangent_approxiamte}
-\Pi_{S}(X)=\exp\left(\mu_x,\sum_{i=1}^{k}V_i\left<V_i,\log_{\mu_x}(X)\right>\right)\\
+\Pi_{S}(X)=\exp_{\mu_x}\left(\sum_{i=1}^{k}V_i\left<V_i,\log_{\mu_x}(X)\right>_{\mu_{x}}\right)\\
 \end{equation}
 其中$\{V_i\}_{i=1}^{d}$是$\mu_x$处的切空间中的标准正交基（$\mu_x$的切空间是内积空间），这点修改使得问题大大简化，稍作整理之后可以得到对称正定矩阵流形上的偏最小二乘近似算法\ref{alg:RPLS_approx}。
 \begin{algorithm}[htb]
@@ -258,13 +260,13 @@ s.t.~~&t_i=\arg\min_{t \in (-\epsilon,\epsilon)}\|\log_{[\exp_{\mu_x}(tW_X)]}(X_
 \STATE 利用群操作将样本变换到单位矩阵的切空间:\\
 ~~~~~~~~~~~~~~~~~~~$\log_{\mu_{x}}(X_i)\rightarrow \mu_{x}^{-1/2}\log_{\mu_{x}}(X_i)\mu_{x}^{-1/2}=\log(\mu_{x}^{-1/2}X_i\mu_{x}^{-1/2})\triangleq \tilde{X}_i$\\
 ~~~~~~~~~~~~~~~~~~~$\log_{\mu_{y}}(Y_i)\rightarrow \mu_{y}^{-1/2}\log_{\mu_{y}}(Y_i)\mu_{y}^{-1/2}=\log(\mu_{y}^{-1/2}Y_i\mu_{y}^{-1/2})\triangleq \tilde{Y}_i$
-\STATE 在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及$\{\tilde{Y}_{i}\}_{i=1}^{n}$之间执行NIPALS\cite{pls_NIPALS}得到$\hat{\bm{W}}_X,\hat{\bm{W}}_Y,T=[\bm{t}_1,\cdots,\bm{t}_k],U=[\bm{u}_1,\cdots,\bm{u}_n]$
-\STATE 利用群操作将$\hat{\bm{W}}_X$变换到$\mu_x$的切空间得到$\bm{W}_X$,将$\hat{\bm{W}}_y$变换到$\mu_y$的切空间得到$\bm{W}_Y$
+\STATE 在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及$\{\tilde{Y}_{i}\}_{i=1}^{n}$之间执行NIPALS\cite{pls_NIPALS}得到$\hat{\bm{W}}_X,\hat{\bm{W}}_Y,T=[\bm{t}_1,\cdots,\bm{t}_n],U=[\bm{u}_1,\cdots,\bm{u}_n]$
+\STATE 利用平行移动（Parallel transport\cite{RCCA}）将$\hat{\bm{W}}_X$变换到$\mu_x$的切空间得到$\bm{W}_X$,将$\hat{\bm{W}}_y$变换到$\mu_y$的切空间得到$\bm{W}_Y$
 \RETURN $\bm{W}_X,\bm{W}_Y,T,U,\mu_x,\mu_y$
 \end{algorithmic}
 \end{algorithm}
 
-算法\ref{alg:RPLS_approx}中的:\textit{“在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及$\{\tilde{Y}_{i}\}_{i=1}^{n}$之间执行NIPALS\cite{pls_NIPALS}得到$\hat{\bm{W}}_X,\hat{\bm{W}}_Y,T=[\bm{t}_1,\cdots,\bm{t}_k],U=[\bm{u}_1,\cdots,\bm{u}_n]$”}使用的是欧氏空间中的标准的偏最小二乘求解算法，因为Karcher mean的切空间是内积空间，而通过群操作后的数据在单位阵$I$处的表示也是内积空间中的表示，所以欧氏空间中的方法在这里都可以直接使用。进一步的，通过公式\ref{pls_score_model}$\sim$\ref{label_represent}的内容即可得到计算多个成分（投影子空间）和偏最小二乘回归问题的形式化，由于这只是重复前面的内容，这里就不再赘述了，最后在算法\ref{alg:RPLS_approx_regression}中给出与算法\ref{alg:RPLS_approx}类似的，用于回归问题的算法。
+算法\ref{alg:RPLS_approx}中的:\textit{“在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及$\{\tilde{Y}_{i}\}_{i=1}^{n}$之间执行NIPALS\cite{pls_NIPALS}得到$\hat{\bm{W}}_X,\hat{\bm{W}}_Y,T=[\bm{t}_1,\cdots,\bm{t}_n],U=[\bm{u}_1,\cdots,\bm{u}_n]$”}使用的是欧氏空间中的标准的偏最小二乘求解算法，因为Karcher mean的切空间是内积空间，而通过平行移动（Parallel transport\cite{RCCA}）后的数据在单位阵$I$处的表示也是内积空间中的表示，所以欧氏空间中的方法在这里都可以直接使用。进一步的，通过公式\ref{pls_score_model}$\sim$\ref{label_represent}的内容即可得到计算多个成分（投影子空间）和偏最小二乘回归问题的形式化，由于这只是重复前面的内容，这里就不再赘述了，最后在算法\ref{alg:RPLS_approx_regression}中给出与算法\ref{alg:RPLS_approx}类似的，用于回归问题的算法。
 \begin{algorithm}[hbt]
 \caption{对称正定矩阵流形上的偏最小二乘回归（近似）算法}
 \label{alg:RPLS_approx_regression}
@@ -272,23 +274,23 @@ s.t.~~&t_i=\arg\min_{t \in (-\epsilon,\epsilon)}\|\log_{[\exp_{\mu_x}(tW_X)]}(X_
 \REQUIRE 对称正定矩阵集合$\bm{X}=\{X_i\}_{i=1}^{n}$，label矩阵$Y$，需要计算的成分的个数$k$
 \ENSURE 在集合的$\bm{X}$的Karcher mean（$\mu$）处的切空间处张成子空间的$k$个成分$\bm{W}_{X}=\{W_{X}^{i}\}_{i=1}^{k}$，以及$\{X_i\}_{i=1}^{n}$对应的投影$\{\bm{t}_i\}_{i=1}^{n}$；欧氏空间中标签集$Y$的投影矩阵$W_y=\{\bm{w}_{y}^{i}\}_{i=1}^{k}$及其对应的投影$\{\bm{u}_i\}_{i=1}^{n}$
 \STATE 计算$\bm{X}$的Karcher mean（$\mu$）以及$\{\hat{X}_i=\log_{\mu}(X_i)\}_{i=1}^{n}$
-\STATE 利用群操作将样本移动到单位矩阵的切空间:\\
+\STATE 利用平行移动（Parallel transport\cite{RCCA}）将样本移动到单位矩阵的切空间:\\
  ~~~~~~~~~~~~~~~~~~~~$\log_{\mu}(X_i)\rightarrow \mu^{-1/2}\log_{\mu}(X_i)\mu^{-1/2}=\log(\mu^{-1/2}X_i\mu^{-1/2})\triangleq \tilde{X}_i$
-\STATE 在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及$Y$之间执行NIPALS\cite{pls_NIPALS}得到$\hat{\bm{W}}_x,W_y,T=[\bm{t}_1,\cdots,\bm{t}_k],U=[\bm{u}_1,\cdots,\bm{u}_n]$
-\STATE 利用群操作将$\hat{\bm{W}}_x$变换到$\mu$的切空间得到$\bm{W}_x$
+\STATE 在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及$Y$之间执行NIPALS\cite{pls_NIPALS}得到$\hat{\bm{W}}_x,W_y,T=[\bm{t}_1,\cdots,\bm{t}_n],U=[\bm{u}_1,\cdots,\bm{u}_n]$
+\STATE 利用平行移动（Parallel transport\cite{RCCA}）将$\hat{\bm{W}}_x$变换到$\mu$的切空间得到$\bm{W}_x$
 \RETURN $\bm{W}_X,W_y,T,U,\mu_x,\mu_y$
 \end{algorithmic}
 \end{algorithm}
 \subsection{面向图像集合分类的黎曼流形上的偏最小二乘回归}
 \label{sec:ImageSet_PLS}
-这里将算法\ref{alg:RPLS_approx_regression}称为基础版本的黎曼流形上的偏最小二乘回归，该算法已经可以直接运用到图像集合分类问题了，但是仔细回顾公式\ref{Riemannian_PLS}会发现在计算$t_i,u_i$的时候要求$t_i \in (-\epsilon,\epsilon),u_i \in (-\eta,\eta)$，也就是要求$t_iW_X,u_iW_Y$在$\mu_x,\mu_y$的一个小邻域内，而其本质上是要求SPD矩阵样本的分布是比较集中；这也正是图像集合问题和DTI图像中的Tensor的重要区别之一（图像集合中的样本由于维度高样本少，所以分布往往比较稀疏），也是将黎曼流形上的偏最小二乘回归用到图像集合需要解决的问题；此外注意到工作\cite{RCCA,PGA}利用Karcher mean的切空间构造子流形，但是前面已经提到并没有理论证明这样的结果是最好的，所以如果在构造子流形的过程中考虑label的信息，我们相信可以找到更适合构建子流形的地方。接下来的内容就是如何针对以上的问题将偏最小二乘回归方法适配到图像集合分类上，并且我们尽量做到在几乎不增加计算复杂度的前提下对性能有较大的改进。
+这里将算法\ref{alg:RPLS_approx_regression}称为基础版本的黎曼流形上的偏最小二乘回归，该算法已经可以直接运用到图像集合分类问题了，但是仔细回顾公式\ref{Riemannian_PLS}会发现在计算$t_i,u_i$的时候要求$t_i \in (-\epsilon,\epsilon),u_i \in (-\eta,\eta)$，也就是要求$t_iW_X,u_iW_Y$在$\mu_x,\mu_y$的切空间中原点的一个小邻域内，而其本质上是要求SPD矩阵样本的分布是比较集中；这也正是图像集合问题和DTI图像中的Tensor的重要区别之一（图像集合中的样本由于维度高样本少，所以分布往往比较稀疏），也是将黎曼流形上的偏最小二乘回归用到图像集合需要解决的问题；此外注意到工作\cite{RCCA,PGA}利用Karcher mean的切空间构造子流形，但是前面已经提到并没有理论证明这样的结果是最好的，所以如果在构造子流形的过程中考虑label的信息，我们相信可以找到更适合构建子流形的地方。接下来的内容就是如何针对以上的问题将偏最小二乘回归方法适配到图像集合分类上，并且我们尽量做到在几乎不增加计算复杂度的前提下对性能有较大的改进。
 \subsubsection{融合判别信息的子流形构造}
 \label{sec:discrim_single_support}
 本节将针对前面提到的第二个问题：找到一个比Karcher mean更具判别性的点构建子流形进行介绍。我们的解决方案具体如下：首先注意到公式\ref{AIM_mean}计算Karcher mean的时候是一个无监督的优化过程，并未编码判别信息在其中；因此这里考虑编码label到构造子流形的点（相当于算法\ref{alg:RPLS_approx_regression}中的$\mu$，这里为方便起见仍然沿用记号$\mu$）。
 
-该步骤的目标是使得算法\ref{alg:RPLS_approx_regression}中的$\{X_i\}_{i=1}^{n}$在$\mu$处的切向量表示经过群操作变换到单位阵的切空间中之后的$\{\tilde{X}_i\}_{i=1}^{n}$同类相似度大，异类相似度小，在实际中使用的是cosine相似度，也就是同类的尽量共线，不同类的尽量正交，并保证投影之后“方差”尽量的小（类似于中心化，因为直接进行中心化比较困难，所以在优化的过程要求$\{X_i\}_{i=1}^{n}$在$\mu$处的切向量表示在原切空间（$T_{\mu}M$）中应该具有0均值的特点。
+该步骤的目标是使得算法\ref{alg:RPLS_approx_regression}中的$\{X_i\}_{i=1}^{n}$在$\mu$处的切向量表示经过平行移动（Parallel transport\cite{RCCA}）变换到单位阵的切空间中之后的$\{\tilde{X}_i\}_{i=1}^{n}$同类相似度大，异类相似度小，在实际中使用的是cosine相似度，也就是同类的尽量共线，不同类的尽量正交，并保证投影之后“方差”尽量的小（类似于中心化，因为直接进行中心化比较困难，所以在优化的过程要求$\{X_i\}_{i=1}^{n}$在$\mu$处的切向量表示在原切空间（$T_{\mu}M$）中应该具有0均值的特点）。
 
-沿用之前的记号设$\{X_i\}_{i=1}^{n}$是来自于$C$个类的对称正定矩阵的样本$X_i \in \mathbb{S}_{d}^{+}$，并假设每个类有$n_i,i=1,2,\cdots,C$个样本$n=\sum_{i=1}^{C}n_i$，样本的label我们用公式\ref{label_represent}的矩阵$Y$表示，下面是编码判别信息的形式化过程。
+沿用之前的记号设$\{X_i\}_{i=1}^{n}$是来自于$C$个类的对称正定矩阵的样本$X_i \in \mathbb{S}_{d}^{+}$，并假设每个类有$n_i,i=1,2,\cdots,C$个样本，且$n=\sum_{i=1}^{C}n_i$，样本的label我们用公式\ref{label_represent}的矩阵$Y$表示，下面是编码判别信息的形式化过程。
 \begin{itemize}
 \item 定义平方相似度矩阵$F=[\rho_{ij}^{2}]_{n\times n},\rho_{ij}=\frac{k_{ij}}{\sqrt{k_{ii}k_{jj}}}$,其中$k_{ij}$由下式定义：
 \begin{equation}
@@ -315,7 +317,7 @@ P_{ij}=\left\{
 \end{equation}
 其中$\lambda$是一个平衡因子起到平衡两者权重的作用，同时也有平衡量纲的作用，避免其中一方因量纲问题绝对占优。
 \end{itemize}
-\subsubsection{融合判别信息的切空间构造问题的优化}
+\subsubsection{融合判别信息的子流形构造问题的优化}
 \label{sec:discrim_single_support_opt}
 公式\ref{support_search}没有解析解因此需要通过优化来求解，而且约束条件$\mu \succ 0$表明了问题的解空间是$\mathbb{S}_{d}^{+}$，这里使用黎曼流形上的共轭梯度算法\ref{alg:Manifold_Gradient_Descend}来优化问题\ref{support_search}，关于黎曼流形上的共轭梯度算法可以参看本文的第二章以及文献\cite{Conjugate_Gradient_Survery}，使用该方法优化的时候，最主要的输入是\ref{support_search}的导数。接下来将利用第二章的内容对公式\ref{support_search}的导数计算作简要说明。
 
@@ -335,6 +337,7 @@ P_{ij}=\left\{
 &\left<\log_{\mu}(X_i),\log_{\mu}(X_j)\right>_{\mu}\\
 &~~~~~~=\left<\log(\mu^{-1/2}X_{i}\mu^{-1/2}),\log(\mu^{-1/2}X_j\mu^{-1/2})\right>\\
 &~~~~~~=\left<\log(\mu^{1/2}X_{i}^{-1}\mu^{1/2}),\log(\mu^{1/2}X_{j}^{-1}\mu^{1/2})\right>\\
+&~~~~~~={\rm tr}\left(\log(\mu^{1/2}X_{i}^{-1}\mu^{1/2})\log(\mu^{1/2}X_{j}^{-1}\mu^{1/2})\right)\\
 &~~~~~~={\rm tr}(\log(X_{i}^{-1}\mu)\log(X_{j}^{-1}\mu))\\
 &~~~~~~={\rm tr}(X_{i}^{-1/2}\log(X_{i}^{-1/2}\mu X_{i}^{-1/2})X_{i}^{1/2}X_{j}^{-1/2}\log(X_{j}^{-1/2}\mu X_{j}^{-1/2})X_{j}^{1/2})\\
 &~~~~~~={\rm tr}(\log(X_{i}^{-1/2}\mu X_{i}^{-1/2})X_{i}^{1/2}X_{j}^{-1/2}\log(X_{j}^{-1/2}\mu X_{j}^{-1/2})X_{j}^{1/2}X_{i}^{-1/2})\\
@@ -345,8 +348,8 @@ P_{ij}=\left\{
 \begin{equation}
 \label{kernel_elementwise_gradient}
 \begin{split}
-&\frac{\partial}{\partial \mu}k_{ij}=X_{i}^{-1/2}\left(D_{X_{i}^{-1/2}\mu X_{i}^{-1/2}}\log(X_{i}^{-1/2}\mu X_{i}^{-1/2})[sym(X_{i}^{1/2}X_{j}^{-1/2}\log(X_{j}^{-1/2}\mu X_{j}^{-1/2})X_{j}^{1/2}X_{i}^{-1/2}]\right)X_{i}^{-1/2}\\
-&~~~~~~+X_{j}^{-1/2}\left(D_{X_{i}^{-1/2}\mu X_{i}^{-1/2}}\log(X_{j}^{-1/2}\mu X_{j}^{-1/2})[sym(X_{j}^{1/2}X_{i}^{-1/2}\log(X_{i}^{-1/2}\mu X_{i}^{-1/2})X_{i}^{1/2}X_{j}^{-1/2}]\right)X_{j}^{-1/2}\\
+&\frac{\partial}{\partial \mu}k_{ij}=X_{i}^{-1/2}\left(D_{X_{i}^{-1/2}\mu X_{i}^{-1/2}}\log(X_{i}^{-1/2}\mu X_{i}^{-1/2})[{\rm symm}(X_{i}^{1/2}X_{j}^{-1/2}\log(X_{j}^{-1/2}\mu X_{j}^{-1/2})X_{j}^{1/2}X_{i}^{-1/2}]\right)X_{i}^{-1/2}\\
+&~~~~~~+X_{j}^{-1/2}\left(D_{X_{i}^{-1/2}\mu X_{i}^{-1/2}}\log(X_{j}^{-1/2}\mu X_{j}^{-1/2})[{\rm symm}(X_{j}^{1/2}X_{i}^{-1/2}\log(X_{i}^{-1/2}\mu X_{i}^{-1/2})X_{i}^{1/2}X_{j}^{-1/2}]\right)X_{j}^{-1/2}\\
 \end{split}
 \end{equation}
 
@@ -362,7 +365,7 @@ P_{ij}=\left\{
 \label{support_search_gradeint}
 \nabla_{\mu} f(\mu)=\sum_{i=1}^{n}\sum_{j=1}^{n}P_{ij}\left(c_1\frac{\partial}{\partial \mu}k_{ij}-c_2\frac{\partial}{\partial \mu}k_{ii}-c_3\frac{\partial}{\partial \mu}k_{jj}\right)+\frac{\lambda}{n}\sum_{i=1}^{n}\frac{\partial}{\partial \mu}k_{ii}
 \end{equation}
-最后，利用第二章中的内容以及论文\cite{Statistics_SLEDML,Maniopt_DiscreteCurveFitting}中的结果将普通的梯度转换为黎曼梯度。这只需要对公式\ref{support_search_gradeint}作公式\ref{support_search_riemannian_gradeint}中的变化即可：
+最后，利用第二章中的内容以及论文\cite{Statistics_SLEDML,Maniopt_DiscreteCurveFitting}中的结果将普通的梯度转换为黎曼梯度。这只需要对公式\ref{support_search_gradeint}做公式\ref{support_search_riemannian_gradeint}中的变化即可：
 \begin{equation}
 \label{support_search_riemannian_gradeint}
 {\rm grad}_{\mu}f(\mu)=\mu \nabla_{\mu} f(\mu) \mu
@@ -375,10 +378,10 @@ P_{ij}=\left\{
 \REQUIRE 对称正定矩阵集合$\bm{X}=\{X_i\}_{i=1}^{n}$，label矩阵${Y}$，需要计算的成分的个数$k$
 \ENSURE 融入判别性的切空间$T_{\mu}M$对应的$\mu$，集合$\bm{X}$在$T_{\mu}M$中的$k$个成分$\bm{W}_X=\{W_{X}^{i}\}_{i=1}^{k}$，以及$\{X_i\}_{i=1}^{n}$对应的投影$\{\bm{t}_i\}_{i=1}^{n}$；欧氏空间中标签集$\bm{Y}$的投影向量$W_y=\{\bm{w}_{y}^{i}\}_{i=1}^{k}$及其对应的投影$\{\bm{u}_i\}_{i=1}^{n}$
 \STATE 初始化$\mu=\mu_0$（通常为$I$）求解问题\ref{support_search}获得$\mu$，然后计算$\{\hat{X}_i=\log_{\mu}(X_i)\}_{i=1}^{n}$
-\STATE 利用群操作将样本移动到单位矩阵的切空间:\\
+\STATE 利用平行移动（Parallel transport\cite{RCCA}）将样本移动到单位矩阵的切空间:\\
  ~~~~~~~~~~~~~~~~~~~~$\log_{\mu}(X_i)\rightarrow \mu^{-1/2}\log_{\mu}(X_i)\mu^{-1/2}=\log(\mu^{-1/2}X_i\mu^{-1/2})\triangleq \tilde{X}_i$
-\STATE 在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及${Y}$之间执行NIPALS\cite{pls_NIPALS}得到$\hat{\bm{W}}_X,W_y,T=[\bm{t}_1,\cdots,\bm{t}_k],U=[\bm{u}_1,\cdots,\bm{u}_n]$
-\STATE 利用群操作将$\hat{W}_x$变换到$\mu$的切空间得到$\bm{W}_x$
+\STATE 在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及${Y}$之间执行NIPALS\cite{pls_NIPALS}得到$\hat{\bm{W}}_X,W_y,T=[\bm{t}_1,\cdots,\bm{t}_n],U=[\bm{u}_1,\cdots,\bm{u}_n]$
+\STATE 利用平行移动（Parallel transport\cite{RCCA}）将$\hat{W}_x$变换到$\mu$的切空间得到$\bm{W}_x$
 \RETURN $\bm{W}_X,W_y,T,U,\mu$
 \end{algorithmic}
 \end{algorithm}\\
@@ -394,7 +397,7 @@ P_{ij}=\left\{
 注意到算法\ref{alg:RPLS_discrim_tangent_approx_regression}仍然没有解决一开始提到的另一个问题：数据不紧凑所带来的近似/估计不准问题，接下来的部分将针对这个方法做进一步的改进。公式\ref{SPD_RPLS}中的$t_i \in (-\epsilon,\epsilon)$和$u_i \in (-\eta,\eta)$的条件就是要求样本数据需要足够集中才行，但是如果直接将算法\ref{alg:RPLS_discrim_tangent_approx_regression}中的$\bm{t}_i$或$\bm{u}_i$进行截断的话，这不仅会损失精度（因为原始数据本来分布很稀疏，再限制$t_i$或$u_i$的取值范围无疑会使得估计更加的不准），而且在优化的时候也会比较麻烦，所以这里考虑寻找多个点使用多个切空间来缓解数据稀疏的问题。在这样的框架下，每个切空间并不需要很强的表示能力，只需要能够反应原始数据的一部分结构就行，而最后通过设计特定的方法整合每个切空间中的表示模型得到更具表示能力的模型帮助判别（分类）问题的研究。
 
 上述框架的主要问题是如何选取各个切空间以及如何将它们有效的融合起来，这里我们使用逐步回归的方案来同时解决这两个问题：对算法\ref{alg:RPLS_discrim_tangent_approx_regression}中的数据$\bm{X}=\{X_i\}_{i=1}^{n}$和label矩阵${Y}$执行算法\ref{alg:RPLS_discrim_tangent_approx_regression}获得一个切空间$T_{\mu_1}M$，$k$个投影方向$\bm{W}_{X}^{(1)},W_{y}^{(1)}$和对应的$T_{1},U_{1}$；然后对$\{\tilde{X}_{i=1}^{n}\}$以及$Y$利用公式\ref{pls_deflate}进行defalte操作：%$\underrightarrow{abc}$,
-$\{\tilde{X}_{i}\}_{i=1}^{n} \xlongrightarrow{defalte} \{\tilde{X}^{res}_i\}_{i=1}^{n},{Y}\xlongrightarrow{defalte} {Y}^{res}$，然后对$\{\tilde{X}^{res}_{i}\}_{i=1}^{n}$利用群操作从单位阵处将数据变换到$\mu$再用$\exp_{\mu_{1}}(\cdot)$将数据$\{\tilde{X}^{res}_i\}_{i=1}^{n}$变换到SPD矩阵流形得到$\{Z^{res}_{i}\}_{i=1}^{n}$，最后将$\{Z^{res}_i\}_{i=1}^{n},{Y}^{res}$赋值给$\bm{X}=\{X_i\}_{i=1}^{n}$和$Y$，并重新初始化$\mu_2$后开始第二次迭代；反复上述过程直到获得指定个数的切空间，算法终止。这里将上述过程用算法\ref{alg:RPLS_multi_support_approx_regression}描述。
+$\{\tilde{X}_{i}\}_{i=1}^{n} \xlongrightarrow{defalte} \{\tilde{X}^{res}_i\}_{i=1}^{n},{Y}\xlongrightarrow{defalte} {Y}^{res}$，然后对$\{\tilde{X}^{res}_{i}\}_{i=1}^{n}$利用平行移动（Parallel transport\cite{RCCA}）从$T_{I}M$处将数据变换到$T_{\mu}M$再用$\exp_{\mu_{1}}(\cdot)$将数据$\{\tilde{X}^{res}_i\}_{i=1}^{n}$变换到SPD矩阵流形得到$\{Z^{res}_{i}\}_{i=1}^{n}$，最后将$\{Z^{res}_i\}_{i=1}^{n},{Y}^{res}$赋值给$\bm{X}=\{X_i\}_{i=1}^{n}$和$Y$，并重新初始化$\mu_2$后开始第二次迭代；反复上述过程直到获得指定个数的切空间，算法终止。这里将上述过程用算法\ref{alg:RPLS_multi_support_approx_regression}描述。
 \begin{algorithm}[htb]
 \caption{对称正定矩阵流形上多切空间偏最小二乘回归（近似）算法}
 \label{alg:RPLS_multi_support_approx_regression}
@@ -404,13 +407,13 @@ $\{\tilde{X}_{i}\}_{i=1}^{n} \xlongrightarrow{defalte} \{\tilde{X}^{res}_i\}_{i=
 \STATE 初始化$output$为包含$p$个cell的结构：$output=cell(1,p)$
 \FOR{$j=1;~j\leq p;~j=j+1$}
 	\STATE 初始化$\mu_j=\mu_0$（通常为$I$）求解问题\ref{support_search}获得$\mu_j$，然后计算$\{\hat{X}_i=\log_{\mu_j}(X_i)\}_{i=1}^{n}$
-	\STATE 利用群操作将样本移动到单位矩阵的切空间:\\
+	\STATE 利用平行移动（Parallel transport\cite{RCCA}）将样本移动到单位矩阵的切空间:\\
  	~~~~~~~~~~~~~~~~~~~~$\log_{\mu_{j}}(X_i)\rightarrow \mu_{j}^{-1/2}\log_{\mu}(X_i)\mu_{j}^{-1/2}=\log(\mu_{j}^{-1/2}X_i\mu_{j}^{-1/2})\triangleq \tilde{X}_i$
 	\STATE 在$\{\tilde{X}_{i}\}_{i=1}^{n}$以及$\bm{Y}$之间执行NIPALS\cite{pls_NIPALS}得到:\\
-	$\hat{\bm{W}}_{x}^{(j)},W_{y}^{(j)},T_{j}=[\bm{t}_{1}^{j},\cdots,\bm{t}_{k}^{j}],U_j=[\bm{u}_{1}^{j},\cdots,\bm{u}_{k}^{j}]$
-	\STATE 利用群操作将$\hat{\bm{W}}_{x}^{(j)}$变换到$\mu_{j}$的切空间得到$\bm{W}_{x}^{(j)}$
+	$\hat{\bm{W}}_{x}^{(j)},W_{y}^{(j)},T_{j}=[\bm{t}_{1}^{j},\cdots,\bm{t}_{n}^{j}],U_j=[\bm{u}_{1}^{j},\cdots,\bm{u}_{k}^{j}]$
+	\STATE 利用平行移动（Parallel transport\cite{RCCA}）将$\hat{\bm{W}}_{x}^{(j)}$变换到$\mu_{j}$的切空间得到$\bm{W}_{x}^{(j)}$
 	\STATE 对$\bm{X},{Y}$使用deflate操作:$\{\tilde{X}_{i}\}_{i=1}^{n} \xlongrightarrow{defalte} \{\tilde{X}^{res}_{i}\}_{i=1}^{n},{Y}\xlongrightarrow{defalte} {Y}^{res}$
-	\STATE 利用群操作从单位阵处将数据$\{\tilde{X}^{res}_{i}\}_{i=1}^{n}$变换到$T_{\mu_{j}}M$然后用$\exp_{\mu_{j}}(\cdot)$将结果变换到SPD矩阵流形得到$\{Z^{res}_{i}\}_{i=1}^{n}$
+	\STATE 利用平行移动（Parallel transport\cite{RCCA}）从单位阵处将数据$\{\tilde{X}^{res}_{i}\}_{i=1}^{n}$变换到$T_{\mu_{j}}M$然后用$\exp_{\mu_{j}}(\cdot)$将结果变换到SPD矩阵流形得到$\{Z^{res}_{i}\}_{i=1}^{n}$
 	\STATE 将$\{Z^{res}_{i}\}_{i=1}^{n},{Y^{res}}$赋值给$\bm{X}=\{X_i\}_{i=1}^{n}$和${Y}$
 	\STATE 保存此次结果:$[\mu_{j},\bm{W}_{x}^{(j)},W_{y}^{(j)},T_{j},U_{j}]\rightarrow output\{j\}$
 \ENDFOR
@@ -428,7 +431,7 @@ $\{\tilde{X}_{i}\}_{i=1}^{n} \xlongrightarrow{defalte} \{\tilde{X}^{res}_i\}_{i=
 
 在训练数据上运用算法\ref{alg:RPLS_multi_support_approx_regression}得到训练参数后，测试的部分与普通的算法\ref{alg:RPLS_discrim_tangent_approx_regression}或\ref{alg:RPLS_approx_regression}的测试类似，所不同的是算法\ref{alg:RPLS_multi_support_approx_regression}中回归的$Y$是所有切空间中结果的综合（逐步回归相加）得到的。
 
-关于训练，算法\ref{alg:RPLS_multi_support_approx_regression}与算法\ref{alg:RPLS_discrim_tangent_approx_regression}和\ref{alg:RPLS_approx_regression}有些许的不同：首先是算法\ref{alg:RPLS_multi_support_approx_regression}的参数$k$的选择往往要比后两者的小很多，例如在YTC\cite{Database_YTC}数据集上算法\ref{alg:RPLS_approx_regression}和\ref{alg:RPLS_discrim_tangent_approx_regression}的参数$k$默认设置为类别数减一（46=47-1）且实验中若减小$k$会使得算法的性能降低，而算法\ref{alg:RPLS_multi_support_approx_regression}中$k$的选择为26，过高或过低都会降低算法的性能（原因可能是欠拟合或过拟合）；算法\ref{alg:RPLS_multi_support_approx_regression}的另一个重要的参数的选择就是$p$，这个也会有欠拟合和过拟合的现象。最后数据是否中心化对最终结果也有一定的影响，这个问题在UIUC\cite{Database_UIUC}数据上做材料分类的时候尤其明显。
+关于训练，算法\ref{alg:RPLS_multi_support_approx_regression}与算法\ref{alg:RPLS_discrim_tangent_approx_regression}和\ref{alg:RPLS_approx_regression}有些许的不同：首先是算法\ref{alg:RPLS_multi_support_approx_regression}的参数$k$的选择往往要比后两者的小很多，例如在YTC\cite{Database_YTC}数据集上算法\ref{alg:RPLS_approx_regression}和\ref{alg:RPLS_discrim_tangent_approx_regression}的参数$k$默认设置为类别数减一（46=47-1）且实验中若减小$k$会使得算法的性能降低，而算法\ref{alg:RPLS_multi_support_approx_regression}中$k$的选择为26，过高或过低都会降低算法的性能（原因可能是欠拟合或过拟合）；算法\ref{alg:RPLS_multi_support_approx_regression}的另一个重要的参数的选择就是$p$，这个也会有欠拟合和过拟合的现象。最后数据是否中心化对最终结果也有一定的影响，这个问题在UIUC\cite{Database_UIUC}数据上做材质分类的时候尤其明显。
 \section{实验验证}
 \label{sec:RPLS_exp}
 前面的章节对问题的背景，已有的方法，存在的问题以及本文的动机和针对问题的解决的方案等做了阐述，本节将会实验验证前面的方法并从实验结果出发分析方法的特点和存在的问题等。
@@ -475,7 +478,7 @@ C={\rm det}(\Sigma)^{-\frac{1}{d+1}}\left[
 
 试验中我们发现公式\ref{support_search}中的第二项对算法性能有小幅的提升，试验中我们始终固定公式中$\lambda=0.001$。而在前面我们也有介绍，算法\ref{alg:RPLS_multi_support_approx_regression}中的参数$k,p$对于算法的影响较大，也是本算法需要改进的一大方向。
 
-最后在对比的一系列的方法中，BeyondGauss\cite{Statistics_BeyondGauss}的方法由于是使用KDE来估计分布函数，而在UIUC\cite{Database_UIUC}这个数据集上原始的特征是Dense Sift（样本非常多），直接导致了无法计算的问题，所以这里的结果没有汇报（N/A），其它数据集上的结果是在hellinger散度下的结果。同样由于内存问题DARG\cite{Statistics_DARG}方法在UIUC\cite{Database_UIUC}数据集上也无法获得结果，所以也使用N/A代替。表格中对比方法的结果都是从作者主页获取的代码小心调参后获得的最好的结果。
+最后在对比的一系列的方法中，BeyondGauss\cite{Statistics_BeyondGauss}的方法由于是使用KDE来估计分布函数，而在UIUC\cite{Database_UIUC}这个数据集上原始的特征是Dense Sift（样本非常多），直接导致了无法计算的问题，所以这里的结果没有汇报（N/A），该方法在其它数据集上的结果是在hellinger散度下的结果。同样由于内存问题DARG\cite{Statistics_DARG}方法在UIUC\cite{Database_UIUC}数据集上也无法获得结果，所以也使用N/A代替。表格中对比方法的结果都是从作者主页获取的代码小心调参后获得的最好的结果。
 \section{总结与下一步工作}
 \label{sec:conclusion_futurework}
 本章从子流形与投影的概念出发，参考相关工作\cite{PGA,RCCA,AIM_metric,Statistics_CDL}等导出了黎曼流形上的偏最小二乘问题以及偏最小二乘用于回归的一般形式，然后以SPD矩阵流形为例将算法形式化到\ref{alg:RPLS_approx_regression}中，并针对图像集合分类问题与DTI（Diffusion Tensor Images）的不同（主要是数据更稀疏的问题），提出了两点通用的改进（这里之所以说是通用的改进，是因为即便数据聚集在流形的小范围内这些改进依然是适用的）得到了多切空间偏最小二乘回归算法，使得算法可以适应这种数据稀疏的情况，最后的实验验证部分验证了方法的有效性。

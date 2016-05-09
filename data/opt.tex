@@ -1,7 +1,7 @@
 % created on 2016-03-27
 \chapter{矩阵函数的导数计算与矩阵流形上的基本优化方法}
 \label{chap:Matdev_basicManiopt}
-《论语》有云：“工欲善其事，必先利其器”。本文把黎曼流形作为主要的研究工具/对象，则必然涉及到其上的优化问题，本章正是对该问题的探索。不过本章的内容也是一个一般化的问题研究而并不仅限于本文中的应用，最后这部分内容也是对研究课题中流形上的优化问题的归纳和总结。当然这里不会像\cite{Maniopt_DiscreteCurveFitting}或\cite{Maniopt_book}中那样详细的介绍黎曼流形上的优化问题。作为基础这里首先会介绍黎曼流形这个基础的概念，然后探究矩阵函数和它们的导数计算与优化问题，最后结合学位论文课题中提炼出的相关实例对矩阵流形优化进行介绍。目的一是方便读者理解作者学位论文中研究课题，目的二是为了让读者在遇到类似问题的时候能够从中提炼出思路或解决方案。
+《论语》有云：“工欲善其事，必先利其器”。本文把黎曼流形作为主要的研究工具/对象，则必然涉及到其上的优化问题，本章正是对该问题的探索。不过本章的内容也是一个一般化的问题研究而并不仅限于本文中的应用，最后这部分内容也是对研究课题中流形上的优化问题的归纳和总结。当然这里不会像\cite{Maniopt_DiscreteCurveFitting}或\cite{Maniopt_book}中那样详细的介绍黎曼流形上的优化问题。作为基础这里首先会介绍黎曼流形这个基础的概念，然后探究矩阵函数和它们的导数计算与优化问题，最后结合学位论文课题中提炼出的相关实例对矩阵流形优化进行介绍。目的一是方便读者理解作者学位论文中研究课题，目的二是为了让读者在遇到类似问题的时候能够从中提炼出思路和解决方案。
 
 对于流形上很细节的问题读者还是到文献\cite{Maniopt_DiscreteCurveFitting,Maniopt_book}中寻找答案会更合适。此外，本章的内容不会对算法的收敛性等专业的问题作讨论，因为这既非作者所长也不是这里的写作目的，并且这可能会让内容过于专业化而变得枯燥乏味。
 \section{黎曼流形简介}
@@ -9,10 +9,10 @@
 黎曼流形作为本工作的主要研究对象之一，将在这一节对其进行简要介绍。本节的内容主要包括两部分：第一部分是基本流形和黎曼流形的基本定义和性质的介绍；第二部分将就黎曼流形中的对称正定矩阵流形(Symmetric Positive Define, SPD)矩阵流形做进一步的介绍，并着重介绍SPD流形上的两个重要的度量(Affine Invariant Metric, AIM和Log-Euclidean Metric, LEM)（本节的一些内容尤其是一些流形上的基本定义的介绍参考了\cite{Manifold}和\cite{PHDThesis}）。
 \subsection{黎曼流形}
 \label{sec:manifold_Riemaniann}
-流形是数学上抽象概念，它的定义则依赖另一个更抽象的概念——拓扑空间：
+流形是数学上的抽象概念，它的定义则依赖另一个更抽象的概念——拓扑空间：
 \begin{definition}
 \label{Topology}
-{\heiti（拓扑空间）} 设$S$表示一个集合，$\tau$也是一个集合且$\tau$中的元素满足：
+{\heiti（拓扑空间）} 设$S$表示一个集合，$\tau$也是一个集合，且$\tau$中的元素满足：
 \begin{enumerate}
 \item $\varnothing,S \in \tau$;
 \item $\tau$中有限个元素的交仍然属于$\tau$
@@ -50,7 +50,7 @@
 特别地，若$r=0$则称$M$为拓扑流形，又若$r\geq 1$则称$M$为$C^r$微分流形，进一步令$\mathcal{D}=\{(U_{\alpha},\varphi_\alpha),\alpha \in \Gamma\}$；若$\mathcal{D}$是最大的，也就是说当坐标卡$(U,\varphi)$与$\mathcal{D}$中任意的$(U_{\alpha},\varphi_\alpha)$都是$C^r$相容\footnote{设$U$为$M$上的开集，$\varphi:U \rightarrow \mathbb{R}^{n}$为连续映射，且$\varphi$的像为开集，$\varphi$到其像上是同胚。 如果$\varphi$和$\varphi_\alpha$之间的转换映射均为$C^r$的，则称$(U,\varphi)$和局部坐标覆盖$(U_\alpha, \varphi_{\alpha})$是$C^r$相容的（摘自\cite{Manifold}）}的，则有$(U,\varphi)$属于$\mathcal{D}$，这样的$\mathcal{D}$称为拓扑流形$M$的一个$C^r$微分构造或微分结构（该部分总结自参考文献\cite{Manifold}第一章的定义1.1.1）。
 \begin{definition}[a]
 \label{Tangent_Vector_a}
-{\heiti（切向量与切空间）}记$C^\infty(M)$为微分流形$M$上任意光滑函数的全体组成的向量空间。 设$p \in M$， 如果线性映射$X_p : C^\infty(M) \rightarrow \mathbb{R}$满足以下条件:
+{\heiti（切向量与切空间）}记$C^\infty(M)$为微分流形$M$上任意光滑函数的全体组成的空间。 设$p \in M$， 如果线性映射$X_p : C^\infty(M) \rightarrow \mathbb{R}$满足以下条件:
 \begin{displaymath}
 X_p(f\circ g) = X_p(g)f(p)+g(p)X_p(f),\forall f,g \in C^\infty(M)
 \end{displaymath}
@@ -61,19 +61,19 @@ X_p(f\circ g) = X_p(g)f(p)+g(p)X_p(f),\forall f,g \in C^\infty(M)
 \begin{definition}[b]
 \label{Tangent_Vector_b}
 {\heiti（切向量）}
-设$p\in M$，是流形$M$上的一点，经过$p$的光滑曲线$\sigma: (-a,a) \rightarrow  M$, 使得$\sigma(0)=p$，现定义$\sigma^{\prime}(0)$:
+设$p\in M$，是流形$M$上的一点，经过$p$的光滑曲线$\sigma: (-a,a) \rightarrow  M$, 使得$\sigma(0)=p$，现定义$\sigma^{\prime}(0)$满足:
 \begin{displaymath}
 \sigma^{\prime}(0)f=\frac{d}{dt}|_{t=0}[f\circ\sigma(t)],\forall f \in C^\infty(M).
 \end{displaymath}
-容易验证$\sigma^{\prime}(0)\in T_pM$, 称为$\sigma$的初始切向量, 也记为$\dot{\sigma}(0)$。
+可以验证$\sigma^{\prime}(0)\in T_pM$, 称为$\sigma$的初始切向量, 也记为$\dot{\sigma}(0)$。
 \end{definition}
 \begin{definition}
-{\heiti（黎曼流形）}对任意$p\in M$, 如果映射$g_p : T_pM \times T_pM \rightarrow \mathbb{R}$满足条件:
+{\heiti（黎曼流形）}对任意$p\in M$， 如果映射$g_p : T_pM \times T_pM \rightarrow \mathbb{R}$满足条件:
 \begin{enumerate}
 \item $\forall \bm{x}_p \in T_p M,g_p(\bm{x}_p,\bm{x}_p)\geq 0$,等号成立当且仅当$\bm{x}_p=0$
 \item $\forall \bm{x}_p,\bm{y}_p \in T_p M$，均有$g_p(\bm{x}_p,\bm{y}_p)=g_p(\bm{y}_p,\bm{x}_p)$
 \end{enumerate}
-则称$g$为$M$上的黎曼度量，$(M,g)$称为黎曼流形。
+并令$g$表示映射族$\{g_p,p\in M\}$，则称$g$为$M$上的黎曼度量，$(M,g)$称为黎曼流形。
 \end{definition}
 \begin{definition}
 {\heiti（曲线长度与距离）}沿用前面的定义，设$\sigma(t):[a,b]\rightarrow  M$表示黎曼流形$(M,g)$上的一条链接$p,q$的$C^{1}$曲线，其中自变量$t \in [a,b]$；定义曲线$\sigma$的长度为：
@@ -87,10 +87,10 @@ L(\sigma)=\int_{a}^{b}{\|\dot{\sigma}(t)\|}dt
 \label{Distance}
 d(p,q)=\inf_{\sigma}L(\sigma)
 \end{equation}
-最后，这里记录另一条对于计算距离有用的性质：在等距同构的映射下，新空间中测地线仍然是原来空间中的测地线的长度。
+最后，这里记录另一条对于计算距离有用的性质：在等距同构的映射下，新空间中测地线的长度仍然是原来空间中的测地线的长度。
 \subsection{对称正定矩阵流形}
 \label{sec:Manifold_SPD}
-对称正定矩阵流形是本文研究的主要对象之一，在前面的\ref{sec:current_Statistics}小节也有提到：统计建模图像集合的时候，其最终的数学形式往往以对称正定（Symmetric Positive Definite, PSD）矩阵的形式存在。而已经有充分的数学理论支撑，SPD矩阵空间在适合的度量定义下构成黎曼流形，其中最有名也最常用的是AIM\cite{AIM_metric}（Affine-Invariant Metric）和LEM\cite{LEM_metric}（Log-Euclidean metric）。下面首先给出对称正定矩阵的定义。
+对称正定矩阵流形是本文研究的主要对象之一，在前面的\ref{sec:current_Statistics}小节也有提到：统计建模图像集合的时候，其最终的数学形式往往以对称正定（Symmetric Positive Definite, SPD）矩阵的形式存在。而已经有充分的数学理论支撑，SPD矩阵空间在适合的度量定义下构成黎曼流形，其中最有名也最常用的是AIM(Affine-Invariant Metric\cite{AIM_metric})和LEM(Log-Euclidean metric\cite{LEM_metric})。下面首先给出对称正定矩阵的定义。
 \begin{definition}
 {\heiti（对称正定矩阵集合）} 由$d \times d$的对称正定矩阵构成的集合
 \begin{equation}
@@ -114,13 +114,13 @@ AIM:\left\{
 \right.
 \end{split}
 \end{equation}
-其中${H}$是${X_1}$处的切空间上的切向量，$\left<\cdot,\cdot\right>_{{X_1}}$表示$X_1$的切空间上的黎曼度量（内积）
+其中${H}$是${X_1}$处的切空间上的切向量，$\left<\cdot,\cdot\right>_{{X_1}}$表示$X_1$的切空间上的黎曼度量。
 \begin{equation}
 \label{LEM}
 \begin{split}
 LEM:\left\{
 \begin{aligned}
-&\exp_{{X_1}}({T_2})=\exp(\log({X_{1})}+D_{X_1}\log.({T_2}))\\
+&\exp_{{X_1}}({H})=\exp(\log({X_{1})}+D_{X_1}\log.({T}))\\
 &\log_{{X_1}}({X_2})=D_{\log({X_1})}\exp.(\log({X_2})-\log({X_2}))\\
 &\delta_{l}({X_1,X_2})=\left<\log_{{X_1}}({X_2}),\log_{{X_1}}({X_2})\right>_{{X_1}}\\
 &~~~~~~~~~~~~~~~=\|\log({X_{1}})-\log({X_{2}})\|_F
@@ -128,13 +128,13 @@ LEM:\left\{
 \right.
 \end{split}
 \end{equation}
-其中${T_2}$是${X_1}$处的切空间上的切向量，$D_{X_1}\log.(T_2)$表示的是$\log(X_1)$沿着方向$T_2$的方向导数，$\left<\cdot,\cdot\right>_{{X_1}}$表示的是$X_1$的切空间上的黎曼度量，$D_{\log({X})}\exp.=(D_{{X}}\log.)^{-1}$是由等式$\log \circ \exp={I}$，更多详细信息可参看文献\cite{LEM_metric}。
+其中${H}$是${X_1}$处的切空间上的切向量，$D_{X_1}\log.(H)$\footnote{这里为了描述的方便，使用的是原文\cite{LEM_metric}中的表示形式与本章后续描述的方向梯度的形式稍有区别，它等价于本章后续的$D_{X_1}log(X_1)[H]$的形式}表示的是$\log(X_1)$沿着方向$H$的方向导数，$\left<\cdot,\cdot\right>_{{X_1}}$表示的是$X_1$的切空间上的黎曼度量，$D_{\log({X})}\exp.=(D_{{X}}\log.)^{-1}$是由等式$\log \circ \exp={I}$，更多详细信息可参看文献\cite{LEM_metric}。
 \section{优化问题与梯度}
 \label{sec:opt_and_gradient}
 本节会从一般的优化问题开始，以梯度相关的问题结束。第一部分是优化问题的介绍；由于优化问题多种多样，这里选取具有代表性的一类问题——Lagrange对偶问题进行介绍，接着第二部分会以梯度为主线介绍梯度在优化问题中应用，最后简要介绍梯度下降与共轭梯度算法，为将算法扩展到流形上做准备。
 \subsection{拉格朗日对偶问题}
 \label{sec:Lagrange_prob}
-拉格朗日对偶问题(Lagrange Dual Problem)的转化是求解带约束问题重要方法，在带约束的优化问题中有着重要的地位，其转化过程将在接下来的部分进行描述，首先，假设有如下形式的原问题：
+拉格朗日对偶问题(Lagrange Dual Problem)的转化是求解带约束问题的重要方法，在带约束的优化问题中有着重要的地位，其转化过程将在接下来的部分进行描述，首先，假设有如下形式的原问题：
 \begin{equation}
 \label{Original_Prob}
 \begin{split}
@@ -155,7 +155,7 @@ g(\bm{\lambda},\bm{v})=\inf_{x}\mathcal{L}(\bm{x},\bm{\lambda},\bm{v})=\inf_{x}\
 \end{equation}
 其中$\inf$是下确界的意思，其意义类似于最小值，但是稍有不同的是:例如对于开区间$(0,1)$它的最小值是不存在的，但是它的下确界却是存在的$0=\inf\{(0,1)\}$。关于对偶问题\ref{Lagrange_Dual}需要了解的是：对偶问题\ref{Lagrange_Dual}对任意的$\bm{\lambda} \geq \bm{0}$以及$\bm{v}$都是原问题\ref{Original_Prob}的下界，此外对于$\bm{\lambda} < \bm{0}$的情形这将导致$g(\bm{\lambda},\bm{v})$失去实际意义。
 
-既然$(\bm{\lambda},\bm{v})$对于任意的$\bm{\lambda} \geq \bm{0}$以及$\bm{v}$是原问题\ref{Original_Prob}的下界，那么什么样的$\bm{\lambda},\bm{v}$才是好的？对偶问题考虑：
+既然$(\bm{\lambda},\bm{v})$对于任意的$\bm{\lambda} \geq \bm{0}$以及$\bm{v}$是原问题\ref{Original_Prob}的下界，那么什么样的$\bm{\lambda},\bm{v}$才是好的呢？对偶问题考虑：
 \begin{equation}
 \label{Dual_Prob}
 \max g(\bm{\lambda},\bm{v}),s.t~\bm{\lambda} \geq \bm{0}
@@ -224,13 +224,11 @@ f(\bm{x_0}+\alpha \bm{g}) \approx f(\bm{x_0})+\alpha\left(\frac{\partial f(\bm{x
 \end{equation}
 上式右边当$\bm{g}=-\left(\frac{\partial f(\bm{x_0})}{\partial \bm{x}}\right)/\|\frac{\partial f(\bm{x_0})}{\partial \bm{x}}\|$的时候，等式右边达到极小值，且该方向是$f(\bm{x_0}+\alpha \bm{g})$较$f(\bm{x_0})$下降最快的方向，所以梯度下法也叫最速下降法。
 
-至于步长$\alpha$的选择则是一个一维的优化问题，这个问题比较简单（二分法，0.618法等都可以解决），也可以是预先定义的。
-
-对于凸函数由于有：$f(\bm{x})\geq f(\bm{x_0})+\left(\frac{\partial f(\bm{x_0})}{\partial \bm{x}}\right)^{T}(\bm{x-x_0})$，所以梯度下降算法可以保证目标函数值是不增加的。
+至于步长$\alpha$的选择则是一个一维的优化问题，这个问题比较简单（二分法，0.618法等都可以解决），也可以是预先定义的。对于凸函数由于有：$f(\bm{x})\geq f(\bm{x_0})+\left(\frac{\partial f(\bm{x_0})}{\partial \bm{x}}\right)^{T}(\bm{x-x_0})$，所以梯度下降算法可以保证目标函数值是不增加的。
 \subsubsection{共轭梯度算法}
-共轭梯度算法的提出是为了克服梯度下降慢以及牛顿法存储要求高和Hessian阵难以计算的问题。1952年的时候，Hesteness和Stiefel为了求解线性方程组而提出来了该方法，后来，该方法经过修改之后被用于求解一般的无约束最优化问题，并最终成为一种有效的最优化方法。共轭梯度算法有很多种模式，其中Fletcher-Reeves共轭梯度法\cite{Conjugate_Gradient_FR}（简称FR法）是其中具有代表性的一种，接下来将以该算法为例进行说明。
+共轭梯度算法的提出是为了克服梯度下降慢以及牛顿法存储要求高和Hessian阵难以计算的问题。1952年的时候，Hesteness和Stiefel为了求解线性方程组而提出该方法。后来，该方法经过修改之后被用于求解一般的无约束最优化问题，并最终成为一种有效的最优化方法。共轭梯度算法有很多种模式，其中Fletcher-Reeves共轭梯度法\cite{Conjugate_Gradient_FR}（简称FR法）是其中具有代表性的一种，接下来将以该算法为例进行说明。
 
-关于Fletcher-Reeves共轭梯度法需要注意的是：最开始的方向需要由最速下降法（梯度下降法）获得$\bm{d}_0=-\nabla f(\bm{x}_0)$，一般地对于第$k+1$次迭代，已知$\bm{x}_k,\bm{d}_k$，则$\bm{x}_{k+1}=\bm{x}_{k}+\lambda_{k}\bm{d}_{k}$，其中$\lambda_k$满足：
+关于Fletcher-Reeves共轭梯度法需要注意的是：最开始的方向需要由最速下降法（梯度下降法）获得$\bm{d}_0=-\nabla f(\bm{x}_0)$。一般地，对于第$k+1$次迭代，已知$\bm{x}_k,\bm{d}_k$，则$\bm{x}_{k+1}=\bm{x}_{k}+\lambda_{k}\bm{d}_{k}$，其中$\lambda_k$满足：
 \begin{equation}
 \label{linear_search}
 \lambda_{k}=\arg\min_{\lambda} f(\bm{x}_k+\lambda \bm{d}_{k})
@@ -247,10 +245,10 @@ f(\bm{x_0}+\alpha \bm{g}) \approx f(\bm{x_0})+\alpha\left(\frac{\partial f(\bm{x
 \end{equation}
 关于算法的细节读者可以参看原文\cite{Conjugate_Gradient_FR}中的相关内容；最后关于Fletcher-Reeves共轭梯度法需要注意的是：对于高于二次的目标函数，目标函数可能存在局部极小点并破坏二次截止性（对于二次及以下的函数共轭梯度算法会在$d$次迭代内找到精确解），此时需要重启算法以完成极值点的搜索。
 \section{矩阵函数的导数计算}
-本部分的内容主要针对矩阵函数的导数计算及对称正定矩阵流形上的导数计算两个方面；矩阵函数的计算由于自变量的的特殊性有其特别的地方。在“The matrix cookbook”\cite{Matrix_CookBook}中包含了矩阵求导的大多数情况，但是对于一些比较特殊的情况（如SPD矩阵中在AID距离计算框架下最小化Fr\'echet Variance的最小化问题）可利用其问题的特点寻找更合适的的解决方案；接下来的内容主要参考文献\cite{Maniopt_DiscreteCurveFitting}和\cite{Maniopt_book}。
+本部分的内容主要针对矩阵函数的导数计算及对称正定矩阵流形上的导数计算两个方面；矩阵函数的计算由于自变量的的特殊性有其特别的地方。在“The matrix cookbook”\cite{Matrix_CookBook}中包含了矩阵求导的大多数情况，但是对于一些比较特殊的情况（如SPD矩阵中在仿射不变距离计算框架下最小化Fr\'echet Variance的问题）可利用其问题的特点寻找更合适的的解决方案；接下来的内容主要参考文献\cite{Maniopt_DiscreteCurveFitting}和\cite{Maniopt_book}。
 \subsection{矩阵函数求导的一般形式}
 \label{sec:matrix_func_devi}
-对于任意的矩阵$A \in \mathbb{S}_{d}$（$d\times d$的实对称矩阵组成的集合）并假设$A$的奇异值分解为$A=U\Lambda U^{T}$，以及任意光滑实值函数$f(x)$，这里设$f(x)$的Taylor展开式如\ref{fx_Taylor_Extention}所示。
+对于任意的矩阵$A \in \mathbb{S}_{d}$（$d\times d$的实对称矩阵组成的集合，并假设$A$的特征值分解为$A=U\Lambda U^{T}$），以及任意光滑实值函数$f(x)$，这里设$f(x)$的Taylor展开式如\ref{fx_Taylor_Extention}所示。
 \begin{equation}
 \label{fx_Taylor_Extention}
 f(x)=\sum_{k=0}^{\infty}\alpha_{k}x^{k}
@@ -340,7 +338,7 @@ F_{ij}=\left\{
 \label{zeros_eig_opt_normalization}
 let:B=A+\mu I,\text{ then } A=\lim_{\mu \rightarrow 0}B
 \end{equation}
-由于$A$是有限维的，那么一定存在一个$\mu_0>0$使得$0<\mu<\mu_0$的时候${\rm det}(B)\neq 0$。并且若$A=U\Lambda U^{T}$是$A$的奇异值分解。$U(\Lambda+\mu I) U^{T}$是$B$的特征分解（为方便起见记$D=\Lambda+\mu I \triangleq {\rm diag}(\gamma_1,\gamma_2,\cdots,\gamma_d)$），利用公式\ref{direction_gradient_fx}的话可得到公式\ref{zeros_eig_opt_devi}的形式。
+由于$A$是有限维的，那么一定存在一个$\mu_0>0$使得$0<\mu<\mu_0$的时候${\rm det}(B)\neq 0$。并且若$A=U\Lambda U^{T}$是$A$的特征值分解。$U(\Lambda+\mu I) U^{T}$是$B$的特征分解（为方便起见记$D=\Lambda+\mu I \triangleq {\rm diag}(\gamma_1,\gamma_2,\cdots,\gamma_d)$），利用公式\ref{direction_gradient_fx}的话可得到公式\ref{zeros_eig_opt_devi}的形式。
 \begin{equation}
 \label{zeros_eig_opt_devi}
 \begin{split}
@@ -380,20 +378,20 @@ M_{ij}&=\lim_{\mu \rightarrow 0} M_{ij}^{\prime}=\lim_{\mu \rightarrow 0} \tilde
 %============================================================================
 \subsection{矩阵函数的偏导数计算示例}
 \label{sec:matrix_func_devi_examples}
-本节的内容利用两个例子和前面\ref{sec:matrix_func_devi}小结的结果对矩阵函数的导数进行计算，首先第一个例子稍微复杂一些，第二个例子相对简单一些，但是在SPD矩阵流形的优化问题中却又着重要的意义。\\\\
+本节的内容利用两个例子和前面\ref{sec:matrix_func_devi}小结的结果对矩阵函数的导数进行计算，首先第一个例子稍微复杂一些，第二个例子相对简单一些，但是在SPD矩阵流形的优化问题中却有着重要的意义。\\\\
 {\heiti A.第一个例子}\\\\
 在第一个例子中我们定义矩阵函数$f(Z)$如公式\ref{MatrixFunc_devi_example1}所示。
 \begin{equation}
 \label{MatrixFunc_devi_example1}
 f(Z)={\rm tr}\left(\left((C_1+Z)(C_1+Z)^{T}\right)^{\frac{1}{n}}\left((C_2+Z)(C_2+Z)^{T}\right)^{\frac{T}{n}}\right),C\succeq 0,Z\succ 0,n\geq 1
 \end{equation}
-该函数的形式来自于本文第四章中关于低秩对称半正定(Low-Rank symmetric Positive Semi-Definite, Low-Rank PSD)的Power Euclidean度量的交叉项的讨论（做了一些简化，并要求$Z \succ 0$使得优化空间为$\mathbb{S}_{d}^{+}$）；我们将关于$f(Z)$的导数计算过程归纳如下:
+该函数的形式来自于本文第四章中关于低秩对称半正定(Low-Rank symmetric Positive Semi-Definite, Low-Rank PSD)的Power Euclidean距离的交叉项的讨论（做了一些简化，并要求$Z \succ 0$使得优化空间为$\mathbb{S}_{d}^{+}$）；我们将关于$f(Z)$的导数计算过程归纳如下:
 
 为了方便起见，定义$g_{1}(Z)=(C_1+Z)(C_1+Z)^{T},g_{2}(Z)=(C_2+Z)(C_2+Z)^{T}$。利用\ref{devi_rules_2}中的定律，可得到：
 \begin{equation}
 \label{devi_power_metric}
 \begin{split}
-D_{Z}f(Z)[H]&=D_{Z}\left<\left(g_{1}(Z)\right)^{\frac{1}{n}},\left(g_{1}(Z)^{\frac{1}{n}}\right)\right>[H]\\
+D_{Z}f(Z)[H]&=D_{Z}\left<\left(g_{1}(Z)\right)^{\frac{1}{n}},\left(g_{1}(Z)\right)^{\frac{1}{n}}\right>[H]\\
 &=\left<D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[H],\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>+\left<\left(g_{1}(Z)\right)^{\frac{1}{n}},D_{Z}\left(g_{2}(Z)\right)^{\frac{1}{n}}[H]\right>\\
 \end{split}
 \end{equation}
@@ -401,7 +399,7 @@ D_{Z}f(Z)[H]&=D_{Z}\left<\left(g_{1}(Z)\right)^{\frac{1}{n}},\left(g_{1}(Z)^{\fr
 \begin{equation}
 \label{devi_power_metric_part}
 \begin{split}
-\left<D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[H],\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>&=\left<D_{g_{1}(Z)}\left(g_{1}(Z)\right)^{\frac{1}{n}}[Dg_{1}(Z)[H]],\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>\\
+\left<D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[H],\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>&=\left<D_{g_{1}(Z)}\left(g_{1}(Z)\right)^{\frac{1}{n}}[D_{Z}g_{1}(Z)[H]],\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>\\
 D_{Z}g_{1}(Z)[H]&=D_{Z}(C_{1}^{\frac{1}{2}}+Z)(C_{1}^{\frac{T}{2}}+Z^{T})[H]\\
 &=D_{Z}(C_{1}^{\frac{1}{2}}C_{1}^{\frac{T}{2}}+C_{1}^{\frac{1}{2}}Z^{T}+ZC_{1}^{\frac{T}{2}}+ZZ^{T})[H]\\
 &=C_{1}^{\frac{1}{2}}H^{T}+HC_{1}^{\frac{T}{2}}+HZ^{T}+ZH^{T}\\
@@ -412,7 +410,7 @@ D_{Z}g_{1}(Z)[H]&=D_{Z}(C_{1}^{\frac{1}{2}}+Z)(C_{1}^{\frac{T}{2}}+Z^{T})[H]\\
 \begin{equation}
 \label{devi_power_metric_part_+1}
 \begin{split}
-&Compute:\tilde{H}=U_{i}^{T}BU_{i}\\
+&Compute:\tilde{H}=U_{1}^{T}BU_{1}\\
 &Compute:\tilde{F},where~\tilde{F}_{ij}=\left\{
 \begin{split}
 &\frac{\lambda_{i}^{\frac{1}{n}}-\lambda_{j}^{\frac{1}{n}}}{\lambda_{i}-\lambda_{j}},if \lambda_{i}\neq \lambda_{j}\\
@@ -420,7 +418,7 @@ D_{Z}g_{1}(Z)[H]&=D_{Z}(C_{1}^{\frac{1}{2}}+Z)(C_{1}^{\frac{T}{2}}+Z^{T})[H]\\
 \end{split}
 \right.\\
 &Compute:M=\tilde{H}\odot\tilde{F}\\
-&Compute:D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[B]=U_{i}MU_{i}^{T}
+&Compute:D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[B]=U_{1}MU_{1}^{T}
 \end{split}
 \end{equation}
 公式\ref{devi_power_metric_part_+1}中当$n=1$的时候，$F$的计算比较特殊，其结果为全1的矩阵；接下来对公式\ref{devi_power_metric_part}做进一步的化简得到：
@@ -428,24 +426,23 @@ D_{Z}g_{1}(Z)[H]&=D_{Z}(C_{1}^{\frac{1}{2}}+Z)(C_{1}^{\frac{T}{2}}+Z^{T})[H]\\
 \label{devi_power_metric_part_+2}
 \begin{split}
 &\left<D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[B],\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>\\
-&~~~~~~~~~=\left<U_{i}MU_{i}^{T},\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>=\left<\tilde{H}\odot\tilde{F},(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\right>\\
-&~~~~~~~~~=\left<U_{i}^{T}BU_{i},(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\odot\tilde{F}\right>,where~\tilde{H}=U_{i}^{T}BU_{i}\\
-&~~~~~~~~~=\left<B,U_{i}(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\odot\tilde{F}U_{i}^{T}\right>\\
-&~~~~~~~~~=\left<(C_{1}^{\frac{1}{n}}+Z)H^{T},U_{i}(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\odot\tilde{F}U_{i}^{T}\right>\\
-&~~~~~~~~~+\left<H(C_{1}^{\frac{T}{n}}+Z^{T}),U_{i}(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\odot\tilde{F}U_{i}^{T}\right>\\
-&~~~~~~~~~={\rm tr}\left((C_{1}^{\frac{1}{n}}+Z)H^{T}\left(U_{i}(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\odot\tilde{F}U_{i}^{T}\right)^{T}\right)\\
-&~~~~~~~~~+{\rm tr}\left((C_{1}^{\frac{1}{n}}+Z)H^{T}U_{i}(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\odot\tilde{F}U_{i}^{T}\right)\\
-&~~~~~~~~~=2{\rm tr}\left(H^{T}{\rm symm}\left(U_{i}(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\odot\tilde{F}U_{i}^{T}\right)(C_{1}^{\frac{1}{n}}+Z)\right)\\
-&~~~~~~~~~=2\left<H,{\rm symm}\left(U_{i}(U_{i}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{i})\odot\tilde{F}U_{i}^{T}\right)(C_{1}^{\frac{1}{n}}+Z)\right>\\
-&~~~~~~~~~=2\left<H,Z{\rm symm}\left(D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[\left(g_{2}(Z)\right)^{\frac{1}{n}}]\right)(C_{1}^{\frac{1}{n}}+Z)Z\right>_Z\\
+&~~~~~~~~~=\left<U_{1}MU_{1}^{T},\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>=\left<\tilde{H}\odot\tilde{F},(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\right>\\
+&~~~~~~~~~=\left<U_{1}^{T}BU_{1},(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\odot\tilde{F}\right>,where~\tilde{H}=U_{1}^{T}BU_{1}\\
+&~~~~~~~~~=\left<B,U_{1}(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\odot\tilde{F}U_{1}^{T}\right>\\
+&~~~~~~~~~=\left<(C_{1}^{\frac{1}{n}}+Z)H^{T},U_{1}(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\odot\tilde{F}U_{1}^{T}\right>\\
+&~~~~~~~~~+\left<H(C_{1}^{\frac{T}{n}}+Z^{T}),U_{1}(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\odot\tilde{F}U_{1}^{T}\right>\\
+&~~~~~~~~~={\rm tr}\left((C_{1}^{\frac{1}{n}}+Z)H^{T}\left(U_{1}(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\odot\tilde{F}U_{1}^{T}\right)^{T}\right)\\
+&~~~~~~~~~+{\rm tr}\left((C_{1}^{\frac{1}{n}}+Z)H^{T}U_{1}(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\odot\tilde{F}U_{1}^{T}\right)\\
+&~~~~~~~~~=2{\rm tr}\left(H^{T}{\rm symm}\left(U_{1}(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\odot\tilde{F}U_{1}^{T}\right)(C_{1}^{\frac{1}{n}}+Z)\right)\\
+&~~~~~~~~~=2\left<H,{\rm symm}\left(U_{1}(U_{1}^{T}\left(g_{2}(Z)\right)^{\frac{1}{n}}U_{1})\odot\tilde{F}U_{1}^{T}\right)(C_{1}^{\frac{1}{n}}+Z)\right>\\
+&~~~~~~~~~=2\left<H,Z{\rm symm}\left(D_{g_{1}(Z)}\left(g_{1}(Z)\right)^{\frac{1}{n}}[\left(g_{2}(Z)\right)^{\frac{1}{n}}]\right)(C_{1}^{\frac{1}{n}}+Z)Z\right>_Z\\
 \end{split}
 \end{equation}
-其中${\rm symm}(X)=0.5(X+X^{T})$，$\left<\cdot,\cdot\right>_Z$表示的是$\mathbb{S}_{d}^{+}$在$Z$的切空间中的黎曼度量（内积）；由此可得到$\nabla_{Z}\left<D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[B],\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>=2Z{\rm symm}\left(D_{Z}\left(g_{1}\right)^{\frac{1}{n}}[\left(g_{2}(Z)\right)^{\frac{1}{n}}]\right)(C_{1}^{\frac{1}{n}}+Z)Z$，最后综合\ref{devi_power_metric}$\sim$\ref{devi_power_metric_part_+2}的内容得到如公式\ref{devi_power_metric_final}所示的形式。
+其中${\rm symm}(X)=0.5(X+X^{T})$，$\left<\cdot,\cdot\right>_Z$表示的是$\mathbb{S}_{d}^{+}$在$Z$的切空间中的黎曼度量；最后综合\ref{devi_power_metric}$\sim$\ref{devi_power_metric_part_+2}的内容得到如公式\ref{devi_power_metric_final}所示的形式。
 \begin{equation}
 \label{devi_power_metric_final}
 \begin{split}
-\nabla_{Z}\left<\left(g_{1}(Z)\right)^{\frac{1}{n}},\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>&=\left<\nabla_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}},\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>+\left<\left(g_{1}(Z)\right)^{\frac{1}{n}},\nabla_{Z}\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>\\
-&=2Z{\rm symm}\left(D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[\left(g_{2}(Z)\right)^{\frac{1}{n}}]\right)(C_{1}^{\frac{1}{n}}+Z)Z\\
+\nabla_{Z}\left<\left(g_{1}(Z)\right)^{\frac{1}{n}},\left(g_{2}(Z)\right)^{\frac{1}{n}}\right>&=2Z{\rm symm}\left(D_{Z}\left(g_{1}(Z)\right)^{\frac{1}{n}}[\left(g_{2}(Z)\right)^{\frac{1}{n}}]\right)(C_{1}^{\frac{1}{n}}+Z)Z\\
 &+2Z{\rm symm}\left(D_{Z}\left(g_{2}(Z)\right)^{\frac{1}{n}}[\left(g_{1}(Z)\right)^{\frac{1}{n}}]\right)(C_{2}^{\frac{1}{n}}+Z)Z
 \end{split}
 \end{equation}
@@ -455,7 +452,7 @@ D_{Z}g_{1}(Z)[H]&=D_{Z}(C_{1}^{\frac{1}{2}}+Z)(C_{1}^{\frac{T}{2}}+Z^{T})[H]\\
 \label{MatrixFunc_devi_example2}
 f(X|A)=\frac{1}{2}\left<\log_{A}(X),\log_{A}(X)\right>_A,A,X\in \mathbb{S}_{d}^{+}
 \end{equation}
-其中$\left<\cdot,\cdot\right>_A$表示的是SPD矩阵流形上$A$点切空间$T_{A}M$中的黎曼度量（内积）$\left<H_1,H_2\right>_A=\left<A^{-\frac{1}{2}}H_1A^{-\frac{1}{2}},A^{-\frac{1}{2}}H_2A^{-\frac{1}{2}}\right>$，而$\log_A(X)=A^{\frac{1}{2}}\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}})A^{\frac{1}{2}}$；所以$f(X|A)$又可以写成公式\ref{MatrixFunc_devi_example2_2}的形式。
+其中$\left<\cdot,\cdot\right>_A$表示的是SPD矩阵流形上$A$点切空间$T_{A}M$中的黎曼度量$\left<H_1,H_2\right>_A=\left<A^{-\frac{1}{2}}H_1A^{-\frac{1}{2}},A^{-\frac{1}{2}}H_2A^{-\frac{1}{2}}\right>$，而$\log_A(X)=A^{\frac{1}{2}}\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}})A^{\frac{1}{2}}$；所以$f(X|A)$又可以写成公式\ref{MatrixFunc_devi_example2_2}的形式。
 \begin{equation}
 \label{MatrixFunc_devi_example2_2}
 f(X|A)=\frac{1}{2}\left<\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}}),\log(A^{-\frac{1}{2}}XA^{-\frac{1}{2}})\right>
@@ -537,7 +534,7 @@ F_{ij}&=\left\{
 
 算法\ref{alg:Gradient_Descend}中的收敛条件不尽相同，最理想的情况是$\|\nabla_{\bm{x}} f(\bm{x}_k)\|=0$，但是一般很难达到，所以一般是要求$\|\nabla_x f(\bm{x}_k)\|<\epsilon$，其中$\epsilon$是很小的数（如：$10^{-6}$，$10^{-8}$等），还有一类条件是要求$k<maxiter$，其中$maxiter$是预先设置的最大迭代次数。
 
-前面已经介绍Retraction变换是欧氏空间中$X+H$在流形中的泛化，利用它代替\ref{alg:Gradient_Descend}中的第五步可以得到流形中的梯度下降算法\ref{alg:Manifold_Gradient_Descend}。
+前面已经介绍Retraction变换是欧氏空间中$X+H$在流形中的泛化，利用它代替\ref{alg:Gradient_Descend}中的第四和第五步可以得到流形中的梯度下降算法\ref{alg:Manifold_Gradient_Descend}。
 \begin{algorithm}[htb]
 \caption{流形上梯度下降算法}
 \label{alg:Manifold_Gradient_Descend}
@@ -575,7 +572,7 @@ F_{ij}&=\left\{
 最后将上述结果带入到算法\ref{alg:Manifold_Gradient_Descend}中，可以得到Karcher Mean的更新公式:
 \begin{equation}
 \label{AIM_Karcher_Mean}
-\mu_{k+1}=\exp_{\mu_{k}}(\frac{\alpha_{k}}{n}\sum_{i=1}^{n}\log_{\mu}(X_{i}))={\mu}^{\frac{1}{2}}_{k}\exp(\frac{\alpha_{k}}{n}\sum_{i=1}^{n}\log({\mu}^{-\frac{1}{2}}_{k}X_{i}{\mu}^{-\frac{1}{2}}_{k})){\mu}^{\frac{1}{2}}_{k}
+\mu_{k+1}=\exp_{\mu_{k}}(\frac{\alpha_{k}}{n}\sum_{i=1}^{n}\log_{\mu_{k}}(X_{i}))={\mu}^{\frac{1}{2}}_{k}\exp(\frac{\alpha_{k}}{n}\sum_{i=1}^{n}\log({\mu}^{-\frac{1}{2}}_{k}X_{i}{\mu}^{-\frac{1}{2}}_{k})){\mu}^{\frac{1}{2}}_{k}
 \end{equation}
 
 接下来将对另一个常用的算法——共轭梯度算法在矩阵流形上的泛化做介绍。类似地，这里首先将\ref{sec:gradinet}中介绍的欧氏空间中的共轭梯度算法归纳到算法\ref{alg:Conjugate_Gradient_Method}中。
@@ -613,8 +610,8 @@ TM\oplus TM \rightarrow TM:(\xi,\eta)\rightarrow {\rm T}_{\eta}(\xi) \in TM
 并且满足如下的几条性质：
 \begin{itemize}
 \label{Vector_Transport_Properties}
-\item （Retraction关联）如果一个Retraction（记为$R$）满足${\rm T}_{\eta}(\xi)\in T_{R_{x}(\eta)}M$，则称$R$与${\rm T}$关联
-\item （一致性）${\rm T}_{0}(\xi)=\xi,\forall \xi \in T_{x}M$
+\item （Retraction关联）如果一个Retraction（记为$R$），对任意的$X \in M$满足${\rm T}_{\eta}(\xi)\in T_{R_{X}(\eta)}M$，则称$R$与${\rm T}$关联
+\item （一致性）对任意的$X \in M$满足${\rm T}_{0}(\xi)=\xi,\forall \xi \in T_{X}M$
 \item （线性性）${\rm T}_{\eta}(a\xi+b\zeta)=a{\rm T}_{\eta}(\xi)+b{\rm T}_{\eta}(\zeta);a,b \in \mathbb{R}$
 \end{itemize}
 \end{definition}
