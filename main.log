@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.6)  9 MAY 2016 21:58
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.6)  13 MAY 2016 10:21
 entering extended mode
 **./main.tex
 (main.tex
@@ -2170,56 +2170,8 @@ LaTeX Info: Redefining \nameref on input line 24.
 
  (data/cover.tex)
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 34.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 34.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 34.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 34.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 34.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 34.
-
-
 Package hyperref Warning: pdfproducer: xdvipdfmx will use its own setting
 (hyperref)                instead of the value given on input line 34.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 36.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 36.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 36.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 36.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 36.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 36.
 
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 14.05249pt
@@ -2389,20 +2341,6 @@ Requested font "SimHei/OT:script=hani;language=DFLT;mapping=tex-text;" at 26.09
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 16.06pt
  -> C:/WINDOWS/Fonts/times.ttf
-Requested font "txmi" at 16.06pt
-Requested font "txsy" at 16.06pt
-Requested font "txex" at 16.06pt
-Requested font "txi" at 16.06pt
-Requested font "txmia" at 16.06pt
-Requested font "txsya" at 16.06pt
-Requested font "txsyb" at 16.06pt
-Requested font "txsyc" at 16.06pt
-Requested font "txexa" at 16.06pt
-Requested font "txb" at 16.06pt
-Requested font "txbmi" at 16.06pt
-Requested font "txbsy" at 16.06pt
-Requested font "txbex" at 16.06pt
-Requested font "cmr12" at 16.06pt
 Requested font "SimHei/OT:script=hani;language=DFLT;mapping=tex-text;" at 16.06
 pt
  -> C:/WINDOWS/Fonts/simhei.ttf
@@ -2472,53 +2410,6 @@ apping=tex-text;" at 9.03374pt
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;mapping=tex-text;" at 12.045pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
-Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
-apping=tex-text;" at 6.0pt
- -> C:/WINDOWS/Fonts/times.ttf
-Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
-apping=tex-text;" at 5.0pt
- -> C:/WINDOWS/Fonts/times.ttf
-Requested font "txmi" at 9.03374pt
-Requested font "txmi" at 6.0pt
-Requested font "txmi" at 5.0pt
-Requested font "txsy" at 9.03374pt
-Requested font "txsy" at 6.0pt
-Requested font "txsy" at 5.0pt
-Requested font "txex" at 9.03374pt
-Requested font "txex" at 6.0pt
-Requested font "txex" at 5.0pt
-Requested font "txi" at 9.03374pt
-Requested font "txi" at 6.0pt
-Requested font "txi" at 5.0pt
-Requested font "txmia" at 9.03374pt
-Requested font "txmia" at 6.0pt
-Requested font "txmia" at 5.0pt
-Requested font "txsya" at 9.03374pt
-Requested font "txsya" at 6.0pt
-Requested font "txsya" at 5.0pt
-Requested font "txsyb" at 9.03374pt
-Requested font "txsyb" at 6.0pt
-Requested font "txsyb" at 5.0pt
-Requested font "txsyc" at 9.03374pt
-Requested font "txsyc" at 6.0pt
-Requested font "txsyc" at 5.0pt
-Requested font "txexa" at 9.03374pt
-Requested font "txexa" at 6.0pt
-Requested font "txexa" at 5.0pt
-Requested font "txb" at 9.03374pt
-Requested font "txb" at 6.0pt
-Requested font "txb" at 5.0pt
-Requested font "txbmi" at 9.03374pt
-Requested font "txbmi" at 6.0pt
-Requested font "txbmi" at 5.0pt
-Requested font "txbsy" at 9.03374pt
-Requested font "txbsy" at 6.0pt
-Requested font "txbsy" at 5.0pt
-Requested font "txbex" at 9.03374pt
-Requested font "txbex" at 6.0pt
-Requested font "txbex" at 5.0pt
-Requested font "cmr9" at 9.03374pt
-Requested font "cmr6" at 6.0pt
 Requested font "SimSun/OT:script=hani;language=DFLT;mapping=tex-text;" at 9.033
 74pt
  -> C:/WINDOWS/Fonts/simsun.ttc
@@ -2530,34 +2421,51 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 8.0pt
  -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 6.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
 Requested font "txmi" at 12.045pt
 Requested font "txmi" at 8.0pt
+Requested font "txmi" at 6.0pt
 Requested font "txsy" at 12.045pt
 Requested font "txsy" at 8.0pt
+Requested font "txsy" at 6.0pt
 Requested font "txex" at 12.045pt
 Requested font "txex" at 8.0pt
+Requested font "txex" at 6.0pt
 Requested font "txi" at 12.045pt
 Requested font "txi" at 8.0pt
+Requested font "txi" at 6.0pt
 Requested font "txmia" at 12.045pt
 Requested font "txmia" at 8.0pt
+Requested font "txmia" at 6.0pt
 Requested font "txsya" at 12.045pt
 Requested font "txsya" at 8.0pt
+Requested font "txsya" at 6.0pt
 Requested font "txsyb" at 12.045pt
 Requested font "txsyb" at 8.0pt
+Requested font "txsyb" at 6.0pt
 Requested font "txsyc" at 12.045pt
 Requested font "txsyc" at 8.0pt
+Requested font "txsyc" at 6.0pt
 Requested font "txexa" at 12.045pt
 Requested font "txexa" at 8.0pt
+Requested font "txexa" at 6.0pt
 Requested font "txb" at 12.045pt
 Requested font "txb" at 8.0pt
+Requested font "txb" at 6.0pt
 Requested font "txbmi" at 12.045pt
 Requested font "txbmi" at 8.0pt
+Requested font "txbmi" at 6.0pt
 Requested font "txbsy" at 12.045pt
 Requested font "txbsy" at 8.0pt
+Requested font "txbsy" at 6.0pt
 Requested font "txbex" at 12.045pt
 Requested font "txbex" at 8.0pt
+Requested font "txbex" at 6.0pt
 Requested font "cmr12" at 12.045pt
 Requested font "cmr8" at 8.0pt
+Requested font "cmr6" at 6.0pt
  [5
 
 
@@ -2737,6 +2645,36 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 6.52437pt
  -> C:/WINDOWS/Fonts/times.ttf
 \ucas@tempboxa=\box66
+Requested font "txsy" at 9.03374pt
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 5.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "txmi" at 9.03374pt
+Requested font "txmi" at 5.0pt
+Requested font "txsy" at 5.0pt
+Requested font "txex" at 9.03374pt
+Requested font "txex" at 5.0pt
+Requested font "txi" at 9.03374pt
+Requested font "txi" at 5.0pt
+Requested font "txmia" at 9.03374pt
+Requested font "txmia" at 5.0pt
+Requested font "txsya" at 9.03374pt
+Requested font "txsya" at 5.0pt
+Requested font "txsyb" at 9.03374pt
+Requested font "txsyb" at 5.0pt
+Requested font "txsyc" at 9.03374pt
+Requested font "txsyc" at 5.0pt
+Requested font "txexa" at 9.03374pt
+Requested font "txexa" at 5.0pt
+Requested font "txb" at 9.03374pt
+Requested font "txb" at 5.0pt
+Requested font "txbmi" at 9.03374pt
+Requested font "txbmi" at 5.0pt
+Requested font "txbsy" at 9.03374pt
+Requested font "txbsy" at 5.0pt
+Requested font "txbex" at 9.03374pt
+Requested font "txbex" at 5.0pt
+Requested font "cmr9" at 9.03374pt
 File: source/2d_SPD_cone.png Graphic file (type QTm)
 <use  "source/2d_SPD_cone.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3359,11 +3297,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 34359 strings out of 428721
- 653051 string characters out of 3166455
- 681001 words of memory out of 3000000
- 37195 multiletter control sequences out of 15000+200000
- 72555 words of font info for 296 fonts, out of 3000000 for 9000
+ 34345 strings out of 428721
+ 652799 string characters out of 3166455
+ 681002 words of memory out of 3000000
+ 37181 multiletter control sequences out of 15000+200000
+ 67921 words of font info for 282 fonts, out of 3000000 for 9000
  1097 hyphenation exceptions out of 8191
  71i,27n,74p,10419b,800s stack positions out of 5000i,500n,10000p,200000b,50000s
 
